@@ -31,7 +31,7 @@ section{padding:39px 0;scroll-margin-top:82px}.section-head{display:flex;justify
 .kv{display:grid;grid-template-columns:1fr auto;gap:8px 14px;font-size:11px;border-top:1px solid #ffffff12;padding-top:12px;margin-top:12px}.kv span:nth-child(odd){color:#9fb1c9}.kv span:nth-child(even){font:10px var(--mono);color:#d9e8f9;text-align:right}.layout-note{color:#a7b9cf;font-size:11px;margin:13px 0 0}
 .lab{border:1px solid #2b4562;border-radius:16px;overflow:hidden;background:#0f1c30}.lab-top{padding:18px 20px;background:linear-gradient(90deg,#142b45,#15243a);border-bottom:1px solid #ffffff12;display:flex;justify-content:space-between;align-items:center;gap:18px}.lab-title{font-size:16px;font-weight:700}.lab-caption{font-size:11px;color:#9db1cb;margin-top:2px}.controls{display:flex;gap:8px}
 .btn{border:1px solid #395572;color:#dceafd;background:#1b304b;padding:7px 11px;border-radius:8px;font-size:11px}.btn:hover{background:#244263}.btn.primary{background:var(--mint);border-color:var(--mint);color:#092319;font-weight:700}.btn:disabled{opacity:.4;cursor:not-allowed}
-.timeline{padding:17px 18px 4px;display:grid;grid-template-columns:repeat(7,1fr)}.tstep{position:relative;border:0;background:none;color:#7f94af;text-align:left;padding:0 7px 12px 0}.tstep:before{content:"";height:2px;background:#354b66;position:absolute;top:11px;left:23px;right:3px}.tstep:last-child:before{display:none}.bubble{position:relative;z-index:1;display:grid;place-items:center;width:23px;height:23px;border-radius:50%;border:1px solid #516680;background:#14243a;font:9px var(--mono);margin-bottom:6px}.tstep strong{display:block;font-size:10px;line-height:1.25}.tstep.active,.tstep.done{color:#e5f5ff}.tstep.active .bubble{background:var(--mint);border-color:var(--mint);color:#09221a;box-shadow:0 0 18px #55e0b344}.tstep.done .bubble{background:#235e50;border-color:#55a78d;color:#d6fff1}
+.timeline{padding:17px 18px 4px;display:grid;grid-template-columns:repeat(8,1fr)}.tstep{position:relative;border:0;background:none;color:#7f94af;text-align:left;padding:0 7px 12px 0}.tstep:before{content:"";height:2px;background:#354b66;position:absolute;top:11px;left:23px;right:3px}.tstep:last-child:before{display:none}.bubble{position:relative;z-index:1;display:grid;place-items:center;width:23px;height:23px;border-radius:50%;border:1px solid #516680;background:#14243a;font:9px var(--mono);margin-bottom:6px}.tstep strong{display:block;font-size:10px;line-height:1.25}.tstep.active,.tstep.done{color:#e5f5ff}.tstep.active .bubble{background:var(--mint);border-color:var(--mint);color:#09221a;box-shadow:0 0 18px #55e0b344}.tstep.done .bubble{background:#235e50;border-color:#55a78d;color:#d6fff1}
 .lab-body{display:grid;grid-template-columns:1fr 1fr;gap:13px;padding:10px 18px 18px}.labbox{border:1px solid #293e58;border-radius:12px;background:#101f34;padding:14px;min-height:208px}.pathline{font:12px var(--mono);padding:9px;border:1px solid #334d69;border-radius:8px;background:#0c1728;margin:8px 0 12px;overflow-wrap:anywhere}.pathline .hit{color:var(--mint)}
 .lookup{display:grid;gap:7px}.lookup-row{display:grid;grid-template-columns:72px 1fr auto;align-items:center;gap:7px;font-size:10px;color:#a9b9cd}.lookup-row span:first-child{font:9px var(--mono);color:#7f9ab8}.lookup-row code{font:9px var(--mono);background:#192b41;border-radius:5px;padding:5px;color:#d8e8fa;overflow-wrap:anywhere}.lookup-row em{font-style:normal;color:var(--mint);font:9px var(--mono)}.lookup-row .miss{color:var(--amber)}
 .entry-row{display:grid;grid-template-columns:1fr 1.15fr;gap:9px;margin-top:10px}.entry-card{padding:10px;border-radius:8px;background:#0c1728;border:1px solid #304760}.entry-card h4{font-size:10px;color:#9db3cd;margin:0 0 7px}.entry-field{display:grid;grid-template-columns:95px 1fr;gap:4px 7px;font:9px var(--mono)}.entry-field span:nth-child(odd){color:#768da9}.entry-field span:nth-child(even){color:#d4e4f5;overflow-wrap:anywhere}
@@ -54,15 +54,18 @@ section{padding:39px 0;scroll-margin-top:82px}.section-head{display:flex;justify
 .data-sector-head{display:flex;justify-content:space-between;gap:8px;margin-top:12px;color:#dceafb;font-size:10px}.data-sector-head span{color:#88a0bc;font:9px var(--mono)}.data-sector-map{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:5px;margin-top:7px}.data-sector{min-width:0;padding:6px 4px;border:1px solid #344c66;border-radius:6px;background:#0c192a;color:#8fa4bd;text-align:center;font:8px/1.45 var(--mono);overflow-wrap:anywhere}.data-sector b{display:block;color:#d9e8f8;font-size:9px}.data-sector small{display:block;color:#8fa4bd;font-size:7px}.data-sector.written,.data-sector.persisted{background:#173c37;border-color:#347866;color:#c6f8e5}.data-sector.pending{background:#3b3020;border-color:#91713a;color:#ffe0a1}.data-sector.read{background:#283252;border-color:#768cce;color:#e0e6ff}.data-sector.stale{background:#352d23;border:1px dashed #987b4c;color:#d6b776}.data-sector-more{display:grid;place-items:center;border:1px dashed #3a526d;border-radius:6px;color:#9bb0c9;font:8px var(--mono)}.data-sector-note{margin:7px 0 0;color:#8fa5bf;font-size:9px;line-height:1.6}@media(max-width:600px){.data-sector-map{grid-template-columns:repeat(4,minmax(0,1fr))}}
 .media-panel{grid-column:1/-1;min-width:0;border:1px solid #304965;border-radius:11px;background:#0d1a2b;padding:13px 14px}.media-summary{margin:2px 0 9px;color:#b2c5db;font-size:10px;line-height:1.65}.media-legend{display:flex;gap:12px;flex-wrap:wrap;margin:8px 0;color:#91a8c3;font-size:9px}.media-legend span{display:inline-flex;align-items:center;gap:5px}.media-legend i{display:inline-block;width:8px;height:8px;border-radius:2px;background:#7389a5}.media-legend i.read{background:#8398e2}.media-legend i.cache{background:#e8b858}.media-legend i.write{background:#55d3aa}.media-legend i.sync{background:#9c84ed}.media-legend i.trim{background:#df9465}.media-ledger{display:grid;gap:4px;max-height:350px;overflow:auto;padding-right:3px}.media-event{display:grid;grid-template-columns:76px 94px minmax(125px,1fr) minmax(0,2.4fr);gap:8px;align-items:start;padding:7px 8px;border:1px solid #263b53;border-radius:6px;background:#101f32;color:#bbccdf;font-size:9px;line-height:1.55}.media-event.current{border-color:#4b9a82;background:#132b30}.media-event.past{opacity:.78}.media-step{color:#89a3c0}.media-kind{font:8px var(--mono);color:#b7c8dc}.media-event.read .media-kind{color:#a8b7ff}.media-event.cache .media-kind{color:#ffdc89}.media-event.write .media-kind{color:#91f0cd}.media-event.sync .media-kind{color:#c0adff}.media-event.trim .media-kind{color:#ffc090}.media-lba{font:8px var(--mono);color:#d9e9f9;overflow-wrap:anywhere}.media-detail{overflow-wrap:anywhere}.media-empty{padding:16px 10px;border:1px dashed #324962;border-radius:7px;color:#8fa5bf;text-align:center;font-size:10px}.media-caveat{margin:9px 0 0;padding-top:8px;border-top:1px solid #ffffff10;color:#879eb8;font-size:9px;line-height:1.65}.media-panel .boxhead{margin-bottom:3px}.media-panel .boxhead .micro{color:#9db2ca}@media(max-width:700px){.media-event{grid-template-columns:60px 82px 1fr;gap:5px}.media-detail{grid-column:1/-1}.media-ledger{max-height:420px}}
 .deep-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.deep-card{padding:14px;border:1px solid #2c4561;border-radius:10px;background:#102038}.deep-card>span{font:9px var(--mono);color:var(--mint)}.deep-card h3{font-size:13px;margin:7px 0}.deep-card p{font-size:10px;line-height:1.7;color:#b0c1d5;margin:0;overflow-wrap:anywhere}.deep-lower{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px}.api-map{display:grid;gap:8px}.api-map>div{display:grid;grid-template-columns:92px 1fr;gap:10px;padding:9px;border-radius:7px;background:#0c192a}.api-map b{color:#87ddb9;font-size:10px}.api-map span{font-size:10px;line-height:1.65;color:#b2c3d7}.api-map code{font:9px var(--mono);color:#d8e9fb}.api-map a{color:#91c5ff}.design-limits{padding-left:18px;margin:0;color:#b2c3d7;font-size:10px;line-height:1.8}.design-limits li{margin:4px 0}.source-deep{margin-top:12px;padding:12px 14px;border:1px solid #2b435e;border-radius:9px;background:#0e1a2b}.source-deep summary{cursor:pointer;color:#dceafb;font-size:11px;font-weight:700}.source-deep summary::marker{color:var(--mint)}.source-deep p{margin:9px 0 0;color:#aabbd0;font-size:10px;line-height:1.8}.source-deep a{color:#91c5ff}@media(max-width:850px){.deep-grid{grid-template-columns:repeat(2,1fr)}.deep-lower{grid-template-columns:1fr}}@media(max-width:600px){.deep-grid{grid-template-columns:1fr}.api-map>div{grid-template-columns:1fr;gap:4px}}
+.support-structure-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:12px}.support-structure-grid>.panel{min-width:0}.support-structure-note{margin:0;padding:9px 12px;color:#9fb3cb;font-size:9px;line-height:1.65;border-top:1px solid #ffffff10}.support-structure-grid .structure-table{min-width:440px}@media(max-width:850px){.support-structure-grid{grid-template-columns:1fr}}
 .lab-body{grid-template-columns:repeat(2,minmax(0,1fr))}
 .labbox{min-width:0}
 .btn,.tstep{cursor:pointer}
 .step-fixture{margin:12px 18px 0;padding:13px;border:1px solid #2b4562;border-radius:10px;background:#0f1d30}.step-fixture h3{font-size:12px;margin:0 0 4px;color:#e6f2ff}.step-fixture>p{margin:0 0 10px;color:#9fb3cb;font-size:10px;line-height:1.65}.step-fixture-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}.step-fixture-card{padding:9px;border:1px solid #293f59;border-radius:7px;background:#0a1728;min-width:0}.step-fixture-card b{display:block;color:#8bd9be;font:9px var(--mono);margin-bottom:5px}.step-fixture-card span{display:block;color:#aebfd2;font-size:10px;line-height:1.65;overflow-wrap:anywhere}.step-diff{margin:0 19px 15px;padding:12px;border:1px solid #31516a;border-radius:9px;background:#102333}.step-diff h3{font-size:11px;color:#8bd9be;margin:0 0 8px}.step-diff pre{margin:0;white-space:pre-wrap;overflow-wrap:anywhere;color:#d2e1f2;font:10px/1.75 var(--mono)}.data-sector-detail{margin:8px 0 0;padding:9px;border:1px solid #293f59;border-radius:7px;background:#091525;color:#bed0e4;font:9px/1.65 var(--mono);white-space:pre-wrap;overflow-wrap:anywhere;max-height:240px;overflow:auto}.data-sector.selected{outline:2px solid #a8b7ff;outline-offset:1px}@media(max-width:850px){.step-fixture-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:600px){.step-fixture{margin-left:11px;margin-right:11px}.step-fixture-grid{grid-template-columns:1fr}.step-diff{margin-left:13px;margin-right:13px}}
 @media(max-width:850px){.lab-body{grid-template-columns:1fr}}
-.structure-jump-note{padding:0 19px 9px;color:#859bb6;font-size:9px}.structure-jump-note a{color:#72dcbc;text-decoration:none;margin-left:6px}.structure-jump-note a:hover{text-decoration:underline}.step-structures{scroll-margin-top:76px;margin:0 19px 15px;padding:12px;border:1px solid #31516a;border-radius:9px;background:#0c192a}.step-structures .boxhead{margin-bottom:3px}.structure-intro,.structure-source{margin:5px 0 9px;color:#9fb3cb;font-size:10px;line-height:1.65}.structure-source{margin:9px 0 0;padding-top:8px;border-top:1px solid #ffffff12;color:#8198b2}.structure-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.structure-card{min-width:0;border:1px solid #293f59;border-radius:8px;background:#101f34;overflow:hidden}.structure-card-head{padding:9px 10px;border-bottom:1px solid #ffffff12}.structure-card-head b{display:block;color:#dceafb;font-size:10px}.structure-card-head span{display:block;margin-top:3px;color:#89a3c0;font:8px/1.5 var(--mono);overflow-wrap:anywhere}.structure-card p{margin:0;padding:7px 10px;color:#93a9c2;font-size:9px;line-height:1.55}.structure-table-wrap{overflow-x:auto}.structure-table{width:100%;min-width:510px;border-collapse:collapse;font-size:9px;line-height:1.5}.structure-table th,.structure-table td{padding:6px 7px;border-top:1px solid #ffffff0b;text-align:left;vertical-align:top}.structure-table th{color:#8099b5;font-weight:600;background:#0c192a}.structure-table td{color:#b8c9dd}.structure-table td:first-child{color:#88a2c0;font:8px var(--mono);white-space:nowrap}.structure-table td:nth-child(2){color:#dceafb;font:8px var(--mono);white-space:nowrap}.structure-table td:nth-child(3){color:#b6f2dc;font:8px/1.55 var(--mono);overflow-wrap:anywhere}.structure-table tr.changed td:nth-child(3){color:#ffd98b}.structure-empty{padding:12px;border:1px dashed #354c65;border-radius:7px;color:#8fa5bf;font-size:10px;line-height:1.7}
-@media(max-width:850px){.structure-grid{grid-template-columns:1fr}}
+.structure-jump-note{padding:0 19px 9px;color:#859bb6;font-size:9px}.structure-jump-note a{color:#72dcbc;text-decoration:none;margin-left:6px}.structure-jump-note a:hover{text-decoration:underline}.step-structures{scroll-margin-top:76px;margin:0 19px 15px;padding:12px;border:1px solid #31516a;border-radius:9px;background:#0c192a}.step-structures .boxhead{margin-bottom:3px}.structure-intro,.structure-source{margin:5px 0 9px;color:#9fb3cb;font-size:10px;line-height:1.65}.structure-source{margin:9px 0 0;padding-top:8px;border-top:1px solid #ffffff12;color:#8198b2}.structure-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;align-items:start}.structure-column{display:flex;flex-direction:column;gap:10px;min-width:0}.lab-body>.step-structures{grid-column:1/-1;margin:0}.structure-card{min-width:0;border:1px solid #293f59;border-radius:8px;background:#101f34;overflow:hidden}.structure-card-head{padding:9px 10px;border-bottom:1px solid #ffffff12}.structure-card-head b{display:block;color:#dceafb;font-size:10px}.structure-card-head span{display:block;margin-top:3px;color:#89a3c0;font:8px/1.5 var(--mono);overflow-wrap:anywhere}.structure-card p{margin:0;padding:7px 10px;color:#93a9c2;font-size:9px;line-height:1.55}.structure-table-wrap{overflow-x:auto}.structure-table{width:100%;min-width:510px;border-collapse:collapse;font-size:9px;line-height:1.5}.structure-table th,.structure-table td{padding:6px 7px;border-top:1px solid #ffffff0b;text-align:left;vertical-align:top}.structure-table th{color:#8099b5;font-weight:600;background:#0c192a}.structure-table td{color:#b8c9dd}.structure-table td:first-child{color:#88a2c0;font:8px var(--mono);white-space:nowrap}.structure-table td:nth-child(2){color:#dceafb;font:8px var(--mono);white-space:nowrap}.structure-table td:nth-child(3){color:#b6f2dc;font:8px/1.55 var(--mono);overflow-wrap:anywhere}.structure-table tr.changed td:nth-child(3){color:#ffd98b}.structure-empty{grid-column:1/-1;padding:12px;border:1px dashed #354c65;border-radius:7px;color:#8fa5bf;font-size:10px;line-height:1.7}
+@media(max-width:850px){.structure-grid{grid-template-columns:1fr}.structure-column{display:contents}}
 @media(max-width:600px){.step-structures{margin-left:13px;margin-right:13px}.structure-table{min-width:470px}}
 .performance-summary{padding:18px 20px;border:1px solid #357064;border-radius:12px;background:linear-gradient(120deg,#12332f,#10243a);color:#d3e5f2;font-size:14px;line-height:1.8}.performance-summary strong{color:var(--mint)}.performance-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:12px}.performance-tip{padding:14px;border:1px solid #2c4561;border-radius:10px;background:#102038}.performance-tip h3{margin:0 0 6px;color:#e3f0ff;font-size:13px}.performance-tip p{margin:0;color:#aebfd2;font-size:11px;line-height:1.75}.performance-tip code{font:10px var(--mono);color:#b8f2dc}.performance-note{margin-top:12px;padding:12px 14px;border-left:3px solid var(--amber);border-radius:7px;background:#202638;color:#b8c7d9;font-size:11px;line-height:1.75}.performance-note strong{color:#ffe0a8}@media(max-width:850px){.performance-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:600px){.performance-grid{grid-template-columns:1fr}.performance-summary{font-size:12px}}
+.data-sector.appended{background:#18384a;border-color:#4b91b7;color:#d9f0ff}
+.record-layout{margin:8px 9px;padding:9px;border:1px solid #365675;border-radius:7px;background:#091727}.record-layout-head{display:flex;justify-content:space-between;gap:8px;align-items:baseline;margin-bottom:7px}.record-layout-head b{font-size:9px;color:#dceafb}.record-layout-head span{font-size:8px;color:#8fa8c3}.record-layout-scroll{overflow-x:auto}.record-layout-grid{display:grid;grid-template-columns:repeat(32,minmax(14px,1fr));min-width:448px;gap:2px}.record-layout-offset,.record-layout-byte{display:grid;place-items:center;min-height:19px;border-radius:3px;background:#14243a;color:#8fa8c3;font:7px var(--mono)}.record-layout-byte{min-height:25px;background:#102a37;color:#bff5e3}.record-layout-field{grid-column:span var(--byte-span);min-width:0;min-height:39px;padding:3px 2px;border:1px solid #35516d;border-radius:4px;background:#152b44;text-align:center;overflow:hidden}.record-layout-field.changed{border-color:#d6aa57;background:#3a3020;color:#ffe0a0}.record-layout-field small{display:block;color:#91a8c3;font:7px var(--mono);white-space:nowrap}.record-layout-field b{display:block;color:#dbeaff;font:700 7px var(--mono);white-space:nowrap}.record-layout-field.changed b{color:#ffe0a0}.record-layout-legend{display:flex;flex-wrap:wrap;gap:4px 9px;margin-top:7px;color:#a9bdd3;font:7px/1.5 var(--mono)}.record-layout-legend span{white-space:nowrap}.record-layout-legend em{color:#83dabc;font-style:normal}.record-layout-record+.record-layout-record{margin-top:10px;padding-top:8px;border-top:1px solid #ffffff18}.record-layout-record-title{margin-bottom:6px;color:#a9c4e0;font:8px var(--mono)}
 </style>
 </head>
 <body>
@@ -204,7 +207,7 @@ f_close(&amp;file);  // 内部先 f_sync</pre>
       <article class="struct"><span class="type">RESULT SNAPSHOT</span><h3>FILINFO</h3><p>f_stat / f_readdir 返回的文件信息快照，不是打开文件句柄。</p><ul id="filinfoFields"></ul></article>
     </div>
     <p class="layout-note" id="objectConfigNote">显示的是当前编译配置下的条件字段。数组大小以字节估算；结构体总大小还受指针宽度与编译器对齐影响。</p>
-    <div class="section-head" style="margin-top:28px"><div><div class="kicker">06 / 变化顺序</div><h2>创建、写入、同步、删除分别改什么</h2></div></div>
+    <div class="section-head" style="margin-top:28px"><div><div class="kicker">06 / 变化顺序</div><h2>创建、写入、同步、追加、删除分别改什么</h2></div></div>
     <div class="panel">
       <div class="evolution">
         <div class="ev"><b>f_mount</b><span id="evolutionMount">注册 FATFS；立即挂载时读 BPB 并填写卷布局。opt=0 延迟到首个文件 API。</span></div>
@@ -215,6 +218,7 @@ f_close(&amp;file);  // 内部先 f_sync</pre>
       <div class="evolution" style="margin-top:8px">
         <div class="ev"><b>f_open(read)</b><span id="evolutionReopen">重新按目录项取文件首簇和长度，初始化 FIL.fptr=0。</span></div>
         <div class="ev"><b>f_read</b><span id="evolutionRead">跨簇时沿 FAT 找下一簇，按簇内偏移算 sector，再 disk_read。</span></div>
+        <div class="ev"><b>f_open(append)</b><span id="evolutionAppend">FA_OPEN_APPEND 重新查找文件，把 fptr 定位到原 EOF；f_write 追加后同步新长度。</span></div>
         <div class="ev"><b>f_unlink</b><span id="evolutionDelete">目录项标记删除；remove_chain 清空 FAT 链并更新可用簇信息。</span></div>
         <div class="ev"><b>数据内容</b><span id="evolutionData">删除通常不擦除旧扇区字节；簇可被新文件复用。</span></div>
       </div>
@@ -228,10 +232,10 @@ f_close(&amp;file);  // 内部先 f_sync</pre>
     <div class="lab">
       <div class="lab-top"><div><div class="lab-title">一次文件生命周期</div><div class="lab-caption" id="stepCaption">尚未开始 · 选择“挂载”开始演示</div></div><div class="controls"><button class="btn" id="prevBtn" type="button">← 上一步</button><button class="btn primary" id="nextBtn" type="button">下一步 →</button><button class="btn" id="playBtn" type="button">▶ 自动播放</button></div></div>
       <div class="timeline" id="timeline" aria-label="操作步骤">
-        <button class="tstep" data-step="0"><span class="bubble">01</span><strong>挂载</strong></button><button class="tstep" data-step="1"><span class="bubble">02</span><strong>查找名字</strong></button><button class="tstep" data-step="2"><span class="bubble">03</span><strong>创建文件目录项</strong></button><button class="tstep" data-step="3"><span class="bubble">04</span><strong>写数据 / 分簇</strong></button><button class="tstep" data-step="4"><span class="bubble">05</span><strong>同步元数据</strong></button><button class="tstep" data-step="5"><span class="bubble">06</span><strong>重新打开 / 读取</strong></button><button class="tstep" data-step="6"><span class="bubble">07</span><strong>删除</strong></button>
+        <button class="tstep" data-step="0"><span class="bubble">01</span><strong>挂载</strong></button><button class="tstep" data-step="1"><span class="bubble">02</span><strong>查找名字</strong></button><button class="tstep" data-step="2"><span class="bubble">03</span><strong>创建文件目录项</strong></button><button class="tstep" data-step="3"><span class="bubble">04</span><strong>写数据 / 分簇</strong></button><button class="tstep" data-step="4"><span class="bubble">05</span><strong>同步元数据</strong></button><button class="tstep" data-step="5"><span class="bubble">06</span><strong>重新打开 / 读取</strong></button><button class="tstep" data-step="6"><span class="bubble">07</span><strong>追加数据</strong></button><button class="tstep" data-step="7"><span class="bubble">08</span><strong>删除</strong></button>
       </div>
-      <div class="structure-jump-note">每个节点的磁盘字段和 RAM 结构会显示在下方结构视图。<a href="#stepStructures">跳转到当前节点结构 ↓</a></div>
-      <section class="step-fixture" aria-label="时间轴使用的初始介质快照"><h3>时间轴的初始介质快照（教学夹具）</h3><p>先把“挂载前盘上已有的东西”固定下来，再观察七步如何改变它。此夹具是假设的分区盘与预制目录树；它不是 FatFs 自动创建的内容，也不是格式化结果。</p><div class="step-fixture-grid">
+      <div class="structure-jump-note">每个节点的元数据结构会显示在状态面板之后、介质读写轨迹之前。<a href="#stepStructures">跳转到结构视图 ↓</a></div>
+      <section class="step-fixture" aria-label="时间轴使用的初始介质快照"><h3>时间轴的初始介质快照（教学夹具）</h3><p>先把“挂载前盘上已有的东西”固定下来，再观察八步如何改变它。此夹具是假设的分区盘与预制目录树；它不是 FatFs 自动创建的内容，也不是格式化结果。</p><div class="step-fixture-grid">
         <div class="step-fixture-card"><b>物理盘 / MBR</b><span id="fixturePartition">MBR LBA 0 · 分区项 #1</span></div>
         <div class="step-fixture-card"><b>卷 / BPB 逻辑布局</b><span id="fixtureVolume">等待介质格式</span></div>
         <div class="step-fixture-card"><b>挂载前的目录内容</b><span id="fixtureTree">ROOT: README.TXT、DOCS；DOCS: ARCHIVE.TXT</span></div>
@@ -256,6 +260,7 @@ f_close(&amp;file);  // 内部先 f_sync</pre>
           <div class="data-sector-head"><b>文件数据扇区</b><span id="dataSectorState">尚未写入</span></div><div class="data-sector-map" id="dataSectorMap" aria-label="文件数据扇区与文件字节范围"></div><p class="data-sector-note" id="dataSectorNote">每个方块代表一个逻辑扇区；写入文件数据后显示它所属的簇、LBA 和文件字节范围。</p><pre class="data-sector-detail" id="dataSectorDetail">写入阶段会显示扇区内的十六进制字节与 ASCII 视图。</pre>
           <div class="kv"><span>FIL.fptr（内存）</span><span id="fpointer">—</span><span>FIL.obj.sclust（内存）</span><span id="startCluster">—</span><span>文件大小：内存 / 磁盘</span><span id="sizePair">0 / 0 bytes</span><span id="freeCountLabel">FSINFO 空闲簇估计</span><span id="freeCount">90,000</span></div>
         </div>
+        <section class="step-structures" id="stepStructures" aria-label="当前步骤涉及的元数据结构"><div class="boxhead"><b id="structureTitle">当前节点的元数据结构</b><span class="micro" id="structureStep">尚未开始</span></div><p class="structure-intro" id="structureIntro">磁盘元数据有固定的字节布局；FatFs 在 RAM 中还用 FATFS、DIR、FIL 等 C 结构保存运行状态。选择时间轴节点查看。</p><div class="structure-grid" id="structureGrid"></div><p class="structure-source">读法：磁盘记录按源码定义的字节偏移解释，不应直接强转成 C 结构体（会受填充和字节序影响）；RAM 结构成员则由当前 ffconf.h 配置决定。字段值是本教学夹具的示例。</p></section>
         <div class="media-panel"><div class="boxhead"><b>介质层读写轨迹 · FatFs 可见的 LBA 扇区</b><span class="micro" id="mediaState">等待开始</span></div>
           <p class="media-summary" id="mediaSummary">前进时间轴后，这里会按发生顺序列出读请求、缓存修改和写回位置。</p>
           <div class="media-legend"><span><i class="read"></i>读扇区</span><span><i class="cache"></i>RAM 脏缓存</span><span><i class="write"></i>写扇区</span><span><i class="sync"></i>设备同步</span><span><i class="trim"></i>释放 / TRIM</span></div>
@@ -271,11 +276,11 @@ f_close(&amp;file);  // 内部先 f_sync</pre>
         <article><b>磁盘上发生什么</b><p id="stepWrites">尚未开始，没有写入。</p></article>
       </div></div>
       <section class="step-diff" aria-label="当前步骤介质和对象状态前后对照"><h3>状态差分：本节点进入前 → 本节点完成后</h3><pre id="stepDiff">选择一个时间轴节点，查看目录项、分配信息、数据区和 RAM 对象发生的变化。</pre></section>
-      <section class="step-structures" id="stepStructures" aria-label="当前步骤涉及的元数据结构"><div class="boxhead"><b id="structureTitle">当前节点的元数据结构</b><span class="micro" id="structureStep">尚未开始</span></div><p class="structure-intro" id="structureIntro">磁盘元数据有固定的字节布局；FatFs 在 RAM 中还用 FATFS、DIR、FIL 等 C 结构保存运行状态。选择时间轴节点查看。</p><div class="structure-grid" id="structureGrid"></div><p class="structure-source">读法：磁盘记录按源码定义的字节偏移解释，不应直接强转成 C 结构体（会受填充和字节序影响）；RAM 结构成员则由当前 ffconf.h 配置决定。字段值是本教学夹具的示例。</p></section>
       <div class="inputs">
         <div class="field"><label for="filename">演示文件名</label><input id="filename" value="REPORT.TXT" maxlength="255" autocomplete="off"><span class="field-note" id="nameHint">短文件名有效</span></div>
-        <div class="field"><label for="writeBytes">写入长度（字节）</label><input id="writeBytes" type="number" value="4700" min="0" max="40000"></div>
-        <div class="hint" id="flowInputHint">本例每簇 2048 B。改参数后可从“挂载”重放；f_write 按字节处理数据。</div>
+        <div class="field"><label for="writeBytes">首次写入长度（字节）</label><input id="writeBytes" type="number" value="4700" min="0" max="40000"></div>
+        <div class="field"><label for="appendBytes">追加长度（字节）</label><input id="appendBytes" type="number" value="1800" min="0" max="40000"></div>
+        <div class="hint" id="flowInputHint">首次写入与追加写入分别演示；追加阶段默认追加 1800 B。可修改长度后从“挂载”重放。</div>
       </div>
     </div>
   </div></section>
@@ -307,6 +312,20 @@ f_close(&amp;file);  // 内部先 f_sync</pre>
         <li>删除会移除目录名并释放簇映射，通常不覆写原数据；CTRL_TRIM 是设备提示，不是安全擦除。</li>
         <li>本页数字、目录内容、簇号和 LBA 是教学卷模型；真实介质布局和驱动返回由 BPB、分区表及平台决定。</li>
       </ul></div>
+    </div>
+    <div class="support-structure-grid">
+      <section class="panel">
+        <div class="boxhead"><b>查询文件信息 / FILINFO</b><span class="micro">f_stat / f_readdir 的输出快照</span></div>
+        <p class="structure-intro">FILINFO 不是磁盘上独立保存的结构，也不是打开文件句柄。FatFs 扫描目录记录后，把名称、属性、长度和时间转换到这个调用方提供的结果结构里。下面的值对应当前时间轴位置的目录记录。</p>
+        <div class="structure-table-wrap"><table class="structure-table"><thead><tr><th>成员</th><th>字段</th><th>当前模拟值</th><th>来源 / 含义</th></tr></thead><tbody id="filinfoApiRows"></tbody></table></div>
+        <p class="support-structure-note" id="filinfoApiNote"></p>
+      </section>
+      <section class="panel">
+        <div class="boxhead"><b>格式化输入 / MKFS_PARM</b><span class="micro">f_mkfs 的参数结构</span></div>
+        <p class="structure-intro">MKFS_PARM 是应用传给格式化 API 的输入参数，不是卷上写入的 BPB。f_mkfs 根据它和设备容量生成分区/引导区、FAT 或位图、根目录等结构；本页只展示参数，不会格式化设备。</p>
+        <div class="structure-table-wrap"><table class="structure-table"><thead><tr><th>成员</th><th>字段</th><th>当前示例值</th><th>源码语义</th></tr></thead><tbody id="mkfsParmRows"></tbody></table></div>
+        <p class="support-structure-note" id="mkfsParmNote"></p>
+      </section>
     </div>
     <details class="source-deep"><summary>源码阅读路线：从公开 API 跟进内部算法</summary><p><a href="../source/ff.c#L3560">mount_volume</a> 解析 BPB 与数据簇数量；<a href="../source/ff.c#L1751">dir_sdi</a> / <a href="../source/ff.c#L1800">dir_next</a> 管目录游标和目录扩展；<a href="../source/ff.c#L4059">f_read</a>、<a href="../source/ff.c#L4161">f_write</a>、<a href="../source/ff.c#L4625">f_lseek</a> 处理文件偏移；<a href="../source/ff.c#L5016">f_getfree</a> 统计空间；<a href="../source/ff.c#L1133">sync_fs</a> 同步卷元数据。设备契约见 <a href="../source/diskio.h#L39">diskio.h</a>，移植模板见 <a href="../source/diskio.c#L71">diskio.c</a>。</p></details>
   </div></section>
@@ -354,7 +373,7 @@ f_close(&amp;file);  // 内部先 f_sync</pre>
   "use strict";
   var configRows=[
     {group:"API 与代码裁剪",key:"FF_FS_READONLY",label:"只读模式",type:"bool",value:0,desc:"1 时裁剪写 API；f_write / f_sync / f_unlink / mkdir / rename 等不能使用。"},
-    {group:"API 与代码裁剪",key:"FF_FS_MINIMIZE",label:"基础 API 裁剪级别",type:"select",value:0,options:[["0","0 · 完整"],["1","1 · 移除状态/管理 API"],["2","2 · 再移除目录遍历"],["3","3 · 再移除 f_lseek"]],desc:"数值越大，ff.c 中的基础函数越少；例如 f_stat 只在级别 0 存在。"},
+    {group:"API 与代码裁剪",key:"FF_FS_MINIMIZE",label:"基础 API 裁剪级别",type:"select",value:0,options:[["0","0 · 完整基础 API"],["1","1 · 移除 f_stat"],["2","2 · 再移除目录遍历"],["3","3 · 再移除 f_lseek"]],desc:"按 ff.c 的条件编译裁剪：f_stat 仅级别 0 存在；目录遍历要求级别≤1；f_lseek 要求级别≤2。f_unlink 等写 API 是否存在由只读配置决定。"},
     {group:"API 与代码裁剪",key:"FF_USE_FIND",label:"通配符查找",type:"select",value:0,options:[["0","0 · 关闭"],["1","1 · 匹配长名"],["2","2 · 同时匹配短名"]],desc:"开启 f_findfirst / f_findnext；还要求 FF_FS_MINIMIZE ≤ 1。"},
     {group:"API 与代码裁剪",key:"FF_USE_MKFS",label:"格式化 API",type:"bool",value:0,desc:"开启 f_mkfs；只读构建中不可用。"},
     {group:"API 与代码裁剪",key:"FF_USE_FASTSEEK",label:"快速随机定位",type:"bool",value:0,desc:"开启 FIL 簇映射表 cltbl，供应用加速随机 seek；映射表由应用提供。"},
@@ -570,7 +589,7 @@ f_close(&amp;file);  // 内部先 f_sync</pre>
       "clst2sect(fs,c) = database + (c − 2) × csize；根目录和普通子目录都可由簇号定位。";
     document.getElementById("clusterFormula").textContent=formula+" 本例 cluster 8 → "+g.database+" + (8−2)×"+g.csize+" = LBA "+cluster8+"。FatFs 使用逻辑 LBA；物理设备地址映射由 diskio 驱动处理。";
   }
-  function renderStepFixture(g,name,len){
+  function renderStepFixture(g,name,len,appendLen){
     var end=g.base+g.totalSectors-1,typeHex="0x"+g.partitionType.toString(16).padStart(2,"0").toUpperCase();
     var root=hasFixedRoot(g.type)?"fixed-root LBA "+g.rootbase:"root cluster 2 @ LBA "+clusterSector(g,2);
     var rootExisting=g.type==="exfat"?"Root cluster 2 @ LBA "+clusterSector(g,2)+"：+0 allocation bitmap entry (81h, C3)；+32 README.TXT entry set (128 B, C7)；+128 DOCS entry set (DIR, C5)；其后 00h。每个目录项 32 B。":"根目录 "+root+"：slot #0 @ +0 README.TXT (128 B, C7)；slot #1 @ +32 DOCS (DIR, C5)；每项 32 B。";
@@ -580,28 +599,53 @@ f_close(&amp;file);  // 内部先 f_sync</pre>
     set("fixtureTree",rootExisting+" "+docsExisting);
     var alloc=g.type==="exfat"?"Bitmap cluster 3（"+g.bitmapBytes+" B，覆盖 "+g.bitmapClusters+" cluster）：C2(root)、C3(bitmap)、C5(DOCS)、C6(ARCHIVE)、C7(README) 的位为 1；其余示例位为 0。":"初始分配："+(hasFixedRoot(g.type)?"固定根目录不占数据簇； ":"FAT[2]=EOC(root)； ")+"FAT[5]=EOC(DOCS)，FAT[6]=EOC(ARCHIVE)，FAT[7]=EOC(README)。示例文件各占一簇。";
     if(g.type==="fat12")alloc+=" FAT12 表项按 12 bit 打包；相邻项共享一个字节的半字节。";
-    set("fixtureAllocation",alloc+" 写入目标 "+name.display+" 当前不存在；待写长度为 "+len+" B。");
+    set("fixtureAllocation",alloc+" 写入目标 "+name.display+" 当前不存在；首次写入 "+len+" B，随后追加 "+appendLen+" B，追加后总长 "+(len+appendLen)+" B。");
   }
   function renderStepStructures(g,name,len,n,state){
     var grid=document.getElementById("structureGrid"),type=g.type,exfat=type==="exfat",lfn=Number(cfg.FF_USE_LFN)>0;
     grid.textContent="";
-    var labels=["挂载 / 解析 BPB","按路径查目录项","创建文件目录项","写数据 / 分配簇","同步文件元数据","重新打开 / 读取","删除记录 / 释放簇"];
-    document.getElementById("structureStep").textContent=n<0?"尚未开始":("0"+(n+1)+" / 07 · "+labels[n]);
+    var labels=["挂载 / 解析 BPB","按路径查目录项","创建文件目录项","写数据 / 分配簇","同步文件元数据","重新打开 / 读取","追加数据","删除记录 / 释放簇"];
+    document.getElementById("structureStep").textContent=n<0?"尚未开始":("0"+(n+1)+" / 08 · "+labels[n]);
     document.getElementById("structureTitle").textContent=n<0?"当前节点的元数据结构":"步骤 "+(n+1)+"："+labels[n]+" · 结构视图";
     document.getElementById("structureIntro").textContent=n<0
       ?"元数据本身就是有字段布局的数据：磁盘上按字节偏移组织，RAM 中由 FATFS、DIR、FIL 等结构承载。选择时间轴节点后，会显示该节点读写的结构和字段变化。"
-      :"黄色表示本节点字段发生变化；绿色表示字段值。当前介质为 "+mediaLabel(type)+"，文件名 "+name.display+"，请求长度 "+len+" B。"+
-       (state.mountFailure?"当前挂载未建立有效卷上下文，下面标出未执行/未接受的结构。":state.nameRejected?"名称校验失败，本节点没有扫描或修改目标目录记录。":state.readonlyBlocked?"只读配置下目标不存在，创建/写入没有产生目录记录或分配簇。":state.deleteUnavailable?"删除 API 被 FF_FS_MINIMIZE 裁剪，结构保留原值。":"");
-    if(n<0){var empty=document.createElement("div");empty.className="structure-empty";empty.textContent="建议逐个点选 01–07：挂载看 MBR/BPB 与 FATFS；查找看目录项与 DIR 游标；创建/同步看目录项字段；写入看 FAT/位图和 FIL；读取看目录记录如何恢复 FIL；删除看删除标记与簇释放。";grid.appendChild(empty);return;}
+      :"黄色表示本节点字段发生变化；绿色表示字段值。当前介质为 "+mediaLabel(type)+"，文件名 "+name.display+"，"+(n===6?"首次写入 "+state.initialLen+" B + 本次追加 "+state.appendLen+" B，当前长度 "+len+" B。":"本次文件长度 "+len+" B。")+
+       (state.mountFailure?"当前挂载未建立有效卷上下文，下面标出未执行/未接受的结构。":state.nameRejected?"名称校验失败，本节点没有扫描或修改目标目录记录。":state.readonlyBlocked?"只读配置下目标不存在，创建/写入没有产生目录记录或分配簇；删除 API 也未编入。":state.deleteUnavailable?"当前只读构建未编入删除 API，目标文件也未创建。":"");
+    if(n<0){var empty=document.createElement("div");empty.className="structure-empty";empty.textContent="建议逐个点选 01–08：挂载看 MBR/BPB 与 FATFS；查找看目录项与 DIR 游标；创建/同步看目录项字段；写入看 FAT/位图和 FIL；打开读取看目录记录如何恢复 FIL；追加看 EOF、数据扇区和链尾如何变化；删除看删除标记与簇释放。";grid.appendChild(empty);return;}
     var cards=[];
     function row(offset,field,before,after,meaning){return {offset:offset,field:field,before:String(before),after:String(after),meaning:meaning||""};}
-    function card(title,location,rows,note){cards.push({title:title,location:location,rows:rows,note:note||""});}
+    function card(title,location,rows,note,layout){cards.push({title:title,location:location,rows:rows,note:note||"",layout:layout||null});}
     function putCard(c){
       var box=document.createElement("article");box.className="structure-card";
       var head=document.createElement("div");head.className="structure-card-head";
       var title=document.createElement("b");title.textContent=c.title;head.appendChild(title);
       var loc=document.createElement("span");loc.textContent=c.location;head.appendChild(loc);box.appendChild(head);
       if(c.note){var note=document.createElement("p");note.textContent=c.note;box.appendChild(note);}
+      if(c.layout){
+        var layoutBox=document.createElement("div");layoutBox.className="record-layout";
+        var layoutHead=document.createElement("div");layoutHead.className="record-layout-head";
+        var layoutTitle=document.createElement("b");layoutTitle.textContent=c.layout.title;layoutHead.appendChild(layoutTitle);
+        var layoutHint=document.createElement("span");layoutHint.textContent="每项 32 B · 每格 1 B · 偏移递增";layoutHead.appendChild(layoutHint);layoutBox.appendChild(layoutHead);
+        var records=c.layout.records||[{title:"",fields:c.layout.fields,bytes:c.layout.bytes}];
+        records.forEach(function(record,recordIndex){
+          var recordBox=document.createElement("div");recordBox.className="record-layout-record";
+          if(records.length>1){var recordTitle=document.createElement("div");recordTitle.className="record-layout-record-title";recordTitle.textContent=record.title;recordBox.appendChild(recordTitle);}
+          var layoutScroll=document.createElement("div");layoutScroll.className="record-layout-scroll";
+          var ruler=document.createElement("div");ruler.className="record-layout-grid";
+          record.bytes.forEach(function(value,i){var cell=document.createElement("span");cell.className="record-layout-offset";cell.textContent=i.toString(16).padStart(2,"0").toUpperCase();ruler.appendChild(cell);});
+          layoutScroll.appendChild(ruler);
+          var fields=document.createElement("div");fields.className="record-layout-grid";
+          record.fields.forEach(function(item){var cell=document.createElement("div");cell.className="record-layout-field"+(item.changed?" changed":"");cell.style.setProperty("--byte-span",item.bytes);cell.title=item.offset+" · "+item.name+" · "+item.bytes+" B";var offset=document.createElement("small"),label=document.createElement("b");offset.textContent=item.offset;label.textContent=item.short;cell.appendChild(offset);cell.appendChild(label);fields.appendChild(cell);});
+          layoutScroll.appendChild(fields);
+          var byteRow=document.createElement("div");byteRow.className="record-layout-grid";
+          record.bytes.forEach(function(value){var cell=document.createElement("span");cell.className="record-layout-byte";cell.textContent=value;byteRow.appendChild(cell);});
+          layoutScroll.appendChild(byteRow);recordBox.appendChild(layoutScroll);
+          var legend=document.createElement("div");legend.className="record-layout-legend";
+          record.fields.forEach(function(item){var entry=document.createElement("span"),offset=document.createElement("em");offset.textContent=item.offset;entry.appendChild(offset);entry.appendChild(document.createTextNode(" "+item.name+" · "+item.bytes+" B"));legend.appendChild(entry);});
+          recordBox.appendChild(legend);layoutBox.appendChild(recordBox);
+        });
+        box.appendChild(layoutBox);
+      }
       var wrap=document.createElement("div");wrap.className="structure-table-wrap";
       var table=document.createElement("table");table.className="structure-table";
       var thead=document.createElement("thead"),trh=document.createElement("tr");
@@ -612,16 +656,16 @@ f_close(&amp;file);  // 内部先 f_sync</pre>
         [r.offset,r.field,changed?r.before+" → "+r.after:r.before,r.meaning].forEach(function(value){var td=document.createElement("td");td.textContent=value;tr.appendChild(td);});
         tbody.appendChild(tr);
       });
-      table.appendChild(tbody);wrap.appendChild(table);box.appendChild(wrap);grid.appendChild(box);
+      table.appendChild(tbody);wrap.appendChild(table);box.appendChild(wrap);return box;
     }
     var mounted=n>=0&&!state.mountFailure,allowed=mounted&&!state.nameRejected&&!state.readonlyBlocked;
     var rootLba=hasFixedRoot(type)?g.rootbase:clusterSector(g,2),docsLba=clusterSector(g,5);
-    var chain=state.chain||[],count=chain.length,first=count?chain[0]:0;
+    var chain=state.chain||[],count=chain.length,first=count?chain[0]:0,initialCount=state.initialLen===0?0:Math.ceil(state.initialLen/g.clusterBytes),oldChain=illustrativeChain(g,initialCount),addedCount=Math.max(0,count-initialCount);
     var eoc=type==="fat12"?"0x0FFF":type==="fat16"?"0xFFFF":type==="fat32"?"0x0FFFFFFF":"0xFFFFFFFF";
-    var diskCluster=(n>=4&&n<=6&&allowed&&count>0)?first:0;
+    var diskCluster=(n>=4&&n<=7&&allowed&&count>0)?first:0;
     var diskSize=diskCluster?len:0;
-    var recordExists=(n>=2&&allowed&&n<6)||(n===6&&(state.gone||state.deleteUnavailable));
-    if(n===6&&state.gone){diskCluster=count?first:0;diskSize=len;}
+    var recordExists=(n>=2&&allowed&&n<7)||(n===7&&state.gone);
+    if(n===7&&state.gone){diskCluster=count?first:0;diskSize=len;}
     if(n===0){
       card("磁盘分区记录 / MBR partition entry","物理盘 LBA 0 · 分区项 #1 @ byte 446–461 · 16 B",[
         row("+0x04","PartitionType","0x"+g.partitionType.toString(16).padStart(2,"0").toUpperCase(),"0x"+g.partitionType.toString(16).padStart(2,"0").toUpperCase(),"分区类型；FatFs 仍要读取卷 BPB 判定卷格式。"),
@@ -629,6 +673,12 @@ f_close(&amp;file);  // 内部先 f_sync</pre>
         row("+0x0C..0x0F","SectorCount",String(g.totalSectors),String(g.totalSectors),"分区长度；本模型末扇区 LBA "+(g.base+g.totalSectors-1)+"。"),
         row("LBA 0 + 510","55AA signature","55 AA","55 AA","MBR 扇区签名。")
       ],"这是分区表记录，不是文件目录项。FF_MULTI_PARTITION 会改变盘符到分区的选择方式。");
+      var partEnabled=isOn("FF_MULTI_PARTITION");
+      card("RAM 卷映射 / PARTITION · VolToPart[0]","source/ff.h · 逻辑卷 0 的设备/分区选择",[
+        row("成员","pd (physical drive)",partEnabled?"映射表待使用":"结构未编入",partEnabled?"0 · 物理设备 0":"FF_MULTI_PARTITION=0","指定底层物理设备号。"),
+        row("成员","pt (partition)",partEnabled?"映射表待使用":"结构未编入",partEnabled?"1 · MBR 分区 #1":"自动探测设备上的卷","0 表示自动探测；1–4 指定 MBR 分区项。"),
+        row("映射","逻辑卷 0:","尚未解析","0: → "+(partEnabled?"pdrv 0 / partition 1":"pdrv 0 / 自动探测"),"这是 RAM 中的选择规则，不是 MBR 分区项本身。")
+      ],partEnabled?"FF_MULTI_PARTITION=1 时，VolToPart[] 将逻辑卷号映射到物理设备与分区；本教学夹具示例为 pd=0、pt=1。":"当前配置未编入 PARTITION/VolToPart；FatFs 按单分区配置从设备识别卷位置。");
       var bpb=[];
       if(exfat){
         bpb=[row("0x40–47","BPB_VolOfsEx",String(g.base),String(g.base),"卷起点。"),row("0x48–4F","BPB_TotSecEx",String(g.totalSectors),String(g.totalSectors),"卷总扇区数。"),row("0x50–53","BPB_FatOfsEx",String(g.fatbase-g.base),String(g.fatbase-g.base),"卷内 FAT 起点偏移。"),row("0x54–57","BPB_FatSzEx",String(g.fsize),String(g.fsize),"单份 FAT 扇区数。"),row("0x58–5B","BPB_DataOfsEx",String(g.database-g.base),String(g.database-g.base),"Cluster heap 起点偏移。"),row("0x5C–5F","BPB_NumClusEx",String(g.dataClusters),String(g.dataClusters),"簇堆簇数。"),row("0x60–63","BPB_RootClusEx",String(g.rootCluster),String(g.rootCluster),"根目录首簇。"),row("0x6C","BytesPerSecShift",String(Math.log2(g.ss)),String(Math.log2(g.ss)),g.ss+" B/扇区以 2 的幂表示。"),row("0x6D","SecPerClusShift",String(Math.log2(g.csize)),String(Math.log2(g.csize)),g.csize+" 个扇区/簇以 2 的幂表示。"),row("0x6E","NumFATs",String(g.fats),String(g.fats),"exFAT FAT 数量。")];
@@ -664,17 +714,69 @@ f_close(&amp;file);  // 内部先 f_sync</pre>
       else{card("被读取的 FAT 短目录项字段 / 32 B SFN","DOCS entry @ root LBA "+rootLba+" +32；ARCHIVE entry @ LBA "+docsLba,[
         row("0x00–0A","DIR_Name","DOCS      / ARCHIVE TXT","DOCS 命中；ARCHIVE 不匹配","查找首先比较 11 字节短名；LFN 开启时还校验前置 LFN 项。"),row("0x0B","DIR_Attr","10h (DOCS dir) / 20h (Archive)","进入 DOCS 后继续扫描","属性区分子目录和普通文件。"),row("0x14 / 0x1A","FstClusHI / LO","DOCS: 0 / 5；ARCHIVE: 0 / 6","DOCS 的首簇 5 定位子目录","首簇是目录/文件数据区映射的起点。"),row("0x1C–1F","DIR_FileSize","DOCS: 0；ARCHIVE: 256 B","REPORT 不存在，未读文件数据","目录记录长度是元数据；找到名字后才决定后续访问。")
       ],"ff.c 对每个 32 B 目录槽按固定偏移读取 NAME、ATTR、首簇和长度；遍历遇到 00h 就结束。");}
+      if(exfat){
+        var q85=Array(32).fill("00"),qC0=Array(32).fill("00"),qC1=Array(32).fill("00");
+        function qLE(bytes,offset,value,width){for(var qi=0;qi<width;qi++)bytes[offset+qi]=((Math.floor(value/Math.pow(256,qi))&255).toString(16).padStart(2,"0")).toUpperCase();}
+        q85[0]="85";q85[1]="02";q85[2]="??";q85[3]="??";qLE(q85,4,0x10,2);for(var qt=8;qt<=24;qt++)q85[qt]="??";
+        qC0[0]="C0";qC0[1]="??";qC0[3]="04";qC0[4]="??";qC0[5]="??";for(var qv=8;qv<16;qv++)qC0[qv]="??";qLE(qC0,20,5,4);for(var qz=24;qz<32;qz++)qC0[qz]="??";
+        qC1[0]="C1";for(var qn=0;qn<15;qn++)qLE(qC1,2+qn*2,qn<4?"DOCS".charCodeAt(qn):0,2);
+        function qFields(items){return items.map(function(item){return {offset:item[0],bytes:item[1],name:item[2],short:item[3],changed:false};});}
+        card("命中目录的 exFAT entry set / 字节布局","DOCS: 85h + C0h + C1h · root LBA "+rootLba+" +128",[
+          row("85h +0x00–05","Type / NumSec / SetSum / Attr","85h / 02h / ?? / 10h","读取并验证 entry set","85h 主项声明目录对象及其 secondary 项数量。"),
+          row("C0h +0x03 / +0x14","NameLen / FirstCluster","4 / C5","DOCS 命中 → 转入 cluster 5","名称项匹配后，流扩展提供目录首簇。"),
+          row("C1h +0x02–1F","Name","D O C S","逐 UTF-16 字符比较","名称文本位于 C1h；此处展开第一项。")
+        ],"目标文件 REPORT 尚不存在；本节点展示的是用于进入 DOCS 子目录的既有 entry set。?? 表示夹具未固定的时间、校验和与哈希。",{title:"exFAT 目录项组：每个框 32 B",records:[
+          {title:"85h · 主项",bytes:q85,fields:qFields([["00",1,"XDIR_Type","TYPE"],["01",1,"XDIR_NumSec","NSEC"],["02–03",2,"XDIR_SetSum","SUM"],["04–05",2,"XDIR_Attr","ATTR"],["06–07",2,"Reserved","RSVD"],["08–0B",4,"XDIR_CrtTime","CRT"],["0C–0F",4,"XDIR_ModTime","MOD"],["10–13",4,"XDIR_AccTime","ACC"],["14–18",5,"Subsecond / timezone","TIME"],["19–1F",7,"Reserved","RSVD"]])},
+          {title:"C0h · 流扩展",bytes:qC0,fields:qFields([["00",1,"XDIR_Type","TYPE"],["01",1,"XDIR_GenFlags","FLAGS"],["02",1,"Reserved","RSVD"],["03",1,"XDIR_NumName","NLEN"],["04–05",2,"XDIR_NameHash","HASH"],["06–07",2,"Reserved","RSVD"],["08–0F",8,"XDIR_ValidFileSize","VALID"],["10–13",4,"Reserved","RSVD"],["14–17",4,"XDIR_FstClus","CLUST"],["18–1F",8,"XDIR_FileSize","SIZE"]])},
+          {title:"C1h · 名称扩展（DOCS；同结构按需重复）",bytes:qC1,fields:qFields([["00",1,"XDIR_Type","TYPE"],["01",1,"Reserved","RSVD"],["02–1F",30,"XDIR_Name","NAME"]])}
+        ]});
+      }else{
+        var qSfn=Array(32).fill("00"),qName="DOCS       ";
+        for(var qsi=0;qsi<11;qsi++)qSfn[qsi]=(qName.charCodeAt(qsi)||32).toString(16).padStart(2,"0").toUpperCase();
+        qSfn[11]="10";qSfn[12]="00";qSfn[13]="??";qSfn[14]="??";qSfn[15]="??";qSfn[16]="??";qSfn[17]="??";qSfn[18]="00";qSfn[19]="00";qSfn[20]="00";qSfn[21]="00";qSfn[22]="??";qSfn[23]="??";qSfn[24]="??";qSfn[25]="??";qSfn[26]="05";qSfn[27]="00";
+        for(var qsl=28;qsl<32;qsl++)qSfn[qsl]="00";
+        var qSfnFields=[{offset:"00–0A",bytes:11,name:"DIR_Name",short:"NAME"},{offset:"0B",bytes:1,name:"DIR_Attr",short:"ATTR"},{offset:"0C",bytes:1,name:"DIR_NTres",short:"NT"},{offset:"0D",bytes:1,name:"DIR_CrtTimeTenth",short:"T10"},{offset:"0E–0F",bytes:2,name:"DIR_CrtTime",short:"CRT"},{offset:"10–11",bytes:2,name:"DIR_CrtDate",short:"CRD"},{offset:"12–13",bytes:2,name:"DIR_LstAccDate",short:"ACC"},{offset:"14–15",bytes:2,name:"DIR_FstClusHI",short:"HI"},{offset:"16–17",bytes:2,name:"DIR_WrtTime",short:"WT"},{offset:"18–19",bytes:2,name:"DIR_WrtDate",short:"WD"},{offset:"1A–1B",bytes:2,name:"DIR_FstClusLO",short:"LO"},{offset:"1C–1F",bytes:4,name:"DIR_FileSize",short:"SIZE"}];
+        card("查找命中的 FAT 目录项 / 实际 32 B", "DOCS @ root LBA "+rootLba+" +32",[
+          row("00–0A","DIR_Name","DOCS + 空格填充","比较 11 字节 SFN","本夹具中既有目录名是 8.3 短名。"),row("0B","DIR_Attr","10h","识别为目录","ATTR=10h 表示目录。"),row("14–15 / 1A–1B","首簇 HI / LO","0 / 5","DOCS → cluster 5","首簇将路径查找带到子目录。")
+        ],"图中是扫描命中的 DOCS 目录项。当前夹具里的 DOCS/ARCHIVE 都是短名；长文件名目标还不存在，它的 LFN 槽会在创建节点出现。",{title:"FAT SFN 目录项字段排布",fields:qSfnFields,bytes:qSfn});
+      }
       card("RAM 目录游标 / DIR","source/ff.h: DIR + FFOBJID · follow_path / dir_read",[
         row("成员","obj.sclust / obj.objsize","DIR 未创建","扫描目录对象：root → C5","目录对象共享 FFOBJID。"),
         row("成员","dptr / clust","0 / root","跨目录从 0 开始；当前目录簇更新","字节游标用于定位目录记录。"),
         row("成员","sect / dir","未定位","当前目录 LBA；dir 指向 FATFS.win","RAM 指针指向一扇区窗口，不是磁盘地址。"),
         row("成员","fn[12]","空","短名比较状态："+name.sfn,"LFN 开启时还使用 LFN 缓冲区和 blk_ofs。")
       ],"每次只把当前目录扇区装入窗口并逐项比较；扫描不改目录记录、FAT 或文件内容。");
+      card("RAM 公共对象头 / FFOBJID（路径 DIR）","source/ff.h: FFOBJID · follow_path 使用的目录上下文",[
+        row("成员","fs",mounted?"未关联":"无有效卷","&FATFS（已挂载卷）","指回所属卷上下文；挂载失败时不会得到有效卷指针。"),
+        row("成员","id","局部路径 DIR 不依赖挂载代次","公开 f_opendir 对象会保存 FATFS.id","用于校验对象是否属于当前挂载代次；f_open 的路径解析使用局部 DIR。"),
+        row("成员","attr","根目录/尚未命中",allowed?"DOCS: 10h (Directory)":"未找到目标目录","路径组件命中后保存属性。"),
+        row("成员","stat","FAT: 不使用链状态字段",exfat?"exFAT 目录分配状态由 stat 携带":"FAT: 不使用链状态字段","stat 的分配链语义主要用于 exFAT。"),
+        row("成员","sclust / objsize","root cluster 2 / 根目录长度不用于 FAT 路径","DOCS cluster 5 / 目录项所示长度","DIR 的 FFOBJID 描述当前遍历目录；不是最终文件数据位置。")
+      ],"FFOBJID 是 DIR 的公共头。f_open 内部的路径解析 DIR 是临时对象；公开 f_opendir 返回的 DIR 会持续保存遍历游标。");
+    }
+    if(n===5){
+      var openRows=!allowed?[
+        row(Number(cfg.FF_FS_RPATH)>0?"cdir=C5":"root / DOCS","路径组件",state.mountFailure?"未挂载":state.nameRejected?"名称校验失败":Number(cfg.FF_FS_RPATH)>0?"从 DOCS 当前目录开始":"README 不匹配；DOCS 命中 C5",state.readonlyBlocked?"进入 DOCS 扫描":"不继续查找","只读构建仍可读目录；目标不存在时 f_open(FA_READ) 返回 FR_NO_FILE。"),
+        row("DOCS +0","ARCHIVE.TXT","首簇 C6","名称不匹配","只比较目录记录，不读取 ARCHIVE 文件内容。"),
+        row("DOCS +"+(exfat?"96":"32"),"目标名 "+name.display,state.readonlyBlocked?"00h 空槽":"未扫描","FR_NO_FILE / 未执行","前面的只读创建没有登记目标，因此没有可恢复的首簇、长度或 FIL。")
+      ]:exfat?[
+        row("root +32","README entry set","85h/C0h/C1h · C7","比较后不匹配","从 exFAT 根目录 cluster 2 的目录项组扫描路径组件。"),
+        row("root +128","DOCS entry set","85h/C0h/C1h · C5","命中 DOCS → 首簇 5","读取 C0h FirstCluster，转入 DOCS 目录数据簇。"),
+        row("DOCS +0","ARCHIVE entry set","85h/C0h/C1h · C6","名称不匹配，继续","不读取 ARCHIVE.TXT 的文件数据。"),
+        row("DOCS +96","REPORT entry set","85h/C0h/C1h · C"+first,"命中 → 长度 "+state.initialLen+" B","C0h 提供首簇/长度，C1h 提供名称；再据此初始化 FIL。")
+      ]:[
+        row("root +0","README.TXT","ATTR=20h; cluster=7","名称不匹配，继续","目录项提供名称、属性和首簇；没有读取 README 文件内容。"),
+        row("root +32","DOCS","ATTR=10h; cluster=5","命中 DOCS → 首簇 5","首簇把路径解析从根目录带到 DOCS 子目录。"),
+        row("DOCS +0","ARCHIVE.TXT","ATTR=20h; cluster=6","名称不匹配，继续","扫描下一个 32 B 短目录项。"),
+        row("DOCS +32",name.display,name.isLong?"LFN + SFN "+name.sfn:"SFN "+name.sfn,"命中 → 首簇 "+first+" / FileSize "+state.initialLen+" B","从第一个可用槽开始比较 LFN/SFN；短项读取 FstClusHI/LO 与 FileSize，命中后才开始访问文件数据区。")
+      ];
+      if(allowed&&Number(cfg.FF_FS_RPATH)>0)openRows.splice(0,2);
+      card("重新打开时的目录查找轨迹",Number(cfg.FF_FS_RPATH)>0?"cdir=C5 → DOCS 目录 @ LBA "+docsLba:"根目录 @ LBA "+rootLba+" → DOCS C5 @ LBA "+docsLba,openRows,!allowed?"当前流程无法打开目标。只读创建失败时仍扫描目录并在 00h 处返回 FR_NO_FILE；挂载失败或名称无效时则不进行查找。":"绝对路径按组件逐级解析；FF_FS_RPATH 开启且使用相对路径时，从 cdir 开始。目录扇区可能命中 FATFS.win 缓存；文件名不是数据扇区地址。命中项后才恢复 FIL 的首簇、长度与访问权限。");
     }
     if(n>=2){
-      var syncedBefore=n>=5||n===6, syncedAfter=n>=4;
-      var clusterBefore=n===4?0:diskCluster,clusterAfter=diskCluster;
-      var sizeBefore=n===4?0:diskSize,sizeAfter=diskSize;
+      var syncedBefore=n>=5, syncedAfter=n>=4;
+      var clusterBefore=n===4?0:n===6?(initialCount?oldChain[0]:0):diskCluster,clusterAfter=diskCluster;
+      var sizeBefore=n===4?0:n===6?state.initialLen:diskSize,sizeAfter=diskSize;
       if(!exfat){
         var nameBefore=n===2?"00h (空槽)":recordExists?name.sfn:"无目标记录";
         var nameAfter=n===2&&recordExists?name.sfn:state.gone?"E5h + 名称残留":nameBefore;
@@ -685,14 +787,40 @@ f_close(&amp;file);  // 内部先 f_sync</pre>
           row("0x0D–0x11","CrtTime / CrtDate",n===2?(recordExists?"空槽":"未写入"):recordExists?"创建时间":"无记录",n===2&&recordExists?"GET_FATTIME 初始化":n===2?"未写入":recordExists?"创建时间":"无记录","创建时间由 GET_FATTIME 编码；删除不会擦除该字段。"),
           row("0x12–0x13","DIR_LstAccDate",n===2?(recordExists?"空槽":"未写入"):recordExists?(n>=5?"0 (f_sync 清零)":"已初始化"):"无记录",n===4&&recordExists?"0 (f_sync 清零)":recordExists?(n>=5?"0 (f_sync 清零)":"不变"):n===2?"未写入":"无记录","FAT 日期字段。"),
           row("0x14–0x15","DIR_FstClusHI",n===2?(recordExists?"空槽":"未写入"):String(clusterBefore>>>16),n===2&&recordExists?"0":n===2?"未写入":String(clusterAfter>>>16),"FAT32 首簇高 16 位；FAT12/16 保留为 0。"),
-          row("0x16–0x19","DIR_ModTime / DIR_ModDate",n===2?(recordExists?"空槽":"未写入"):recordExists?(n>=5?"最后同步时刻":"创建时刻"):"无记录",n===4&&recordExists?"f_sync 写入修改时刻":n===2&&recordExists?"GET_FATTIME 初始化":n===2?"未写入":recordExists?(n>=5?"最后同步时刻":"创建时刻"):"无记录","最后修改日期和时间；删除时不因删除动作自动清零。"),
+          row("0x16–0x19","DIR_ModTime / DIR_ModDate",n===2?(recordExists?"空槽":"未写入"):recordExists?(n>=5?"最后同步时刻":"创建时刻"):"无记录",n===4&&recordExists?"f_sync 写入修改时刻":n===6&&recordExists?"追加后 f_sync 更新时间":n===2&&recordExists?"GET_FATTIME 初始化":n===2?"未写入":recordExists?(n>=5?"最后同步时刻":"创建时刻"):"无记录","最后修改日期和时间；追加同步更新，删除时不自动清零。"),
           row("0x1A–0x1B","DIR_FstClusLO",n===2?(recordExists?"空槽":"未写入"):String(clusterBefore&0xFFFF),n===2?(recordExists?"0":"未写入"):String(clusterAfter&0xFFFF),"首簇低 16 位；创建空文件时为 0。"),
           row("0x1C–0x1F","DIR_FileSize",n===2?(recordExists?"空槽":"未写入"):sizeBefore+" B",n===2?(recordExists?"0 B":"未写入"):sizeAfter+" B","字节长度；数据写入后通常到 f_sync 才更新目录项。")
         ];
         if(emptyName)entryRows.forEach(function(r){r.before=emptyVal;r.after=emptyVal;});
         if(state.gone)entryRows[0]=row("0x00","DIR_Name[0]",name.sfn.slice(0,1),"E5h","FatFs 用删除标记替换首字节；属性、簇号、长度字节仍可能残留。");
         var sfnByte=32+(lfn?name.lfnCount:0)*32;
-        card("磁盘结构 / FAT 短目录项（SFN）","DOCS C5 @ LBA "+docsLba+" + byte offset "+sfnByte+" · 每项 32 B",entryRows,"ff.c 按 DIR_* 固定偏移访问 32 B 字节数组。创建先登记名称、Archive、首簇 0 和 FileSize 0；f_sync 再回填首簇/长度/时间。");
+        var sfnBytes=Array(32).fill(recordExists?"00":"--");
+        if(!recordExists)sfnBytes[0]="00";
+        var putSfnBytes=function(offset,values){values.forEach(function(value,i){if(offset+i<sfnBytes.length)sfnBytes[offset+i]=value;});};
+        var leSfnBytes=function(value,width){var out=[];for(var i=0;i<width;i++)out.push((Math.floor(value/Math.pow(256,i))&255).toString(16).padStart(2,"0").toUpperCase());return out;};
+        if(recordExists){
+          for(var ni=0;ni<11;ni++){var code=name.sfn.charCodeAt(ni)||32;sfnBytes[ni]=code<=255?code.toString(16).padStart(2,"0").toUpperCase():"??";}
+          if(state.gone)sfnBytes[0]="E5";
+          putSfnBytes(0x0B,["20"]);putSfnBytes(0x0C,["00"]);putSfnBytes(0x0D,["??"]);putSfnBytes(0x0E,["??","??"]);putSfnBytes(0x10,["??","??"]);
+          putSfnBytes(0x12,n>=4?["00","00"]:["??","??"]);putSfnBytes(0x14,leSfnBytes(Math.floor(diskCluster/65536),2));putSfnBytes(0x16,["??","??"]);putSfnBytes(0x18,["??","??"]);putSfnBytes(0x1A,leSfnBytes(diskCluster&0xFFFF,2));putSfnBytes(0x1C,leSfnBytes(diskSize,4));
+        }
+        var sfnFieldChanged=function(keys){return entryRows.some(function(r){var matches=keys.indexOf(r.field)>=0||(keys.indexOf("DIR_Name")>=0&&r.field.indexOf("DIR_Name")===0);return matches&&r.before!==r.after;});};
+        var sfnLayoutFields=[
+          {offset:"00–0A",bytes:11,name:"DIR_Name",short:"NAME",keys:["DIR_Name"]},
+          {offset:"0B",bytes:1,name:"DIR_Attr",short:"A",keys:["DIR_Attr"]},
+          {offset:"0C",bytes:1,name:"DIR_NTRes",short:"N",keys:["DIR_NTRes"]},
+          {offset:"0D",bytes:1,name:"DIR_CrtTimeTenth",short:"t",keys:["DIR_CrtTimeTenth"]},
+          {offset:"0E–0F",bytes:2,name:"DIR_CrtTime",short:"CT",keys:["CrtTime / CrtDate"]},
+          {offset:"10–11",bytes:2,name:"DIR_CrtDate",short:"CD",keys:["CrtTime / CrtDate"]},
+          {offset:"12–13",bytes:2,name:"DIR_LstAccDate",short:"AD",keys:["DIR_LstAccDate"]},
+          {offset:"14–15",bytes:2,name:"DIR_FstClusHI",short:"HI",keys:["DIR_FstClusHI"]},
+          {offset:"16–17",bytes:2,name:"DIR_WrtTime",short:"WT",keys:["DIR_ModTime / DIR_ModDate"]},
+          {offset:"18–19",bytes:2,name:"DIR_WrtDate",short:"WD",keys:["DIR_ModTime / DIR_ModDate"]},
+          {offset:"1A–1B",bytes:2,name:"DIR_FstClusLO",short:"LO",keys:["DIR_FstClusLO"]},
+          {offset:"1C–1F",bytes:4,name:"DIR_FileSize",short:"SIZE",keys:["DIR_FileSize"]}
+        ];
+        sfnLayoutFields.forEach(function(field){field.changed=sfnFieldChanged(field.keys);});
+        card("磁盘结构 / FAT 短目录项（SFN）","DOCS C5 @ LBA "+docsLba+" + byte offset "+sfnByte+" · 每项 32 B",entryRows,"ff.c 按 DIR_* 固定偏移访问 32 B 字节数组。下面按真实字节顺序画出结构；?? 表示由 GET_FATTIME 提供、此模型未固定的时间字节。",{title:"FAT SFN 目录项的实际 32 B 排布",fields:sfnLayoutFields,bytes:sfnBytes});
         if(lfn&&name.lfnCount>0){
           var lfnBefore=n===2?(recordExists?"空槽":"未写入"):recordExists?name.display:"无记录";
           var lfnAfter=n===2&&recordExists?name.display:state.gone?"名称 UTF-16 字节残留":lfnBefore;
@@ -706,7 +834,30 @@ f_close(&amp;file);  // 内部先 f_sync</pre>
             row("0x1A–0x1B","LDIR_FstClusLO",n===2?(recordExists?"空槽":"未写入"):"0",n===2?(recordExists?"0":"未写入"):recordExists?"0":"无记录","LFN 项此字段保留为 0。")
           ];
           if(n===2&&!recordExists)lfnRows.forEach(function(r){r.before="未写入";r.after="未写入";});
-          card("磁盘结构 / LFN 长文件名项","SFN 前方 "+name.lfnCount+" × 32 B · 每项最多 13 个 UTF-16 字符",lfnRows,"FF_USE_LFN=0 或 8.3 名称时没有额外 LFN 项；删除时每项首字节也标记为 E5h。");
+          var lfnBytes=Array(32).fill(recordExists?"FF":"--"),lfnUnits=[];
+          for(var lu=0;lu<name.display.length;lu++)lfnUnits.push(name.display.charCodeAt(lu));
+          if(recordExists){
+            var lfnOrd=name.lfnCount,lfnStart=(lfnOrd-1)*13,lfnChecksum=0;
+            for(var si=0;si<11;si++){var sfnCode=name.sfn.charCodeAt(si)||32;lfnChecksum=(((lfnChecksum&1)?0x80:0)+(lfnChecksum>>1)+sfnCode)&0xFF;}
+            lfnBytes[0]=(lfnOrd|0x40).toString(16).padStart(2,"0").toUpperCase();lfnBytes[11]="0F";lfnBytes[12]="00";lfnBytes[13]=lfnChecksum.toString(16).padStart(2,"0").toUpperCase();lfnBytes[26]="00";lfnBytes[27]="00";
+            for(var lc=0;lc<13;lc++){
+              var charAt=lfnStart+lc,unit=charAt<lfnUnits.length?lfnUnits[charAt]:charAt===lfnUnits.length?0:0xFFFF;
+              var pos=lc<5?1+lc*2:lc<11?14+(lc-5)*2:28+(lc-11)*2;
+              lfnBytes[pos]=(unit&0xFF).toString(16).padStart(2,"0").toUpperCase();lfnBytes[pos+1]=(unit>>8).toString(16).padStart(2,"0").toUpperCase();
+            }
+            if(state.gone)lfnBytes[0]="E5";
+          }
+          var lfnLayoutFields=[
+            {offset:"00",bytes:1,name:"LDIR_Ord",short:"ORD",changed:n===2||(n===7&&state.gone)},
+            {offset:"01–0A",bytes:10,name:"LDIR_Name1",short:"NAME1",changed:n===2&&recordExists},
+            {offset:"0B",bytes:1,name:"LDIR_Attr",short:"ATTR",changed:n===2&&recordExists},
+            {offset:"0C",bytes:1,name:"LDIR_Type",short:"TYPE",changed:n===2&&recordExists},
+            {offset:"0D",bytes:1,name:"LDIR_Chksum",short:"SUM",changed:n===2&&recordExists},
+            {offset:"0E–19",bytes:12,name:"LDIR_Name2",short:"NAME2",changed:n===2&&recordExists},
+            {offset:"1A–1B",bytes:2,name:"LDIR_FstClusLO",short:"CLUST",changed:false},
+            {offset:"1C–1F",bytes:4,name:"LDIR_Name3",short:"NAME3",changed:n===2&&recordExists}
+          ];
+          card("磁盘结构 / LFN 长文件名项","SFN 前方 "+name.lfnCount+" × 32 B · 每项最多 13 个 UTF-16 字符",lfnRows,"图中展开第一个物理 LFN 项（最大序号并带 40h 末项标志）；名称按 UTF-16LE 分散在三个区域，后续项使用同一布局。删除只改各项首字节 E5h。",{title:"LFN 项 32 B 实际排布",bytes:lfnBytes,fields:lfnLayoutFields});
         }
       }else{
         var setExists=recordExists,entryTypeBefore=n===2?"空槽":setExists?(state.gone?"85h":"85h"):"无记录";
@@ -717,18 +868,36 @@ f_close(&amp;file);  // 内部先 f_sync</pre>
         var exRows=[
           row("entry +0x00","XDIR_Type (85h)",entryTypeBefore,entryTypeAfter,"主项；删除时清除最高位 InUse。"),
           row("entry +0x01","XDIR_NumSec",n===2?"空槽":setExists?String(name.lfnCount+1):"无记录",n===2&&setExists?String(name.lfnCount+1):setExists?String(name.lfnCount+1):"无记录","secondary 数=1 个 C0h + C1h 名称项数。"),
-          row("entry +0x02–03","XDIR_SetSum",n===2?"空槽":setExists?"已保存 checksum":"无记录",n===2&&setExists?"创建时计算":n===4&&setExists?"修改后重新计算":setExists?"已保存 checksum":"无记录","目录项组校验和；同步更新字段后重算，删除只清 InUse 位而保留 checksum。"),
+          row("entry +0x02–03","XDIR_SetSum",n===2?"空槽":setExists?"已保存 checksum":"无记录",n===2&&setExists?"创建时计算":(n===4||n===6)&&setExists?"修改后重新计算":setExists?"已保存 checksum":"无记录","目录项组校验和；同步更新字段后重算，删除只清 InUse 位而保留 checksum。"),
           row("entry +0x04–05","XDIR_Attr",n===2?"空槽":setExists?"0020h (Archive)":"无记录",n===2&&setExists?"0020h":setExists?"0020h":"无记录","属性位于 85h 主项。"),
+          row("entry +0x0C–0F","XDIR_ModTime",n===2?"空槽":setExists?"上次同步时间":"无记录",n===2&&setExists?"创建时初始化":n===4&&setExists?"f_sync 更新":n===6&&setExists?"追加后 f_sync 更新":setExists?"不变":"无记录","exFAT 修改时间存于 85h 主项，由 GET_FATTIME 编码。"),
+          row("entry +0x10–18","XDIR_AccTime / timezone",n===2?"空槽":setExists?"原值 / 可能无效":"无记录",n===2&&setExists?"创建时初始化":(n===4||n===6)&&setExists?"访问时间置无效（0）":"不变","f_sync 将最后访问时间置无效；不记录访问时刻。"),
           row("C0 +0x00","XDIR_Type (C0h)",n===2?"空槽":setExists?"C0h":"无记录",c0TypeAfter,"流扩展保存长度、首簇和分配方式。"),
-          row("C0 +0x01","XDIR_GenFlags",n===2?(setExists?"空槽":"未写入"):setExists?(syncedBefore?streamFlags:"01h"):"无记录",n===2&&setExists?"01h":n===2?"未写入":setExists?(syncedAfter?streamFlags:"01h"):"无记录","连续文件可置 NoFatChain；碎片文件需要 FAT 链。"),
+          row("C0 +0x01","XDIR_GenFlags",n===2?(setExists?"空槽":"未写入"):setExists?(n===6?(initialCount&& !chainIsFragmented(initialCount)?"03h":"01h"):syncedBefore?streamFlags:"01h"):"无记录",n===2&&setExists?"01h":n===2?"未写入":setExists?(syncedAfter?streamFlags:"01h"):"无记录","连续文件可置 NoFatChain；追加使分配变碎片时需清除该标志并使用 FAT 链。"),
           row("C0 +0x23","XDIR_NumName",n===2?"空槽":setExists?String(name.display.length):"无记录",n===2&&setExists?String(name.display.length):setExists?String(name.display.length):"无记录","文件名 UTF-16 字符数。"),
-          row("C0 +0x28–2F","XDIR_ValidFileSize",n===2?"空槽":setExists?(syncedBefore?len:0)+" B":"无记录",n===4&&setExists?len+" B":setExists?(syncedAfter?len:0)+" B":"无记录","有效数据字节数；本例不使用预分配空洞。"),
+          row("C0 +0x28–2F","XDIR_ValidFileSize",n===2?"空槽":setExists?(n===3?0:sizeBefore)+" B":"无记录",n===4&&setExists?len+" B":setExists?(syncedAfter?sizeAfter:0)+" B":"无记录","有效数据字节数；本例不使用预分配空洞。"),
           row("C0 +0x34–37","XDIR_FstClus",n===2?"空槽":setExists?clusterBefore:"无记录",n===4&&setExists?first:setExists?clusterAfter:"无记录","文件数据首簇。"),
-          row("C0 +0x38–3F","XDIR_FileSize",n===2?"空槽":setExists?(syncedBefore?len:0)+" B":"无记录",n===4&&setExists?len+" B":setExists?(syncedAfter?len:0)+" B":"无记录","文件数据长度，64 位字节数。"),
+          row("C0 +0x38–3F","XDIR_FileSize",n===2?"空槽":setExists?(n===3?0:sizeBefore)+" B":"无记录",n===4&&setExists?len+" B":setExists?(syncedAfter?sizeAfter:0)+" B":"无记录","文件数据长度，64 位字节数。"),
           row("C1 +0x00","XDIR_Type (C1h)",n===2?"空槽":setExists?"C1h × "+name.lfnCount:"无记录",c1TypeAfter,"每个名称项携带最多 15 个 UTF-16 字符。")
         ];
         if(n===2&&!setExists)exRows.forEach(function(r){r.before="未写入";r.after="未写入";});
-        card("磁盘结构 / exFAT 文件 entry set","DOCS C5 @ LBA "+docsLba+" + byte offset 96 · 85h + C0h + "+name.lfnCount+"×C1h · 每项 32 B",exRows,"exFAT 文件由 85h 主项、C0h 流扩展和 C1h 名称项组成；文件名在 C1h，首簇/长度在 C0h。");
+        var xRecords=[],xByte=function(value){return value.toString(16).padStart(2,"0").toUpperCase();},xEntry=function(){return Array(32).fill(setExists?"00":"--");},xPut=function(bytes,offset,value,width){for(var xi=0;xi<width;xi++)bytes[offset+xi]=xByte(Math.floor(value/Math.pow(256,xi))&255);};
+        if(setExists){
+          var x85=xEntry(),xC0=xEntry(),xC1=xEntry(),xNameUnits=[];
+          for(var xu=0;xu<name.display.length;xu++)xNameUnits.push(name.display.charCodeAt(xu));
+          x85[0]=state.gone?"05":"85";x85[1]=xByte(name.lfnCount+1);x85[2]="??";x85[3]="??";xPut(x85,4,0x20,2);for(var xt=8;xt<=24;xt++)x85[xt]="??";if(state.gone)x85[0]="05";
+          xC0[0]=state.gone?"40":"C0";xC0[1]=xByte(n>=4&&count&&!fragmented?3:1);xC0[2]="00";xC0[3]=xByte(xNameUnits.length);xC0[4]="??";xC0[5]="??";xPut(xC0,8,diskSize,8);xPut(xC0,20,diskCluster,4);xPut(xC0,24,diskSize,8);
+          xC1[0]=state.gone?"41":"C1";xC1[1]="00";for(var xn=0;xn<15;xn++){var xUnit=xn<xNameUnits.length?xNameUnits[xn]:0;xPut(xC1,2+xn*2,xUnit,2);}
+          if(state.gone){x85[0]="05";xC0[0]="40";xC1[0]="41";}
+          function xFields(items){return items.map(function(item){return {offset:item[0],bytes:item[1],name:item[2],short:item[3],changed:!!item[4]};});}
+          xRecords=[
+            {title:"85h · 文件目录主项",bytes:x85,fields:xFields([["00",1,"XDIR_Type","TYPE",n===2||state.gone],["01",1,"XDIR_NumSec","NSEC",n===2],["02–03",2,"XDIR_SetSum","SUM",n===2||n===4||n===6],["04–05",2,"XDIR_Attr","ATTR",n===2],["06–07",2,"Reserved","RSVD",false],["08–0B",4,"XDIR_CrtTime","CRT",n===2],["0C–0F",4,"XDIR_ModTime","MOD",n===2||n===4||n===6],["10–13",4,"XDIR_AccTime","ACC",n===2||n===4||n===6],["14",1,"CrtTime10","C10",n===2],["15",1,"ModTime10","M10",n===2||n===4||n===6],["16–18",3,"TimeZone","TZ",n===2],["19–1F",7,"Reserved","RSVD",false]])},
+            {title:"C0h · 流扩展（首簇/长度/分配）",bytes:xC0,fields:xFields([["00",1,"XDIR_Type","TYPE",n===2||state.gone],["01",1,"XDIR_GenFlags","FLAGS",n===2||n===4||n===6],["02",1,"Reserved","RSVD",false],["03",1,"XDIR_NumName","NLEN",n===2],["04–05",2,"XDIR_NameHash","HASH",n===2],["06–07",2,"Reserved","RSVD",false],["08–0F",8,"XDIR_ValidFileSize","VALID",n===4||n===6],["10–13",4,"Reserved","RSVD",false],["14–17",4,"XDIR_FstClus","CLUST",n===4],["18–1F",8,"XDIR_FileSize","SIZE",n===4||n===6]])},
+            {title:"C1h · 名称扩展（每项最多 15 个 UTF-16 字符；共 "+name.lfnCount+" 项）",bytes:xC1,fields:xFields([["00",1,"XDIR_Type","TYPE",n===2||state.gone],["01",1,"Reserved","RSVD",false],["02–1F",30,"XDIR_Name","NAME",n===2]])}
+          ];
+        }
+        if(!xRecords.length)xRecords=[{title:"本节点没有写入 entry set",bytes:Array(32).fill("--"),fields:[{offset:"00–1F",bytes:32,name:"NO ENTRY SET",short:"未写入",changed:false}]}];
+        card("磁盘结构 / exFAT 文件 entry set","DOCS C5 @ LBA "+docsLba+" + byte offset 96 · 85h + C0h + "+name.lfnCount+"×C1h · 每项 32 B",exRows,"逐项展开 85h 主项、C0h 流扩展和一个 C1h 名称项示例；C1h 会按名称长度重复。?? 表示时间、名称哈希或校验和由源码计算/平台提供、此模型未固定。文件名在 C1h，首簇和长度在 C0h。",{title:"exFAT entry set 的 32 B 项布局",records:xRecords});
       }
       if(n===2){
         var slotByte=exfat?96:32+(lfn?name.lfnCount:0)*32,slotLba=docsLba+Math.floor(slotByte/g.ss),slotInSector=slotByte%g.ss;
@@ -739,56 +908,96 @@ f_close(&amp;file);  // 内部先 f_sync</pre>
         ],"dir_register 构造目录记录；exFAT 先在 dirbuf 生成 entry set，再由 store_xdir 复制进目录扇区窗口。");
       }
     }
-    if(n>=3&&n<=6){
+    if(n>=3&&n<=7){
       var allocRows=[];
       if(!allowed||!count)allocRows.push(row("—","文件数据簇","无","无","0 B 文件或流程受阻时不分配文件数据簇。"));
       else if(exfat){
         chain.forEach(function(c){
           var byte=Math.floor((c-2)/8),bit=(c-2)%8,lba=clusterSector(g,3)+Math.floor(byte/g.ss);
-          var before=n===3?"0 (free)":state.gone?"1 (allocated)":"1 (allocated)";
+          var wasAllocated=oldChain.indexOf(c)>=0;
+          var before=n===3?"0 (free)":n===6&&!wasAllocated?"0 (free)":state.gone?"1 (allocated)":"1 (allocated)";
           var after=n===3?"1 (bitmap/cache)":state.gone?"0 (free)":"1 (allocated)";
           allocRows.push(row("bit "+(c-2)+" @ LBA "+lba+"/+"+(byte%g.ss),"Bitmap[C"+c+"] bit "+bit,before,after,"位图 bit index = cluster − 2；回答簇是否占用。"));
         });
-        if(chainIsFragmented(count))chain.forEach(function(c,i){var next=i+1<count?"C"+chain[i+1]:"EOC";allocRows.push(row("FAT["+c+"]","FAT link",n===3?"0 / 尚未提交":n===4?"待写入链接":next,n===3?"待 f_sync 写入链接":next,"碎片化示例才需 FAT 后继；删除时 bitmap 清零，但 FAT 链字节可残留且不再表示占用。"));});
+        if(chainIsFragmented(count))chain.forEach(function(c,i){var next=i+1<count?"C"+chain[i+1]:"EOC",oldIndex=oldChain.indexOf(c),oldNext=oldIndex>=0?(chainIsFragmented(initialCount)?(oldIndex+1<oldChain.length?"C"+oldChain[oldIndex+1]:"EOC"):"NoFatChain / 无 FAT 链项"):"0 / 空闲";allocRows.push(row("FAT["+c+"]","FAT link",n===3?"0 / 尚未提交":n===6?oldNext:state.gone?next:next,n===3?"待 f_sync 写入链接":state.gone?"0 / 释放":next,"碎片文件需要 FAT 后继；追加时可能把旧链尾 EOC 改成新簇，删除时 exFAT 位图清零但 FAT 链字节可残留。"));});
       }else{
         chain.forEach(function(c,i){
           var next=i+1<count?"C"+chain[i+1]:eoc,bytes=type==="fat12"?c+Math.floor(c/2):type==="fat16"?c*2:c*4;
           var lba=g.fatbase+Math.floor(bytes/g.ss),off=bytes%g.ss;
-          var before=n===3?"0 (free)":next,after=n===3?next+" (dirty window)":state.gone?"0 (free)":next+(n===4?" (synced)":"");
+          var oldIndex=oldChain.indexOf(c),oldNext=oldIndex>=0?(oldIndex+1<oldChain.length?oldChain[oldIndex+1]:"EOC (链尾)"):"0 (free)";
+          var before=n===3?"0 (free)":n===6?oldNext:next,after=n===3?next+" (dirty window)":state.gone?"0 (free)":next+(n===4||n===6?" (synced)":"");
           allocRows.push(row("FAT["+c+"] @ LBA "+lba+"/+"+off,"FAT link",before,after,i+1<count?"指向后继簇 C"+chain[i+1]+"；副本数 "+g.fats+"。":"链尾 EOC "+eoc+"；副本数 "+g.fats+"。"));
         });
       }
       card(exfat?"磁盘分配结构 / allocation bitmap"+(chainIsFragmented(count)?" + FAT":""):"磁盘分配结构 / FAT 表项",exfat?"bitmap cluster 3 @ LBA "+clusterSector(g,3):"FAT #1 @ LBA "+g.fatbase+(g.fats===2?"；镜像 FAT #2 @ LBA "+(g.fatbase+g.fsize):""),allocRows,exfat?"位图标出已占用簇；碎片文件还需 FAT 表项给出后继。":"FAT[c] 保存簇链关系，不保存文件名或文件字节。FAT12 表项按 12 bit 打包，相邻项共享半字节；FAT16/32 分别按 16/32 bit 编码。");
     }
-    if(n>=2&&n<=5){
+    if(n>=2&&n<=6){
+      var objBefore=n===2?"无 FIL":n===3?"首簇 0 / 长度 0 B":n===4?"C"+first+" / "+len+" B（待同步）":n===5?"旧 FIL 已关闭":(initialCount?"C"+oldChain[0]:"空文件")+" / "+state.initialLen+" B（追加打开）";
+      var objAfter=n===2?"首簇 0 / 长度 0 B":n===3?"C"+first+" / "+len+" B（RAM 已增长）":n===4?"C"+first+" / "+len+" B（RAM 不变，磁盘追平）":n===5?"恢复 C"+first+" / "+len+" B，读取后 f_close":(count?"C"+first:"空文件")+" / "+len+" B，追加同步后 f_close";
+      if(!allowed){objBefore="无有效 FIL";objAfter="无有效 FIL";}
+      var objRows=[
+        row("成员","fs","未创建 / 已关闭",allowed?(n===5||n===6?"&FATFS（操作中）→ f_close 置空":"&FATFS（卷上下文）"):"无有效 FIL","公共头中的卷指针；f_close 后 FIL.obj.fs 清零使对象失效。"),
+        row("成员","id","未创建 / 旧代次对象已关闭",allowed?"FATFS.id（本次挂载代次）":"无有效 FIL","打开时保存卷代次；validate 用它检测过期对象。"),
+        row("成员","attr","无对象",allowed?"20h · Archive（磁盘目录项属性）":"未创建","文件属性镜像在对象头中；不是打开权限 flag。"),
+        row("成员","sclust",objBefore,objAfter,"数据首簇；首次写入分配后在 RAM 更新，f_sync 再写入目录项。"),
+        row("成员","objsize",objBefore,objAfter,"RAM 文件长度；与磁盘目录项长度可能暂时不同。")
+      ];
+      if(exfat){
+        var statOld=n===2?"0（空对象）":n===3?(count?(chainIsFragmented(count)?"3（本次写入形成碎片）":"2（连续）"):"0（无簇）"):n===6?(initialCount?(chainIsFragmented(initialCount)?"0（已有 FAT 链）":"2（连续）"):"0（空文件）"):chainIsFragmented(count)?"0（已持久化 FAT 链）":"2（连续）";
+        var statNew=n===2?"0（空对象）":n===3?(count?(chainIsFragmented(count)?"3（待同步补链）":"2（连续）"):"0（无簇）"):n===4||n===5||n===6?(count?(chainIsFragmented(count)?"0（FAT 链有效）":"2（连续）"):"0（无簇）"):statOld;
+        objRows.push(row("成员","stat / n_cont / n_frag",statOld,statNew,"exFAT 的 RAM 分配状态；碎片簇链可能暂存在对象里，f_sync 时补齐 FAT 后继。"));
+        objRows.push(row("成员","c_scl / c_size / c_ofs",n===2?"尚未关联目录项":"父目录 C5 / entry-set +96",allowed?"父目录 C5 / entry-set +96":"无有效 FIL","exFAT 对象回到父目录 entry set 的定位信息。"));
+      }else{
+        objRows.push(row("成员","stat / exFAT 扩展字段","结构中存在 stat；FAT 下不承担 NoFatChain 状态","FAT 下未使用","FFOBJID 的字段语义会随卷格式改变。"));
+      }
+      if(Number(cfg.FF_FS_LOCK)>0)objRows.push(row("条件成员","lockid","尚未分配",allowed?(n===5||n===6?"1（操作中）→ close 释放":"1（共享锁表槽位）"):"未分配","仅 FF_FS_LOCK>0 编入。"));
+      card("RAM 公共对象头 / FFOBJID（FIL.obj）","source/ff.h · FIL 的首成员 obj",objRows,"FIL 以 FFOBJID 开头。这里单独追踪卷引用、挂载代次、属性、首簇和长度；FIL 自身字段另列在下一张卡。");
       var filRows=[];
-      filRows.push(row("成员","obj.sclust",n===2?"无 FIL":n===3?"0":n===4&&allowed?"0":n===5&&allowed?"从目录项恢复 C"+first:"FIL 未打开",n===2&&allowed?"0":n===3&&allowed?String(first):n===4&&allowed?String(first):n===5&&allowed?"读取后关闭":"无变化","FFOBJID 中的数据首簇，不是磁盘目录项本身。"));
-      filRows.push(row("成员","obj.objsize",n===2?"无 FIL":n===3?"0 B":n>=4&&allowed?len+" B":"FIL 未打开",n===2&&allowed?"0 B":n===3&&allowed?len+" B":n>=4&&allowed?(n===5?"从目录项恢复 "+len+" B → 关闭":len+" B"):"无变化","RAM 文件长度；f_write 先增长，f_sync 再提交到目录项。"));
-      filRows.push(row("成员","fptr",n===2?"无 FIL":n===3?"0":n===4&&allowed?len+" (写完)":n===5&&allowed?"0 (重新打开)":"无 FIL",n===2&&allowed?"0":n===3&&allowed?len+" (写完)":n===5&&allowed?len+" → f_close 后对象失效":n===4&&allowed?len+" (仍打开)":"无 FIL","文件内字节游标，读写后推进。"));
+      filRows.push(row("成员","fptr",n===2?"无 FIL":n===3?"0":n===4&&allowed?len+" (写完)":n===5&&allowed?"0 (重新打开)":n===6&&allowed?state.initialLen+" (FA_OPEN_APPEND 定位 EOF)":"无 FIL",n===2&&allowed?"0":n===3&&allowed?len+" (写完)":n===5&&allowed?len+" → f_close 后对象失效":n===6&&allowed?len+" (追加后 EOF) → f_close":n===4&&allowed?len+" (仍打开)":"无 FIL","文件内字节游标，读写后推进。"));
       filRows.push(row("成员","clust / sect",allowed&&count?"当前数据簇/扇区":"未定位",allowed&&count?"C"+first+" / 数据 LBA "+clusterSector(g,first):"未定位","当前文件偏移所在簇与扇区。"));
-      if(exfat)filRows.push(row("成员","obj.c_scl / c_ofs",n===2?"无 FIL":allowed?"C5 / 96":"未设置",n===2&&allowed?"C5 / 96 (父目录与 entry-set 偏移)":allowed?"C5 / 96":"未设置","用于回到父目录中的 entry set。"));
-      if(exfat){var frag=chainIsFragmented(count),statBefore=n===2?"无数据簇":n===3?"0":n===4?(frag?"3 (本次变碎片)":"2 (连续)"):frag?"0 (FAT 链已有效)":"2 (连续)";var statAfter=n===2?"0 (空文件)":n===3?(count?(frag?"3 (本次变碎片)":"2 (连续)"):"0"):n===4?(frag?"0 (FAT 链已有效)":"2 (连续)"):frag?"0 (从目录项恢复)":"2 (从目录项恢复)";if(!allowed){statBefore="未创建 FIL";statAfter="未创建 FIL";}filRows.push(row("成员","obj.stat",statBefore,statAfter,"exFAT RAM 链状态；本次碎片过程还用 n_cont / n_frag 记账，同步后补齐 FAT links。"));}
-      filRows.push(row("成员","flag (FA_WRITE / FA_MODIFIED / FA_DIRTY)",n===2&&allowed?"无 FIL":n===3&&allowed?"FA_WRITE":n===4&&allowed?"FA_MODIFIED / 可能 FA_DIRTY":n===5&&allowed?"重新打开为 FA_READ":"未打开",n===2&&allowed?"FA_WRITE":n===3&&allowed?"FA_WRITE | FA_MODIFIED":n===4&&allowed?"同步后清除 FA_MODIFIED / FA_DIRTY":n===5&&allowed?"读取至 EOF → f_close":"关闭后对象失效","RAM 状态标志，不在磁盘目录项里。"));
-      filRows.push(row("成员","buf[] / FATFS.win[]",n===3&&allowed?(isOn("FF_FS_TINY")?"共享窗口":"FIL 私有扇区缓存"):"无活动数据缓存",n===3&&allowed?"整扇区写盘；尾部字节暂存":n===5&&allowed?"f_read 数据经缓存交给调用者":"同步或关闭后复用","FF_FS_TINY=1 时 FIL 不含 buf[]，数据缓存改用 FATFS.win。"));
-      card("RAM 文件对象 / FIL + FFOBJID","source/ff.h · f_open → f_write / f_read → f_sync / f_close",filRows,"FIL 不是磁盘文件。创建节点结束时已经得到一个打开的 FIL；关闭后，下次打开仍从磁盘目录项恢复首簇和长度。");
+      filRows.push(row("成员","flag (FA_WRITE / FA_MODIFIED / FA_DIRTY)",n===2&&allowed?"无 FIL":n===3&&allowed?"FA_WRITE":n===4&&allowed?"FA_MODIFIED / 可能 FA_DIRTY":n===5&&allowed?"重新打开为 FA_READ":n===6&&allowed?"FA_OPEN_APPEND | FA_WRITE":"未打开",n===2&&allowed?"FA_WRITE":n===3&&allowed?"FA_WRITE | FA_MODIFIED":n===4&&allowed?"同步后清除 FA_MODIFIED / FA_DIRTY":n===5&&allowed?"读取至 EOF → f_close":n===6&&allowed?"追加后 f_sync 清标志 → f_close":"关闭后对象失效","RAM 状态标志，不在磁盘目录项里。"));
+      filRows.push(row("成员","dir_sect / dir_ptr",n>=2&&allowed?"目录项位置已登记":"未定位",n===4&&allowed?"定位目录项以更新 FileSize / 首簇":n===5&&allowed?"关闭后指针失效":n===6&&allowed?"f_sync 更新长度后关闭":"持有当前 SFN 项位置","FAT 配置下 FIL 保存目录项扇区和窗口指针；exFAT 用对象定位字段重载 entry set。"));
+      filRows.push(row("成员","buf[] / FATFS.win[]",(n===3||n===6)&&allowed?(isOn("FF_FS_TINY")?"共享窗口":"FIL 私有扇区缓存"):"无活动数据缓存",n===3&&allowed?"整扇区写盘；尾部字节暂存":n===6&&allowed?"保留原 EOF 扇区字节；追加尾部由 f_sync 刷新":n===5&&allowed?"f_read 数据经缓存交给调用者":"同步或关闭后复用","FF_FS_TINY=1 时 FIL 不含 buf[]，数据缓存改用 FATFS.win。"));
+      card("RAM 文件对象 / FIL 自身字段","source/ff.h · f_open → f_write / f_read / f_sync / f_close",filRows,"FIL 自身保存文件游标、访问模式、错误状态、目录项位置和可选数据缓存；其首成员 obj 是单独展开的 FFOBJID。");
     }
-    if(n===1||n===6){
+    if(n===1||n===2||n===5||n===6||n===7){
       card("RAM 目录对象 / DIR","source/ff.h: DIR · 扫描/登记/删除使用的游标",[
+        row("成员","obj.fs / id","未创建",mounted?"&FATFS；局部路径 DIR 使用当前卷上下文":"无有效卷对象","公开 f_opendir 返回的 DIR 还记录 FATFS.id 挂载代次；挂载失败时不会得到有效卷指针。"),
+        row("成员","obj.attr / stat","未命中",n===1&&allowed?"DOCS=10h Directory":n===2&&allowed?"新文件=20h Archive":n===7&&allowed?"目标文件属性已读入":"由当前匹配项决定","attr 来自当前目录项；stat 主要承载 exFAT 分配状态。"),
         row("成员","obj.sclust","根目录",n===1&&allowed?"DOCS C5":"父目录 C5","DIR 的对象字段指出当前目录。"),
-        row("成员","dptr / clust / sect","0 / root / "+rootLba,n===1&&allowed?"扫描后定位 DOCS LBA "+docsLba:n===6&&state.gone?"定位目标记录":"位置不变","目录字节偏移换算为簇、扇区和窗口位置。"),
-        row("成员","dir / fn[12]","FATFS.win 指针 / 查询名",n===6&&state.gone?"目标记录指针已标记删除":"比较 "+name.sfn,"RAM 指针指向当前目录项，不是磁盘地址。")
+        row("成员","dptr / clust / sect","0 / root / "+rootLba,n===1&&allowed?"扫描后定位 DOCS LBA "+docsLba:n===5&&allowed?"重新扫描根目录与 DOCS / 定位目标项":n===7&&state.gone?"定位目标记录并删除":n===6&&allowed?"重新打开并定位目标记录":"位置不变","目录字节游标换算为簇、扇区和窗口位置。"),
+        row("成员","dir / fn[12]","FATFS.win 指针 / 查询名",n===7&&state.gone?"目标记录指针已标记删除":"比较 "+name.sfn,"RAM 指针指向当前目录项，不是磁盘地址。")
       ],"DIR 保留遍历位置和当前项指针；目录项扇区由 FATFS.win / exFAT dirbuf 承载。");
     }
-    if(n===4||n===6){
-      var syncChange=n===4?allowed:state.gone;
-      var allocChanged=syncChange&&count>0;
+    if(n===7){
+      var unlinkCompleted=state.gone,unlinkUnavailable=state.deleteUnavailable,unlinkEnd=unlinkCompleted?"f_unlink 返回；局部对象生命周期结束":unlinkUnavailable?"f_unlink 未编译；未创建删除上下文":mounted?"未完成有效删除；临时上下文不代表磁盘改动":"未挂载；未创建有效上下文";
+      var unlinkRows=[
+        row("局部对象","dj.obj.fs",unlinkUnavailable?"API 未编入":mounted?"&FATFS":"无有效卷",unlinkEnd,"f_unlink 用局部 DIR 跟踪路径和父目录项；不是长期打开的 FIL。"),
+        row("局部变量 / 成员",exfat?"obj.sclust / obj.objsize":"dj.obj.sclust / dclst",unlinkUnavailable?"API 未编入":exfat?(unlinkCompleted?"目标 C"+first+" / "+len+" B（init_alloc_info）":"未初始化或未到达删除"):(unlinkCompleted?"父目录 C5 / 目标首簇 C"+first:"未读取或未到达删除"),unlinkCompleted?(exfat?"remove_chain(&obj, dclst, 0) 后释放簇":"remove_chain(&dj.obj, dclst, 0)；dclst 是独立局部变量") : unlinkEnd,exfat?"exFAT 从 entry set 构造临时 FFOBJID，取得目标首簇/大小/分配状态。":"FAT 从目录项读目标首簇到局部 dclst；dj.obj.sclust 仍指父目录。"),
+        row("条件成员","obj.stat（仅 exFAT）",exfat?(unlinkCompleted?"从 C0h GenFlags 初始化的分配状态":"未初始化") : "结构不适用",exfat?(unlinkCompleted?"簇链释放后，局部状态随函数返回消失":"未执行") : "FAT 删除按 FAT 表项遍历簇链，不需 exFAT obj.stat","stat 描述 exFAT 连续簇/碎片链策略，不是文件的持久磁盘字段。")
+      ];
+      card("删除期间的临时分配对象 / FFOBJID", "source/ff.c · f_unlink 的 dj / exFAT obj / dclst",unlinkRows,"这是 f_unlink 调用栈中的临时状态：成功时先标记目录记录，再释放 FAT 链或 exFAT 位图分配，最后同步卷；函数返回后这些局部对象消失。"+(unlinkUnavailable?" 只读构建没有编入 f_unlink，且本流程的目标文件此前没有创建。":""));
+    }
+    if(n===4||n===6||n===7){
+      var appendChanged=allowed&&state.appendLen>0;
+      var syncChange=n===4?allowed:n===6?appendChanged:state.gone;
+      var allocChanged=syncChange&&(n===6?addedCount>0:count>0);
       var syncRows=[row("成员","FATFS.wflag",syncChange?"1 (元数据窗口可能脏)":"0",syncChange?"0 (窗口写回完成)":"0","wflag 表示 FAT/目录窗口需要写回。"),row("成员","FATFS.fsi_flag",allocChanged?"1 (分配改变)":"0",allocChanged?"0 (sync_fs 完成)":"0","空间分配提示有变化时置位；空文件不会改变分配计数。")];
-      if(n===4)syncRows.push(row("成员","FIL.flag",allowed?"FA_MODIFIED / 可能 FA_DIRTY":"无 FIL",allowed?"f_sync 后清除":"无 FIL","同步成功后清掉运行时修改标志。"));
+      if(n===4||n===6)syncRows.push(row("成员","FIL.flag",allowed?(n===6?"FA_OPEN_APPEND | FA_WRITE":"FA_MODIFIED / 可能 FA_DIRTY"):"无 FIL",allowed?(n===6?(appendChanged?"f_sync 后清除 FA_MODIFIED / FA_DIRTY":"无 FA_MODIFIED；f_sync 无写回") :"同步后清除 FA_MODIFIED / FA_DIRTY"):"无 FIL","只有 f_write 实际写入字节时才置 FA_MODIFIED；同步成功后清除运行时修改标志。"));
       if(type==="fat32"&&allocChanged)syncRows.push(row("FSINFO LBA "+g.fsinfo+" +0x1E8 / +0x1EC","Free_Count / Nxt_Free","可能未知/旧估计","有效时更新；受 FF_FS_NOFSINFO 控制","FAT32 空闲空间提示，不是目录项，也不一定有效。"));
       if(exfat&&allocChanged)syncRows.push(row("VBR LBA "+g.base+" +0x70","BPB_PercInUseEx","旧值/未知","按 (簇总数−free_clst)×100/簇总数 更新；未知为 FFh","exFAT 卷使用率提示，不是文件内容。"));
-      card(n===4?"同步控制字段 / 缓存与空间提示":"删除后的同步控制字段 / 缓存与空间提示",type==="fat32"?"FSINFO @ LBA "+g.fsinfo+" +0x1E8/+0x1EC · FATFS RAM 标志":"RAM FATFS 标志与卷辅助字段",syncRows,"sync_fs 先刷新元数据窗口，再在有效时更新 FSINFO（FAT32）或 PercentInUse（exFAT），最后请求 CTRL_SYNC。写回不是原子事务，断电可能留下部分更新。");
+      card(n===4?"同步控制字段 / 缓存与空间提示":n===6?"追加后的同步控制字段 / 缓存与空间提示":"删除后的同步控制字段 / 缓存与空间提示",type==="fat32"?"FSINFO @ LBA "+g.fsinfo+" +0x1E8/+0x1EC · FATFS RAM 标志":"RAM FATFS 标志与卷辅助字段",syncRows,n===6&&!allowed?"目标文件未创建或当前构建只读，没有可追加的 FIL。":n===6&&!appendChanged?"追加长度为 0：f_write 不置 FA_MODIFIED，f_sync 没有文件元数据或数据扇区需要写回。":"sync_fs 先刷新元数据窗口，再在有效时更新 FSINFO（FAT32）或 PercentInUse（exFAT），最后请求 CTRL_SYNC。写回不是原子事务，断电可能留下部分更新。");
     }
-    if(n===6&&count){
+    if(n===6&&allowed){
+      var appendBefore=state.initialLen,appendAfter=len;
+      var appendRange=appendAfter>appendBefore?appendBefore+"–"+(appendAfter-1)+" B":"无新增字节";
+      card("追加写入的数据范围","旧 EOF "+appendBefore+" B → 新 EOF "+appendAfter+" B · "+(count?"数据首簇 C"+first:"空文件，无数据簇"),[
+        row("byte range","追加内容",appendRange,appendRange,appendAfter>appendBefore?"追加不覆盖 EOF 之前的有效内容；EOF 落在扇区中间时需保留同扇区旧字节。":"请求长度为 0，没有新增文件字节。"),
+        row("FIL.fptr","文件游标",appendBefore,"追加后 "+appendAfter+" → close","FA_OPEN_APPEND 先把 fptr 定位到目录记录提供的旧文件长度。"),
+        row("DIR FileSize / DataLength","磁盘长度",appendBefore+" B",appendAfter+" B",appendAfter>appendBefore?"f_sync 更新 FAT SFN FileSize 或 exFAT C0h DataLength。":"长度未变化；本次不写回文件长度字段。")
+      ],appendAfter===appendBefore?"本次没有数据写入，目录长度、分配信息与数据扇区保持不变。":"新增字节沿原簇链尾部继续写；只有追加超出现有簇容量时才分配新簇。完整扇区可直写，尾部部分扇区由缓存写回。");
+    }
+    if(n===7&&count){
       var oldDataLocations=chain.map(function(c){return "C"+c+" LBA "+clusterSector(g,c)+"–"+(clusterSector(g,c)+g.csize-1);}).join("；");
       card("文件内容区（区分元数据与数据）","释放前数据簇位置："+oldDataLocations,[
         row("data bytes","文件内容","旧字节仍在","旧字节仍在","删除只改目录项和分配关系；没有清零文件数据区。"),
@@ -796,7 +1005,18 @@ f_close(&amp;file);  // 内部先 f_sync</pre>
       ],"f_unlink 通常不写 0 覆盖内容；启用 TRIM 时也只是提示设备回收释放范围。");
     }
     if(!cards.length){var fallback=document.createElement("div");fallback.className="structure-empty";fallback.textContent="当前节点没有可显示的结构变化。";grid.appendChild(fallback);return;}
-    cards.forEach(putCard);
+    var measureHost=document.createElement("div");measureHost.className="structure-grid";
+    measureHost.style.cssText="position:fixed;left:-10000px;top:0;width:"+grid.clientWidth+"px;visibility:hidden;pointer-events:none;";
+    var measureColumn=document.createElement("div");measureColumn.className="structure-column";measureHost.appendChild(measureColumn);document.body.appendChild(measureHost);
+    var measured=cards.map(function(c,index){var box=putCard(c);box.style.order=String(index);measureColumn.appendChild(box);var height=box.getBoundingClientRect().height;measureColumn.removeChild(box);return {box:box,index:index,height:height};});
+    measureHost.remove();
+    measured.sort(function(a,b){return b.height-a.height||a.index-b.index;});
+    var columns=[document.createElement("div"),document.createElement("div")];
+    columns.forEach(function(column){column.className="structure-column";grid.appendChild(column);});
+    measured.forEach(function(item){
+      var target=columns[0].getBoundingClientRect().height<=columns[1].getBoundingClientRect().height?columns[0]:columns[1];
+      target.appendChild(item.box);
+    });
   }
   function renderPrincipleMap(g,name){
     var rpath=Number(cfg.FF_FS_RPATH)>0,lfn=Number(cfg.FF_USE_LFN),len=sizeValue(),cb=g.clusterBytes;
@@ -824,7 +1044,7 @@ f_close(&amp;file);  // 内部先 f_sync</pre>
     document.getElementById("principleEquation").textContent="文件偏移 "+offset+" = "+chainIndex+" × "+cb+" B/簇 + "+inside+" B 簇内偏移。\n"+mapNote+"\n簇到扇区："+clusterCalc+"；簇内扇区 floor("+inside+" / "+g.ss+") = "+sectorInCluster+"，所以 LBA = "+lba+"。\n扇区内字节 = "+inside+" mod "+g.ss+" = "+byteInSector+"；设备最终按 LBA 读取该扇区。";
   }
   function renderPageModel(g,name){
-    var fmt=mediaLabel(g.type),lfn=Number(cfg.FF_USE_LFN),exfatSupport=isOn("FF_FS_EXFAT"),rpath=Number(cfg.FF_FS_RPATH),tiny=isOn("FF_FS_TINY");
+    var fmt=mediaLabel(g.type),lfn=Number(cfg.FF_USE_LFN),exfatSupport=isOn("FF_FS_EXFAT"),rpath=Number(cfg.FF_FS_RPATH),tiny=isOn("FF_FS_TINY"),appendLen=appendSizeValue(),finalSize=sizeValue()+appendSizeValue();
     var id=volumeId(),path=apiPath(name),entryBytes="32 B / 项",slotCount=name.valid?(g.type==="exfat"?name.lfnCount+2:name.lfnCount+1):0;
     var mediaSupported=g.type!=="exfat"||(exfatSupport&&lfn>0),flowCanWrite=!configErrors.length&&mediaSupported&&name.valid&&!isOn("FF_FS_READONLY");
     var plannedClusters=flowCanWrite?Math.min(20,Math.ceil(sizeValue()/g.clusterBytes)):0,plannedChain=illustrativeChain(g,plannedClusters),fragmented=chainIsFragmented(plannedClusters);
@@ -880,9 +1100,10 @@ f_close(&amp;file);  // 内部先 f_sync</pre>
     document.getElementById("evolutionSync").textContent=!flowCanWrite?"没有成功创建并写入文件，因此本流程不执行 f_sync 写回。":"写回数据缓存并更新目录记录的首簇、长度、修改时间（"+clockDesc+"）；"+(g.type==="fat32"?"FAT32 可更新 FSINFO 空闲簇提示。":"此格式没有 FAT32 FSINFO 扇区。")+(isOn("FF_FS_CRTIME")?" FILINFO 另含创建日期/时间成员。":"")+"最后请求 CTRL_SYNC。";
     document.getElementById("evolutionReopen").textContent=!flowCanWrite?"文件没有创建成功；重新打开时仍找不到目标目录记录。":"再次扫描 "+(rpath>0?"当前目录 cluster 5":"卷根目录与 DOCS")+"，从文件目录记录恢复首簇和长度，再建立新的 FIL 状态。";
     document.getElementById("evolutionRead").textContent=!flowCanWrite?"目标文件不存在，f_open(FA_READ) 返回 FR_NO_FILE；不会读取数据扇区。":plannedClusters===0?"空文件长度为 0；f_read 返回 0 字节，不访问文件数据簇。":(g.type==="exfat"?"从 entry set 取得首簇；连续文件按偏移直接算簇，分散文件查 FAT；再定位数据扇区并 disk_read。":"从目录项首簇开始，按 fptr/csize 定位簇；跨簇时沿 FAT 取下一簇，再 disk_read 对应 LBA。")+" 部分扇区数据经过 "+(tiny?"FATFS.win":"FIL.buf")+" 缓存。";
-    document.getElementById("evolutionDelete").textContent=!flowCanWrite?"当前流程没有创建目标文件；没有目录记录或簇可删除。":Number(cfg.FF_FS_MINIMIZE)>0?"FF_FS_MINIMIZE="+cfg.FF_FS_MINIMIZE+" 时 f_unlink 不编入；目录记录与分配信息保持原样。":"标记目录项删除并释放分配信息；"+(g.type==="exfat"?"清除位图对应位":"清空 FAT 链")+(isOn("FF_USE_TRIM")?"，并可请求 CTRL_TRIM":"")+"。";
+    document.getElementById("evolutionAppend").textContent=!flowCanWrite?"前序创建失败或当前为只读构建，没有可追加的目标 FIL。":appendLen===0?"FA_OPEN_APPEND 重新查找并将 fptr 定位到 EOF="+sizeValue()+"；f_write 长度为 0，不改数据或目录长度。":"FA_OPEN_APPEND 重新扫描路径并从目录项恢复 EOF="+sizeValue()+"，fptr 从该位置开始；f_write 追加 "+appendLen+" B，长度变为 "+finalSize+" B。若超过现有簇容量才分配新簇；f_sync 更新 FileSize / DataLength、修改时间和分配元数据，最后 CTRL_SYNC。";
+    document.getElementById("evolutionDelete").textContent=!flowCanWrite?"当前流程没有创建目标文件；没有目录记录或簇可删除。":"f_unlink 重新定位并标记目录项删除，再释放分配信息；"+(g.type==="exfat"?"清除位图对应位":"清空 FAT 链")+(isOn("FF_USE_TRIM")?"，并可请求 CTRL_TRIM":"")+"。FF_FS_MINIMIZE 不裁剪 f_unlink；只读构建则不编入写操作 API。";
     document.getElementById("evolutionData").textContent="删除通常只释放元数据映射，不主动擦除数据字节；介质支持 TRIM 时也只是提示设备回收，不能当作安全擦除保证。";
-    document.getElementById("flowInputHint").textContent="当前每簇 "+g.clusterBytes+" B（扇区 "+g.ss+" B × "+g.csize+"）；"+(isOn("FF_FS_READONLY")?"长度只用于估算，当前只读流程不会实际分配。":"写入长度会实时重算簇数、目录大小与 LBA。")+"路径前缀受 FF_STR_VOLUME_ID / FF_VOLUME_STRS 控制。";
+    document.getElementById("flowInputHint").textContent="当前每簇 "+g.clusterBytes+" B（扇区 "+g.ss+" B × "+g.csize+"）；首次写入 "+sizeValue()+" B，追加 "+appendLen+" B，最终长度 "+finalSize+" B。"+(isOn("FF_FS_READONLY")?"只读流程不会实际分配。":"修改长度后簇数、追加 EOF 位置与 LBA 会实时重算。")+"路径前缀受 FF_STR_VOLUME_ID / FF_VOLUME_STRS 控制。";
     document.getElementById("syncWarning").innerHTML=isOn("FF_FS_READONLY")?"<strong>只读配置：</strong>此构建不执行数据、FAT / 位图、目录项或 FSINFO 的写回；CTRL_SYNC 写入同步不参与本条流程。":!flowCanWrite?"<strong>当前路径没有写入：</strong>目标文件未能创建，所以不会进入 f_sync / CTRL_SYNC；有效可写流程的同步顺序仍如步骤说明所述。":"<strong>同步不是事务：</strong>FatFs 按顺序写回数据与元数据，再请求 disk_ioctl(CTRL_SYNC)。"+(g.type==="fat32"?" FAT32 可能更新 FSINFO。":g.type==="exfat"?" exFAT 更新分配位图及有效时的使用率字段，不使用 FSINFO。":" FAT12/16 没有 FAT32 FSINFO 扇区。")+" 突然断电仍可能造成部分更新；一致性还取决于介质与应用恢复策略。";
     var freeLabel=g.type==="fat32"?"FSINFO 空闲簇估计":g.type==="exfat"?"分配位图空闲簇估计":"空闲簇估计（模型）";
     document.querySelector("#clusterMap").setAttribute("aria-label",fmt+" 簇分配图");
@@ -895,6 +1116,38 @@ f_close(&amp;file);  // 内部先 f_sync</pre>
       return String(cfg[row.key]).split(",").map(function(part){return '"'+part.trim().replace(/[^A-Za-z0-9]/g,"")+'"';}).filter(function(part){return part!=='""';}).join(",");
     }
     return String(cfg[row.key]);
+  }
+  function renderSupplementalStructures(g,name,len,n,state){
+    function fill(id,rows){
+      var body=document.getElementById(id);body.textContent="";
+      rows.forEach(function(values){var tr=document.createElement("tr");values.forEach(function(value){var td=document.createElement("td");td.textContent=String(value);tr.appendChild(td);});body.appendChild(tr);});
+    }
+    var exfat=g.type==="exfat",lfn=Number(cfg.FF_USE_LFN)>0,crtime=isOn("FF_FS_CRTIME"),mini=Number(cfg.FF_FS_MINIMIZE),found=!!state.entryExists&&!state.gone,statAvailable=mini===0,readdirAvailable=mini<=1;
+    var visibleSize=found?(n>=4?len:0):null;
+    var infoRows=[
+      ["成员","fsize",found?visibleSize+" B":"无有效结果",found?"从 SFN FileSize 或 exFAT C0h FileSize 读取；同步前仍可能是旧值。":"f_stat 返回 FR_NO_FILE；f_readdir 到目录末尾时 fname[0]=0。"],
+      ["成员","fdate / ftime",found?"目录项时间字段（示例未固定）":"—",found?"FAT 取修改日期/时间；exFAT 取 85h XDIR_ModTime。":"来自目录项，不是 FIL 的运行时游标。"],
+      ["条件成员","crdate / crtime",crtime?(found?"创建日期 / 时间（示例未固定）":"—"):"未编入（FF_FS_CRTIME=0）",crtime?"FF_FS_CRTIME=1 时保存创建时间快照。":"ff.h 中以 #if FF_FS_CRTIME 条件编译。"],
+      ["成员","fattrib",found?"20h · Archive":"—",found?"由磁盘目录属性转换；不等于 FA_READ / FA_WRITE 打开标志。":"属性来自目录项。"],
+      ["条件成员","fname",found?(lfn?name.display:name.sfn):"—",lfn?"主名称；FAT 从 LFN 项解析，exFAT 从 C1h 名称项解析。":"FF_USE_LFN=0 时 fname[13] 保存短名。"],
+      ["条件成员","altname",!lfn?"字段不存在":!found?"—":exfat?"空字符串（exFAT 无 SFN 别名）":name.sfn,!lfn?"FF_USE_LFN=0 时不编译 altname。":"FF_USE_LFN>0 时存在；FAT 返回 8.3 别名，exFAT 不支持 SFN。"],
+      ["API / 条件编译","f_stat(path, &fno)",statAvailable?(found?"FR_OK":"FR_NO_FILE"):readdirAvailable?"未编译；可用 f_readdir":"查询 API 已裁剪",statAvailable?(found?"把目录记录转换成 FILINFO；不会创建或修改文件。":"当前节点的磁盘命名空间中没有可查询的目标文件。"):readdirAvailable?"FF_FS_MINIMIZE=1 时 f_stat 被裁剪，但 f_opendir/f_readdir 仍可枚举并填充 FILINFO。":"FF_FS_MINIMIZE>1 时目录枚举 API 也被裁剪；FILINFO 类型仍在，但当前没有该查询入口。"]
+    ];
+    fill("filinfoApiRows",infoRows);
+    var infoNote=!readdirAvailable?"当前 FF_FS_MINIMIZE>1，f_stat 与目录枚举入口均被裁剪。FILINFO 类型仍定义在 ff.h，但当前构建不会通过这些 API 填充它。":found?(n===3?"当前是步骤 4“写数据”：FIL 中的长度已增长，但目录项尚未 f_sync，所以查询仍从磁盘记录读到 0 B。":n===2?"步骤 3 刚创建空文件，目录记录已经存在，fsize 为 0 B。":n===7?"删除 API 当前不可用，文件记录仍在，因此目录枚举仍能看到它。":"目录记录已同步；FILINFO 从磁盘元数据读取当前长度。")+"查询结果只是瞬时快照，不会随 FIL 自动更新。":"当前节点没有可由查询 API 命中的目标记录。FILINFO 由 API 调用方提供并填充；结构仍存在，但此时没有有效文件结果。";
+    document.getElementById("filinfoApiNote").textContent=infoNote;
+
+    var mkfsEnabled=isOn("FF_USE_MKFS")&&!isOn("FF_FS_READONLY"),fmt=g.type==="fat12"||g.type==="fat16"?"FM_FAT (0x01)":g.type==="fat32"?"FM_FAT32 (0x02)":"FM_EXFAT (0x04)";
+    var fmtNote=g.type==="fat12"||g.type==="fat16"?"由容量和簇数推导 FAT12 或 FAT16。":g.type==="fat32"?"请求 FAT32；卷容量和簇数仍须满足实现限制。":"需要 FF_FS_EXFAT=1 且 FF_USE_LFN≥1。";
+    if(exfat&&(!isOn("FF_FS_EXFAT")||!lfn))fmtNote+=" 当前编译配置不支持此格式化分支。";
+    fill("mkfsParmRows",[
+      ["成员","fmt",fmt,fmtNote],
+      ["成员","n_fat",String(g.fats),"示例卷份数；ff.c 接受 1–2，其他值按 1 处理。FAT12/16/32 中控制 FAT 副本布局。"],
+      ["成员","align","0（自动）","0 时调用 disk_ioctl(GET_BLOCK_SIZE) 取得擦除块/对齐单位；无效值回退到 1 扇区。"],
+      ["成员","n_root",hasFixedRoot(g.type)?String(g.rootEntries)+" 项": "512（默认归一值；此格式布局不使用固定根目录表）",hasFixedRoot(g.type)?"FAT12/16 固定根目录项数，需满足扇区内 32 B 项的对齐要求。":"FAT32 根目录是簇链；exFAT 根目录是簇堆中的目录流，不用固定项数。"],
+      ["成员","au_size",g.clusterBytes+" B（本例显式指定）","分配单元大小，单位字节，必须为有效的 2 的幂；设 0 则由 f_mkfs 根据卷容量自动选择。"]
+    ]);
+    document.getElementById("mkfsParmNote").textContent=(mkfsEnabled?"当前配置编入 f_mkfs。":"当前配置下 f_mkfs 不可调用（需要 FF_USE_MKFS=1 且非只读）；")+"本表是示例输入，不是实际格式化结果。f_mkfs(path, opt, work, len) 中的 path、工作缓冲 work 和长度 len 是独立实参，不属于 MKFS_PARM。字段定义见 source/ff.h，取值归一化见 source/ff.c 的 f_mkfs。";
   }
   function renderObjectLayouts(){
     var lfn=Number(cfg.FF_USE_LFN)>0,exfat=isOn("FF_FS_EXFAT"),tiny=isOn("FF_FS_TINY"),readonly=isOn("FF_FS_READONLY"),rpath=Number(cfg.FF_FS_RPATH)>0;
@@ -981,9 +1234,9 @@ f_close(&amp;file);  // 内部先 f_sync</pre>
     var api=[];
     function add(name,on,optional){on=on&&!errors.length;api.push('<span class="api-pill '+(on?"":"off")+(optional&&on?" optional":"")+'">'+name+'</span>');}
     add("f_mount",true);add("f_open",true);add("f_close",true);add("f_read",true);add("f_write",!readonly);add("f_sync",!readonly);
-    add("f_lseek",mini<=2);add("f_truncate",mini===0&&!readonly);add("f_stat",mini===0);add("f_getfree",mini===0&&!readonly);
+    add("f_lseek",mini<=2);add("f_truncate",!readonly);add("f_stat",mini===0);add("f_getfree",!readonly);
     add("f_opendir / f_readdir",mini<=1);add("f_findfirst / f_findnext",Number(cfg.FF_USE_FIND)>0&&mini<=1,true);
-    add("f_unlink / f_mkdir",mini===0&&!readonly);add("f_rename",mini===0&&!readonly);
+    add("f_unlink / f_mkdir",!readonly);add("f_rename",!readonly);
     add("f_chmod / f_utime",isOn("FF_USE_CHMOD")&&!readonly,true);add("f_getlabel",isOn("FF_USE_LABEL"),true);add("f_setlabel",isOn("FF_USE_LABEL")&&!readonly,true);
     add("f_forward",isOn("FF_USE_FORWARD"),true);add("f_expand",isOn("FF_USE_EXPAND")&&!readonly,true);
     add("f_mkfs",isOn("FF_USE_MKFS")&&!readonly,true);add("f_fdisk",isOn("FF_MULTI_PARTITION")&&isOn("FF_USE_MKFS")&&!readonly,true);
@@ -1042,7 +1295,7 @@ f_close(&amp;file);  // 内部先 f_sync</pre>
     var mainNote=document.getElementById("configMainNote"),currentMedia=mediaLabel(mediaType());
     if(errors.length){mainNote.classList.add("attention");mainNote.textContent="配置依赖有冲突；时间轴会模拟当前构建失败，不能挂载或改动介质。请先修复右侧标红项。";}
     else if(mediaType()==="exfat"&&(!exfat||lfn===0)){mainNote.classList.add("attention");mainNote.textContent="所选介质为 exFAT，但当前固件组合缺少 exFAT 或 LFN 解析支持；挂载阶段会返回 FR_NO_FILESYSTEM，后续步骤不分配目录项或数据簇。";}
-    else if(readonly||mini>0){mainNote.classList.add("attention");mainNote.textContent="当前介质模型为 "+currentMedia+"。"+(readonly?"只读构建会把创建请求按只读方式处理；目标不存在时无法创建。":"FF_FS_MINIMIZE="+mini+" 会裁掉部分管理 API，例如 f_unlink。")+"时间轴中的读路径、缓存与卷布局仍按当前参数更新。";}
+    else if(readonly||mini>0){mainNote.classList.add("attention");mainNote.textContent="当前介质模型为 "+currentMedia+"。"+(readonly?"只读构建会把创建请求按只读方式处理；目标不存在时无法创建，写 API（含 f_unlink）不编入。":"FF_FS_MINIMIZE="+mini+" 会裁剪部分辅助 API（例如 f_stat；目录遍历从级别 2 起裁剪），但 f_unlink / f_mkdir / f_rename 仍可用。")+"时间轴流程按当前参数更新。";}
     else{mainNote.classList.remove("attention");mainNote.textContent="当前介质模型为 "+currentMedia+"，流程已按所选编译配置实时更新：路径前缀、目录项格式、簇大小、缓存、同步与删除过程均反映当前参数。";}
   }
   function playConfigFlow(){
@@ -1059,7 +1312,7 @@ f_close(&amp;file);  // 内部先 f_sync</pre>
   }
   document.getElementById("playConfigFlow").addEventListener("click",playConfigFlow);
   var idx=-1,timer=null;
-  var filename=document.getElementById("filename"),writeBytes=document.getElementById("writeBytes");
+  var filename=document.getElementById("filename"),writeBytes=document.getElementById("writeBytes"),appendBytes=document.getElementById("appendBytes");
   function safeName(){
     var entered=filename.value.trim()||"REPORT.TXT",upper=entered.toUpperCase(),bits=upper.split("."),chars=/^[A-Z0-9_$~!#%&'()@^{}-]+$/,type=mediaType(),lfn=Number(cfg.FF_USE_LFN)>0;
     var shortValid=bits.length<=2&&bits[0].length>=1&&bits[0].length<=8&&(!bits[1]||bits[1].length<=3)&&chars.test(bits[0])&&(!bits[1]||chars.test(bits[1]));
@@ -1100,17 +1353,18 @@ f_close(&amp;file);  // 内部先 f_sync</pre>
     var seekWalk=g.type==="exfat"?(fragmented?"，碎片文件读取 FAT 后继":"，NoFatChain 连续文件直接递增簇号"):"并沿 FAT 后继";
     document.getElementById("deepSeekRule").textContent=mini>2?"当前 FF_FS_MINIMIZE="+mini+" 已裁掉 f_lseek；即使 FF_USE_FASTSEEK 打开，也没有这个 API 可调用。":"f_lseek 默认逐簇推进"+seekWalk+"。向前定位可从 FIL 当前簇续走，向后定位则回到文件首簇。"+(fast?"当前 FF_USE_FASTSEEK=1；调用者可提供表空间，再以 f_lseek(CREATE_LINKMAP) 建立连续片段表 CLMT，加速之后的随机定位。":"当前 FF_USE_FASTSEEK=0；每次需要定位到远处簇时都要遍历。打开此项后仍需调用者提供 CLMT 表空间并显式建立映射。");
     var freeRule=g.type==="exfat"?"f_getfree 若 FATFS.free_clst 已有效就直接返回；否则扫描 allocation bitmap 的空闲位。位图是每簇占用状态来源。":g.type==="fat32"?"f_getfree 若 FATFS.free_clst 已有效就直接返回；否则扫描 FAT 项统计 0 值空闲簇。FAT32 FSINFO 是加速提示，不是逐簇占用表；FF_FS_NOFSINFO 当前值 "+cfg.FF_FS_NOFSINFO+"（bit0="+((noFsInfo&1)?"忽略缓存空闲数":"允许使用缓存空闲数")+"，bit1="+((noFsInfo&2)?"忽略下次分配位置":"允许使用下次分配位置")+").":"f_getfree 若 FATFS.free_clst 已有效就直接返回；否则扫描 FAT 项统计 0 值空闲簇。FAT12/16 没有 FAT32 FSINFO 扇区。";
-    document.getElementById("deepFreeRule").textContent=freeRule+(readonly?" 当前 FF_FS_READONLY=1 不编入 f_getfree。":mini>0?" 当前 FF_FS_MINIMIZE="+mini+" 会裁掉 f_getfree 这类管理 API。":" 当前页面时间轴没有调用 f_getfree，显示的空闲簇数只是教学估值。");
+    document.getElementById("deepFreeRule").textContent=freeRule+(readonly?" 当前 FF_FS_READONLY=1 不编入 f_getfree。":" 当前页面时间轴没有调用 f_getfree，显示的空闲簇数只是教学估值；FF_FS_MINIMIZE 不裁掉该接口。");
     document.getElementById("deepAllocRule").textContent=g.type==="exfat"?"create_chain 用 find_bitmap 从分配位图寻找空闲位并置为占用。当前示例簇序列 "+(sampleChain.length?sampleChain.join(" → "):"空文件，无分配")+"；连续序列保持 NoFatChain=1，若后继簇不相邻就切为 NoFatChain=0，并在 FAT 中补上碎片链接。"+(fragmented&&sampleChain.length>1?"当前选择的示例含非相邻簇，因此按碎片链处理。":"当前选择连续簇示例。") :"create_chain 扩展现有链时先检查数值相邻的下一簇；若已占用，就从 last_clst 提示位置循环扫描空闲 FAT 项，找到后先写新簇 EOC，再把旧尾簇指向新簇。当前教学序列 "+(sampleChain.length?sampleChain.join(" → "):"空文件，无分配")+" 展示结果，不保证分配器每次都产生这组簇。"+(g.type==="fat32"?"FF_FS_NOFSINFO bit1="+((noFsInfo&2)?"1：不采用 FAT32 FSINFO 中的下次分配提示":"0：允许导入该提示")+"。":"FSINFO 提示只存在于 FAT32；last_clst 仍会在本次挂载的 RAM 上下文中更新。");
     if(g.type==="fat12")document.getElementById("deepAllocRule").textContent+=" FAT12 具体编码：entryByte=n+floor(n/2)，偶数簇取 16 位合并值低 12 位，奇数簇右移 4 位；相邻表项共享一个 nibble，put_fat 更新时要保留邻项。若两个字节落在不同扇区，get_fat / put_fat 会移动窗口分别读写。";
     document.getElementById("deepOpenRule").textContent=readonly?"当前 FF_FS_READONLY 会去掉创建/写入标志，所以只能以 FA_READ 打开已有文件；目标不存在会返回 FR_NO_FILE。可写构建中：FA_CREATE_NEW 已存在时返回 FR_EXIST；FA_CREATE_ALWAYS 创建或把已有文件截成空文件；FA_OPEN_ALWAYS 有则打开、无则创建；FA_OPEN_APPEND 打开/创建后把 fptr 放到 EOF。本流程选 FA_CREATE_NEW | FA_WRITE。":"FA_CREATE_NEW：已存在返回 FR_EXIST；FA_CREATE_ALWAYS：不存在则创建，存在则释放旧链并截为 0；FA_OPEN_ALWAYS：有则打开、无则创建；FA_OPEN_APPEND：有则打开、无则创建，并把 fptr 放到 EOF。本流程选 FA_CREATE_NEW | FA_WRITE。";
     document.getElementById("deepErrorRule").textContent="f_read 把请求截到 EOF，br 返回实际读到的字节；到文件末尾时 br 可小于请求长度但并不等同于磁盘错误。"+(readonly?"当前只读构建没有 f_write。":"f_write 在磁盘满时可能已写入一部分后停止，bw 小于请求量而返回 FR_OK；应用要同时检查 FRESULT 和 bw。若底层 I/O 出错则返回 FR_DISK_ERR，之前已经完成的扇区写入不会自动回滚。");
   }
   function sizeValue(){var n=parseInt(writeBytes.value,10);if(!Number.isFinite(n)||n<0)n=0;return Math.min(n,40000);}
+  function appendSizeValue(){var n=parseInt(appendBytes.value,10);if(!Number.isFinite(n)||n<0)n=0;return Math.min(n,40000);}
   var demoPayload="FatFs educational demo\r\n0123456789abcdef\r\n";
   function payloadByteAt(offset){return demoPayload.charCodeAt(offset%demoPayload.length);}
   function payloadBytes(offset,count){var hex=[],ascii="";for(var i=0;i<count;i++){var b=payloadByteAt(offset+i);hex.push(b.toString(16).padStart(2,"0").toUpperCase());ascii+=b>=32&&b<=126?String.fromCharCode(b):".";}return {hex:hex.join(" "),ascii:ascii};}
-  function renderDataByteDump(g,chain,len,step,blocked,deleteUnavailable,gone){
+  function renderDataByteDump(g,chain,len,step,blocked,deleteUnavailable,gone,initialLen){
     var host=document.getElementById("dataSectorDetail"),offset=parseInt(document.getElementById("fileOffset").value,10);
     if(!Number.isFinite(offset)||offset<0)offset=0;
     var visible=!blocked&&len>0&&chain.length>0&&step>=3;
@@ -1122,33 +1376,36 @@ f_close(&amp;file);  // 内部先 f_sync</pre>
     for(var row=begin;row<finish;row+=16){var count=Math.min(16,finish-row),part=payloadBytes(row,count),mark=offset>=row&&offset<row+count?"→":" ";lines.push(mark+" "+row.toString(16).padStart(8,"0").toUpperCase()+"  "+part.hex.padEnd(47," ")+"  |"+part.ascii+"|");}
     if(gone)lines.push("状态：目录项已删除、簇已释放；本模型没有向该 LBA 写 00h，以上旧字节仍残留。");
     else if(step===5)lines.push("读取只把这些字节复制给调用者并推进 FIL.fptr；不会改 FAT、目录项或数据扇区。");
+    else if(step===6&&offset>=initialLen)lines.push("这是追加区：f_open(FA_OPEN_APPEND) 将 FIL.fptr 设为原 EOF "+initialLen+"，f_write 从此偏移继续写入；当前总长度 "+len+" B。");
+    else if(step===6)lines.push("这是原文件数据区；追加从偏移 "+initialLen+" B 开始，当前目录长度已同步为 "+len+" B。");
     else if(step===3&&len%g.ss&&sector===Math.floor(len/g.ss))lines.push("当前是最后一个部分扇区：有效尾部 "+(len%g.ss)+" B 暂存在 "+(isOn("FF_FS_TINY")?"FATFS.win":"FIL.buf")+"，还没有 disk_write；f_sync 时写出整扇区。");
     else if(step===3)lines.push("当前扇区的完整 "+g.ss+" B 已由 disk_write 写出；若文件末尾还有不足一扇区的尾部，它仍在缓存、待 f_sync 写回。");
     else lines.push("已同步数据；文件有效范围之外的扇区填充字节不属于 FileSize。");
     host.textContent=lines.join("\n");
   }
-  function renderDataSectors(g,chain,len,step,blocked,deleteUnavailable,gone){
+  function renderDataSectors(g,chain,len,step,blocked,deleteUnavailable,gone,initialLen){
     var map=document.getElementById("dataSectorMap"),state=document.getElementById("dataSectorState"),note=document.getElementById("dataSectorNote"),offset=parseInt(document.getElementById("fileOffset").value,10);
     if(!Number.isFinite(offset)||offset<0)offset=0;
     map.textContent="";
-    var available=!blocked&&len>0&&chain.length>0&&(step>=3&&step<6||deleteUnavailable||gone);
-    if(!available){state.textContent=len===0?"空文件 / 无数据扇区":"尚未写入";note.textContent=blocked?"当前流程未能创建可写文件，因此没有文件数据扇区。":len===0?"空文件只登记目录元数据，不分配文件内容簇。":"在时间轴到达“写数据 / 分簇”后，这里才显示实际使用的文件数据扇区。";renderDataByteDump(g,chain,len,step,blocked,deleteUnavailable,gone);return;}
+    var available=!blocked&&len>0&&chain.length>0&&(step>=3&&step<7||deleteUnavailable||gone);
+    if(!available){state.textContent=len===0?"空文件 / 无数据扇区":"尚未写入";note.textContent=blocked?"当前流程未能创建可写文件，因此没有文件数据扇区。":len===0?"空文件只登记目录元数据，不分配文件内容簇。":"在时间轴到达“写数据 / 分簇”后，这里才显示实际使用的文件数据扇区。";renderDataByteDump(g,chain,len,step,blocked,deleteUnavailable,gone,initialLen);return;}
     var sectors=Math.ceil(len/g.ss),full=Math.floor(len/g.ss),tail=len%g.ss,selected=(step===3||step===5)&&offset<len?Math.floor(offset/g.ss):-1,limit=12,status;
     for(var i=0;i<Math.min(sectors,limit);i++){
       var clusterIndex=Math.floor(i/g.csize),cluster=chain[clusterIndex],sectorInCluster=i%g.csize,lba=clusterSector(g,cluster)+sectorInCluster,start=i*g.ss,valid=Math.min(g.ss,len-start),end=start+valid-1;
-      var mode=gone?"stale":step===5&&i===selected?"read":step===3&&tail>0&&i===full?"pending":step===3?"written":"persisted";
+      var appended=step===6&&start+valid>initialLen,mode=gone?"stale":step===5&&i===selected?"read":appended?"appended":step===3&&tail>0&&i===full?"pending":step===3?"written":"persisted";
       var tile=document.createElement("div"),title=document.createElement("b"),where=document.createElement("small"),range=document.createElement("small");
       tile.className="data-sector "+mode+(step===3&&i===selected?" selected":"");title.textContent="S"+i;where.textContent="C"+cluster+" · LBA "+lba;range.textContent=start+"–"+end+" B"+(valid<g.ss?" · "+valid+" B 有效":"");
       tile.appendChild(title);tile.appendChild(where);tile.appendChild(range);map.appendChild(tile);
     }
     if(sectors>limit){var more=document.createElement("div");more.className="data-sector-more";more.textContent="+"+(sectors-limit)+" 扇区";map.appendChild(more);}
     if(gone){status="目录映射已删";note.textContent="虚线块中的旧字节仍留在这些数据扇区；删除清除目录引用与分配状态，不会把数据改写成零。";}
-    else if(deleteUnavailable){status="文件仍存在";note.textContent="FF_FS_MINIMIZE 裁掉了 f_unlink，所以目录项、簇分配和数据扇区都保留。";}
+    else if(deleteUnavailable){status="没有可删除文件";note.textContent="只读构建不编入 f_unlink；本流程的创建步骤也未能建立目标文件。";}
     else if(step===3){status="写入中 · "+sectors+" 个数据扇区";note.textContent="绿色块表示完整扇区已直接写入；"+(tail?"橙色块表示末尾 "+tail+" B 暂存在 "+(isOn("FF_FS_TINY")?"FATFS.win":"FIL.buf")+"，f_sync 时补写。":"本例没有不完整尾扇区。")+(selected>=0?"蓝框标出文件偏移 "+offset+" 所在扇区。":"")+"目录项长度仍待同步。";}
     else if(step===5){status=selected<0?"偏移到达 EOF":"读取 S"+selected;note.textContent=selected<0?"当前文件偏移已到达或超过 EOF，f_read 不会读取数据扇区。":"蓝色块是文件偏移 "+offset+" 所在扇区；它对应 cluster "+chain[Math.floor(offset/g.clusterBytes)]+"，LBA "+(clusterSector(g,chain[Math.floor(offset/g.clusterBytes)])+Math.floor((offset%g.clusterBytes)/g.ss))+"。f_read 从这个扇区或缓存提取请求字节，不改变磁盘内容。";}
+    else if(step===6){status="追加后 · "+sectors+" 个数据扇区";note.textContent="蓝绿色块与追加字节范围相交；追加起点为原 EOF "+initialLen+" B，总长度变为 "+len+" B。若写入跨过原有簇链末尾，新簇也已分配；追加末尾部分扇区由本阶段 f_sync 刷新。";}
     else{status="已同步 · "+sectors+" 个数据扇区";note.textContent="绿色块表示数据扇区内容已写出；每块给出实际簇号、逻辑 LBA 和文件字节范围。磁盘扇区边界之外的簇尾空间不属于文件有效长度。";}
     state.textContent=status;
-    renderDataByteDump(g,chain,len,step,blocked,deleteUnavailable,gone);
+    renderDataByteDump(g,chain,len,step,blocked,deleteUnavailable,gone,initialLen);
   }
   function uniqueSorted(values){var seen={},out=[];values.forEach(function(v){if(Number.isFinite(v)&&!seen[v]){seen[v]=1;out.push(v);}});return out.sort(function(a,b){return a-b;});}
   function formatLbaList(values){
@@ -1181,8 +1438,10 @@ f_close(&amp;file);  // 内部先 f_sync</pre>
     chain.forEach(function(c){var start=clusterSector(g,c),end=start+g.csize-1;if(!runs.length||runs[runs.length-1].last+1!==start)runs.push({first:start,last:end});else runs[runs.length-1].last=end;});
     return runs;
   }
-  function renderMediaLedger(g,name,len,step,mountFailure,nameRejected,readonlyBlocked,deleteUnavailable,gone,chain,dirStart,entryCount){
-    var ledger=document.getElementById("mediaLedger"),summary=document.getElementById("mediaSummary"),state=document.getElementById("mediaState"),events=[],readonly=isOn("FF_FS_READONLY"),tiny=isOn("FF_FS_TINY"),canWrite=!mountFailure&&!nameRejected&&!readonlyBlocked,canDelete=step===6&&canWrite&&!deleteUnavailable;
+  function renderMediaLedger(g,name,len,step,mountFailure,nameRejected,readonlyBlocked,deleteUnavailable,gone,chain,dirStart,entryCount,initialLen,appendLen){
+    var ledger=document.getElementById("mediaLedger"),summary=document.getElementById("mediaSummary"),state=document.getElementById("mediaState"),events=[],readonly=isOn("FF_FS_READONLY"),tiny=isOn("FF_FS_TINY"),canWrite=!mountFailure&&!nameRejected&&!readonlyBlocked,canDelete=step===7&&canWrite&&!deleteUnavailable;
+    var baseClusters=initialLen===0?0:Math.ceil(initialLen/g.clusterBytes),baseChain=illustrativeChain(g,baseClusters),finalLen=initialLen+appendLen,finalClusters=finalLen===0?0:Math.ceil(finalLen/g.clusterBytes),finalChain=illustrativeChain(g,finalClusters);
+    chain=baseChain;len=initialLen;
     var rootLba=hasFixedRoot(g.type)?g.rootbase:clusterSector(g,2),docsLba=clusterSector(g,5),dirLbas=directorySectorList(g,dirStart,entryCount),recordLbas=g.type==="exfat"?dirLbas:directorySectorList(g,dirStart+name.lfnCount*32,1),fatLbas=fatSectorList(g,chain),bitmapLbas=g.type==="exfat"?bitmapSectorList(g,chain):[],fatAll=fatLbas.slice();
     if(g.fats>1)fatLbas.forEach(function(lba){fatAll.push(lba+g.fsize);});
     function add(at,kind,lba,detail){if(at<=step)events.push({at:at,kind:kind,lba:lba||"—",detail:detail});}
@@ -1256,41 +1515,86 @@ f_close(&amp;file);  // 内部先 f_sync</pre>
       if(g.type==="exfat"&&len>0)add(4,"note","LBA "+g.base,"只有此前已取得可信 free_clst（例如调用 f_getfree）并置 fsi_flag 时，sync_fs 才会读取 VBR，并在 PercentInUse 改变时写回。本流程未调用 f_getfree，挂载后的计数通常无效，因此通常不会访问此 LBA。");
       add(4,"sync","—","disk_ioctl(CTRL_SYNC)：请求底层设备完成此前的待处理写入；它不是事务提交或 NAND 地址选择。");
     }
-    if(step>=5&&canWrite){
-      add(5,"note","—","先 f_close 旧 FIL；它会调用 f_sync，但上一步已同步且 FA_MODIFIED 已清除，因此本示例不重复写元数据，然后使旧 FIL 失效。");
-      if(Number(cfg.FF_FS_RPATH)===0)add(5,"read",readableLbas([rootLba]),"绝对路径重新打开：根目录再次扫描 DOCS 项，取到首簇 5；目录扇区若缓存命中，底层 disk_read 可省略。");
-      add(5,"read",readableLbas(dirLbas),"重新打开后在 "+(Number(cfg.FF_FS_RPATH)>0?"当前目录 cdir=5":"DOCS 首簇 5")+" 扫描 REPORT.TXT 的 LFN/SFN 或 exFAT entry set；从记录恢复首簇 "+(chain.length?chain[0]:0)+"、长度 "+len+"。f_close 旧 FIL 不删除文件，也不修改这条目录记录。");
-      appendDataReads(5);
-    }
-    if(step>=6){
-      if(deleteUnavailable)add(6,"note","—","FF_FS_MINIMIZE 裁掉 f_unlink；目录记录、分配表和文件数据保持不变。");
-      else if(!canDelete)add(6,"note","—","当前配置或流程没有可删除的目标；不修改介质。");
-      else{
-        if(Number(cfg.FF_FS_RPATH)===0)add(6,"read",readableLbas([rootLba]),"绝对路径删除先从根目录重新查 DOCS，取得 cluster 5；目录窗口命中时底层 disk_read 可省略。");
-        add(6,"read",readableLbas(dirLbas),"f_unlink 在 DOCS 目录重新扫描目标目录项组；若缓存命中，实际 disk_read 可能省略。");
-        add(6,"cache",formatLbaList(dirLbas),g.type==="exfat"?"entry set 每个 Type byte 的 InUse 位清零（85h→05h、C0h→40h、C1h→41h）；其他字段可残留，目录窗口变脏。":"每个 LFN/SFN 32 B 槽只把首字节写 E5h；属性、时间、首簇和长度字节可以残留。目录窗口变脏，写回后名称不再可见。");
-        if(chain.length)add(6,"write",formatLbaList(dirLbas),"释放链 / 位图时切换元数据窗口，先把删除标记从脏目录窗口写到介质；数据记录仍保留旧首簇与长度字节，但名称已不可见。");
-        if(chain.length){
-          if(g.type==="exfat"){
-            if(chainIsFragmented(chain.length))add(6,"read","FAT "+formatLbaList(fatLbas),"NoFatChain=0；remove_chain 通过 FAT 表项逐簇读取后继，缓存命中时实际 disk_read 可能省略。");
-            else add(6,"note","—","NoFatChain=1；get_fat 用首簇和 DataLength 推算连续后继 / EOC，不读取或清除 FAT 链项。");
-            add(6,"read",readableLbas(bitmapLbas),"change_bitmap 通过 move_window 装入分配位图扇区；若窗口未命中缓存，会发出 disk_read。");
-            add(6,"cache",formatLbaList(bitmapLbas),"allocation bitmap 的簇位从 1（占用）清为 0（空闲）；"+(chainIsFragmented(chain.length)?"碎片链 FAT 项用于遍历，但 FatFs 不把它们清零。":"连续 NoFatChain 文件不需要清除 FAT 后继项。"));
-          }else{
-            add(6,"read","FAT "+formatLbaList(fatLbas),"remove_chain 通过 get_fat 读取每簇的后继，再由 put_fat 清零；同一 FAT 扇区可被窗口缓存复用。");
-            add(6,"cache",formatLbaList(fatAll),"FAT 链各项从后继 / EOC 改为 0（空闲）"+(g.fats>1?"；FAT#2 在写回时同步镜像":"")+"。");
-          }
-          if(isOn("FF_USE_TRIM"))clusterRuns(g,chain).forEach(function(r){add(6,"trim","LBA "+(r.first===r.last?r.first:r.first+"–"+r.last),"CTRL_TRIM 提示设备这些已释放的数据扇区可回收；是否擦除及何时擦除由设备决定。");});
-          add(6,"note",formatLbaList(clusterRuns(g,chain).reduce(function(all,r){for(var l=r.first;l<=r.last;l++)all.push(l);return all;},[])),"这些旧文件数据扇区没有收到 disk_write；原字节仍可能残留，除非设备后续因 TRIM / 重用而处理。");
-        }
-        if(!chain.length)add(6,"write",formatLbaList(dirLbas),"空文件没有分配链触发窗口切换；sync_fs 写回已删除目录标记。数据区没有 disk_write。");
-        if(chain.length){if(g.type==="exfat")add(6,"write",formatLbaList(bitmapLbas),"写回清零后的分配位图扇区；簇因此可重新分配。");else add(6,"write",formatLbaList(fatAll),"写回清零后的 FAT 扇区"+(g.fats>1?"及第二份 FAT":"")+"；簇因此可重新分配。");}
-        if(g.type==="fat32"&&chain.length)add(6,"note","LBA "+g.fsinfo,"仅当 FATFS.free_clst 有效且 FSINFO 可用时，sync_fs 才重写空闲簇 / 下次分配提示；本模型没有真实 FSINFO 数值，不能断言本次发生写入。");
-        if(g.type==="exfat"&&chain.length)add(6,"note","LBA "+g.base,"仅当此前已取得有效 free_clst（例如调用 f_getfree）并置 fsi_flag 时，sync_fs 才读取 VBR，并在 PercentInUse 变化时写回。本流程未调用 f_getfree，默认计数仍无效，因此通常不会访问此 LBA。");
-        add(6,"sync","—","sync_fs 最后请求 CTRL_SYNC；逻辑上的名字与分配已释放，底层闪存回收仍由设备管理。");
+    if(step>=5){
+      if(!canWrite){
+        if(!mountFailure&&!nameRejected){if(Number(cfg.FF_FS_RPATH)===0)add(5,"read",readableLbas([rootLba]),"只读构建仍按路径扫描根目录并找到 DOCS 首簇 5；目标文件未在前序步骤创建。");add(5,"read",readableLbas(dirLbas),"DOCS 中到达空槽 00h，REPORT.TXT 不存在；f_open(FA_READ) 返回 FR_NO_FILE，不创建 FIL，也不读取文件数据区。");}
+        else add(5,"note","—",mountFailure?"卷挂载失败，重新打开路径不会执行。":"名称校验失败，路径查找不会执行。");
+      }else{
+        add(5,"note","—","先 f_close 旧 FIL；它会调用 f_sync，但上一步已同步且 FA_MODIFIED 已清除，因此本示例不重复写元数据，然后使旧 FIL 失效。");
+        if(Number(cfg.FF_FS_RPATH)===0)add(5,"read",readableLbas([rootLba]),"绝对路径重新打开：根目录再次扫描 DOCS 项，取到首簇 5；目录扇区若缓存命中，底层 disk_read 可省略。");
+        add(5,"read",readableLbas(dirLbas),"重新打开后在 "+(Number(cfg.FF_FS_RPATH)>0?"当前目录 cdir=5":"DOCS 首簇 5")+" 扫描 REPORT.TXT 的 LFN/SFN 或 exFAT entry set；从记录恢复首簇 "+(chain.length?chain[0]:0)+"、长度 "+len+"。f_close 旧 FIL 不删除文件，也不修改这条目录记录。");
+        appendDataReads(5);
       }
     }
-    var stageNames=["挂载","查找名字","创建目录项","写数据 / 分簇","同步元数据","重新打开 / 读取","删除"];
+    if(step>=6){
+      if(!canWrite)add(6,"note","—","文件未成功创建或当前构建只读；没有可追加的 FIL，也不会执行 FA_OPEN_APPEND / f_write。");
+      else{
+        if(Number(cfg.FF_FS_RPATH)===0)add(6,"read",readableLbas([rootLba]),"FA_OPEN_APPEND 重新解析绝对路径：从根目录扫描并取得 DOCS 首簇 5；目录扇区命中缓存时可省略底层 disk_read。");
+        add(6,"read",readableLbas(dirLbas),"follow_path 在 DOCS 中重新扫描 REPORT.TXT 的 LFN/SFN 或 exFAT entry set；从目录元数据恢复首簇与 FileSize="+initialLen+" B。");
+        add(6,"note","RAM FIL","FA_OPEN_APPEND 设置 fptr=objsize="+initialLen+"，本次新增 "+appendLen+" B；先查找名字，再从 EOF 继续写。");
+        if(baseClusters>1){if(g.type==="exfat"&&!chainIsFragmented(baseClusters))add(6,"note","—","exFAT NoFatChain=1；f_open 的 FA_SEEKEND 依簇大小直接算 EOF 所在簇，不逐项读取 FAT。 ");else add(6,"read","FAT "+formatLbaList(fatSectorList(g,baseChain)),"f_open 的 FA_SEEKEND 从首簇沿 FAT 读取后继，定位 EOF 所在的最后簇；FatFs 用该位置继续 f_write。缓存命中时可能不触发 disk_read。");}
+        if(initialLen>0&&initialLen%g.ss&&(!tiny||appendLen>0)){
+          var tailIndex=Math.floor(initialLen/g.ss),tailCluster=baseChain[Math.floor(tailIndex/g.csize)],tailLba=clusterSector(g,tailCluster)+(tailIndex%g.csize);
+          add(6,"read","LBA "+tailLba,!tiny?"FA_OPEN_APPEND 在 EOF 扇区中间时由 FIL.buf 读取 LBA，保留 EOF 前的 "+(initialLen%g.ss)+" B；缓存命中时可省略 disk_read。":"FF_FS_TINY 下追加写到部分扇区时，由 FATFS.win 装入 EOF 扇区并保留前 "+(initialLen%g.ss)+" B；缓存命中时可省略 disk_read。");
+        }
+        if(appendLen===0)add(6,"note","—","f_write 请求 0 B；源代码不会置 FA_MODIFIED，不改数据、分配信息或目录长度，f_sync 没有变更可写回。");
+        else{
+          if(finalClusters>baseClusters){
+            var added=finalChain.slice(baseClusters),newFat=fatSectorList(g,finalChain),newBitmap=g.type==="exfat"?bitmapSectorList(g,added):[];
+            if(g.type==="exfat"){
+              add(6,"read",readableLbas(newBitmap),"find_bitmap 查找追加所需空闲簇；按本教学链，新增簇为 "+added.join("、")+"。");
+              add(6,"cache",formatLbaList(newBitmap),"allocation bitmap 新簇位由 0（空闲）改为 1（占用）；C0h 连续标志及 FAT 链状态由 f_sync 整理。");
+              if(chainIsFragmented(finalClusters))add(6,"cache","FAT "+formatLbaList(newFat),"追加后的簇链含碎片；NoFatChain=0，FAT 项记录后继关系。");
+            }else{
+              add(6,"read","FAT "+formatLbaList(newFat),"create_chain / get_fat 搜索空闲簇并读取旧链尾项；本例追加分配 "+added.join("、")+"。");
+              add(6,"cache","FAT "+formatLbaList(newFat),"旧链尾 EOC 改为新簇 "+added[0]+"，新簇项指向后继或 EOC；双 FAT 副本在写回时镜像。");
+            }
+          }
+          var firstSector=Math.floor(initialLen/g.ss),lastSector=Math.floor((finalLen-1)/g.ss);
+          for(var si=firstSector;si<=lastSector;si++){
+            var appendCluster=finalChain[Math.floor(si/g.csize)],appendLba=clusterSector(g,appendCluster)+(si%g.csize),byteStart=Math.max(initialLen,si*g.ss),byteEnd=Math.min(finalLen,(si+1)*g.ss)-1;
+            add(6,"write","LBA "+appendLba,"追加数据字节 "+byteStart+"–"+byteEnd+"（扇区内 +"+(byteStart-si*g.ss)+" 起）；完整扇区可直接写，部分扇区经 "+(tiny?"FATFS.win":"FIL.buf")+" 保留其他字节并由 f_sync 刷新。");
+          }
+          if(g.type==="exfat"){
+            if(finalClusters>baseClusters)add(6,"write",formatLbaList(bitmapSectorList(g,finalChain)),"f_sync 写回仍脏的 allocation bitmap；碎片链的 FAT links 也会补齐。");
+          }else if(finalClusters>baseClusters)add(6,"write",formatLbaList(fatSectorList(g,finalChain).concat(g.fats>1?fatSectorList(g,finalChain).map(function(lba){return lba+g.fsize;}):[])),"写回仍脏的 FAT 链扇区"+(g.fats>1?"及 FAT#2 镜像":"")+"；若窗口替换时已写回则不重复。");
+          add(6,"read",readableLbas(recordLbas),"f_sync 定位父目录记录；窗口未命中时读取 SFN 主项或 exFAT entry set。");
+          add(6,"write",formatLbaList(recordLbas),g.type==="exfat"?"更新 C0h FirstCluster / ValidDataLength / DataLength / GenFlags，更新修改时间并重算 entry-set checksum。":"更新 SFN FileSize @0x1C 为 "+finalLen+" B、首簇及修改日期/时间；名称槽不变。");
+          add(6,"sync","—","f_sync 最后请求 CTRL_SYNC；追加后的目录长度和数据字节可在重新打开时恢复。");
+        }
+      }
+    }
+    if(step>=7){
+      chain=finalChain;len=finalLen;fatLbas=fatSectorList(g,chain);bitmapLbas=g.type==="exfat"?bitmapSectorList(g,chain):[];fatAll=fatLbas.slice();
+      if(g.fats>1)fatLbas.forEach(function(lba){fatAll.push(lba+g.fsize);});
+      if(deleteUnavailable)add(7,"note","—","FF_FS_READONLY=1 不编入 f_unlink；本流程的目标文件此前也未创建。");
+      else if(!canDelete)add(7,"note","—","当前配置或流程没有可删除的目标；不修改介质。");
+      else{
+        if(Number(cfg.FF_FS_RPATH)===0)add(7,"read",readableLbas([rootLba]),"绝对路径删除先从根目录重新查 DOCS，取得 cluster 5；目录窗口命中时底层 disk_read 可省略。");
+        add(7,"read",readableLbas(dirLbas),"f_unlink 在 DOCS 目录重新扫描目标目录项组；若缓存命中，实际 disk_read 可能省略。");
+        add(7,"cache",formatLbaList(dirLbas),g.type==="exfat"?"entry set 每个 Type byte 的 InUse 位清零（85h→05h、C0h→40h、C1h→41h）；其他字段可残留，目录窗口变脏。":"每个 LFN/SFN 32 B 槽只把首字节写 E5h；属性、时间、首簇和长度字节可以残留。目录窗口变脏，写回后名称不再可见。");
+        if(chain.length)add(7,"write",formatLbaList(dirLbas),"释放链 / 位图时切换元数据窗口，先把删除标记从脏目录窗口写到介质；数据记录仍保留旧首簇与长度字节，但名称已不可见。");
+        if(chain.length){
+          if(g.type==="exfat"){
+            if(chainIsFragmented(chain.length))add(7,"read","FAT "+formatLbaList(fatLbas),"NoFatChain=0；remove_chain 通过 FAT 表项逐簇读取后继，缓存命中时实际 disk_read 可能省略。");
+            else add(7,"note","—","NoFatChain=1；get_fat 用首簇和 DataLength 推算连续后继 / EOC，不读取或清除 FAT 链项。");
+            add(7,"read",readableLbas(bitmapLbas),"change_bitmap 通过 move_window 装入分配位图扇区；若窗口未命中缓存，会发出 disk_read。");
+            add(7,"cache",formatLbaList(bitmapLbas),"allocation bitmap 的簇位从 1（占用）清为 0（空闲）；"+(chainIsFragmented(chain.length)?"碎片链 FAT 项用于遍历，但 FatFs 不把它们清零。":"连续 NoFatChain 文件不需要清除 FAT 后继项。"));
+          }else{
+            add(7,"read","FAT "+formatLbaList(fatLbas),"remove_chain 通过 get_fat 读取每簇的后继，再由 put_fat 清零；同一 FAT 扇区可被窗口缓存复用。");
+            add(7,"cache",formatLbaList(fatAll),"FAT 链各项从后继 / EOC 改为 0（空闲）"+(g.fats>1?"；FAT#2 在写回时同步镜像":"")+"。");
+          }
+          if(isOn("FF_USE_TRIM"))clusterRuns(g,chain).forEach(function(r){add(7,"trim","LBA "+(r.first===r.last?r.first:r.first+"–"+r.last),"CTRL_TRIM 提示设备这些已释放的数据扇区可回收；是否擦除及何时擦除由设备决定。");});
+          add(7,"note",formatLbaList(clusterRuns(g,chain).reduce(function(all,r){for(var l=r.first;l<=r.last;l++)all.push(l);return all;},[])),"这些旧文件数据扇区没有收到 disk_write；原字节仍可能残留，除非设备后续因 TRIM / 重用而处理。");
+        }
+        if(!chain.length)add(7,"write",formatLbaList(dirLbas),"空文件没有分配链触发窗口切换；sync_fs 写回已删除目录标记。数据区没有 disk_write。");
+        if(chain.length){if(g.type==="exfat")add(7,"write",formatLbaList(bitmapLbas),"写回清零后的分配位图扇区；簇因此可重新分配。");else add(7,"write",formatLbaList(fatAll),"写回清零后的 FAT 扇区"+(g.fats>1?"及第二份 FAT":"")+"；簇因此可重新分配。");}
+        if(g.type==="fat32"&&chain.length)add(7,"note","LBA "+g.fsinfo,"仅当 FATFS.free_clst 有效且 FSINFO 可用时，sync_fs 才重写空闲簇 / 下次分配提示；本模型没有真实 FSINFO 数值，不能断言本次发生写入。");
+        if(g.type==="exfat"&&chain.length)add(7,"note","LBA "+g.base,"仅当此前已取得有效 free_clst（例如调用 f_getfree）并置 fsi_flag 时，sync_fs 才读取 VBR，并在 PercentInUse 变化时写回。本流程未调用 f_getfree，默认计数仍无效，因此通常不会访问此 LBA。");
+        add(7,"sync","—","sync_fs 最后请求 CTRL_SYNC；逻辑上的名字与分配已释放，底层闪存回收仍由设备管理。");
+      }
+    }
+    var stageNames=["挂载","查找名字","创建目录项","写数据 / 分簇","同步元数据","重新打开 / 读取","追加数据","删除"];
     ledger.textContent="";
     events.forEach(function(ev){
       var row=document.createElement("div"),stage=document.createElement("span"),kind=document.createElement("span"),lba=document.createElement("code"),detail=document.createElement("span");
@@ -1300,8 +1604,8 @@ f_close(&amp;file);  // 内部先 f_sync</pre>
       row.appendChild(stage);row.appendChild(kind);row.appendChild(lba);row.appendChild(detail);ledger.appendChild(row);
     });
     if(!events.length)ledger.innerHTML='<div class="media-empty">当前配置下没有实际介质读写。</div>';
-    state.textContent=step<0?"等待开始":mountFailure?"挂载失败":nameRejected?"名称被拒绝":readonlyBlocked?"只读构建":deleteUnavailable?"删除 API 不可用":step===6?"名称 / 分配已释放":step===4?"同步完成":step===5?"读取阶段":step===3?"写入与分配中":step===2?"目录缓存变脏":step===1?"目录扫描":step===0?"挂载读取":"读取 / 缓存变化";
-    summary.textContent=mountFailure?"挂载未建立卷上下文；无效编译配置不会触碰介质，不支持的卷最多读取到 VBR 后停止。":nameRejected?"名称校验在目录扫描之前失败；没有创建目录项、分配簇或写入文件数据。":readonlyBlocked?"目标不存在且构建只读；f_open 返回 FR_NO_FILE，没有后续写入。":deleteUnavailable?"f_unlink 被配置裁剪；已存在的目录记录、分配状态与文件数据都保留。":step===0?"挂载阶段只读 BPB / 卷元数据，建立 FATFS 上下文；不会改文件内容。":step===1?"查找父目录只读取目录记录；本例没找到目标（FR_NO_FILE），创建时会复用空槽或扩展目录。":step===2?"当前新目录项先进入脏缓存；还不能把 RAM 中的新名字当成已持久化。":step===3?len===0?"本例写入 0 B：不分配簇，也不写文件数据扇区。": "完整数据扇区可直接 disk_write；FAT / 位图及目录窗口可能因 move_window 提前写回，尾部不足一扇区仍在缓存。":step===4?len===0?"f_sync 只需把零长度目录记录及元数据同步，再请求 CTRL_SYNC；没有数据扇区或簇链。":"f_sync 写回尾扇区和元数据，再请求 CTRL_SYNC；磁盘目录记录现在能恢复文件首簇与长度。":step===5?"重新打开与读取主要发出读请求；已同步的数据和元数据不因读取而变化。":step===6?(gone?"删除移除目录映射并释放 FAT / 位图分配；文件数据扇区不主动覆写。":"删除步骤没有执行，磁盘上的文件仍保留。"):"";
+    state.textContent=step<0?"等待开始":mountFailure?"挂载失败":nameRejected?"名称被拒绝":readonlyBlocked?"只读构建":deleteUnavailable?"只读构建 / 删除 API 不可用":step===7?"名称 / 分配已释放":step===6?"追加已同步":step===4?"同步完成":step===5?"读取阶段":step===3?"写入与分配中":step===2?"目录缓存变脏":step===1?"目录扫描":step===0?"挂载读取":"读取 / 缓存变化";
+    summary.textContent=mountFailure?"挂载未建立卷上下文；无效编译配置不会触碰介质，不支持的卷最多读取到 VBR 后停止。":nameRejected?"名称校验在目录扫描之前失败；没有创建目录项、分配簇或写入文件数据。":readonlyBlocked?"目标不存在且构建只读；f_open 返回 FR_NO_FILE，没有后续写入或删除。":deleteUnavailable?"只读构建没有编入 f_unlink；本流程目标此前也未创建，因此没有目录记录、分配状态或文件数据可删除。":step===0?"挂载阶段只读 BPB / 卷元数据，建立 FATFS 上下文；不会改文件内容。":step===1?"查找父目录只读取目录记录；本例没找到目标（FR_NO_FILE），创建时会复用空槽或扩展目录。":step===2?"当前新目录项先进入脏缓存；还不能把 RAM 中的新名字当成已持久化。":step===3?len===0?"本例写入 0 B：不分配簇，也不写文件数据扇区。": "完整数据扇区可直接 disk_write；FAT / 位图及目录窗口可能因 move_window 提前写回，尾部不足一扇区仍在缓存。":step===4?len===0?"f_sync 只需把零长度目录记录及元数据同步，再请求 CTRL_SYNC；没有数据扇区或簇链。":"f_sync 写回尾扇区和元数据，再请求 CTRL_SYNC；磁盘目录记录现在能恢复文件首簇与长度。":step===5?"重新打开与读取主要发出读请求；已同步的数据和元数据不因读取而变化。":step===6?"追加阶段重新查找文件，将 fptr 放到旧 EOF；追加字节与新长度已同步，必要时扩展 FAT 链 / 位图。":step===7?(gone?"删除移除目录映射并释放 FAT / 位图分配；文件数据扇区不主动覆写。":"删除步骤没有执行，磁盘上的文件仍保留。"):"";
   }
   function set(id,val){document.getElementById(id).textContent=val;}
   function setHtml(id,val){document.getElementById(id).innerHTML=val;}
@@ -1369,8 +1673,10 @@ f_close(&amp;file);  // 内部先 f_sync</pre>
     var host=document.getElementById("workedTable");host.textContent="";
     cells.forEach(function(item){var cell=document.createElement("div"),title=document.createElement("b"),body=document.createElement("span");cell.className="worked-cell";title.textContent=item[0];body.textContent=item[1];cell.appendChild(title);cell.appendChild(body);host.appendChild(cell);});
   }
-  function flowText(g,name){
+  function flowText(g,name,appendLen){
     var fmt=mediaLabel(g.type),path=apiPath(name),drive=mountId(),rpath=Number(cfg.FF_FS_RPATH)>0,readonly=isOn("FF_FS_READONLY"),tiny=isOn("FF_FS_TINY"),mini=Number(cfg.FF_FS_MINIMIZE),len=sizeValue(),clusters=len===0?0:Math.ceil(len/g.clusterBytes),chain=illustrativeChain(g,clusters),fragmented=chainIsFragmented(clusters),fullSectors=Math.floor(len/g.ss),tailBytes=len%g.ss;
+    appendLen=appendLen===undefined?appendSizeValue():appendLen;
+    var finalLen=len+appendLen,finalClusters=finalLen===0?0:Math.ceil(finalLen/g.clusterBytes),finalChain=illustrativeChain(g,finalClusters),finalFragmented=chainIsFragmented(finalClusters),addedClusters=Math.max(0,finalClusters-clusters);
     var root=hasFixedRoot(g.type)?"固定根目录 LBA "+g.rootbase:"根目录 cluster 2 / LBA "+clusterSector(g,2),dir=g.type==="exfat"?"exFAT entry set":"32 B FAT 目录项";
     var alloc=g.type==="exfat"?"allocation bitmap": "FAT 簇链",slots=!name.valid?"名称无效，不登记":g.type==="exfat"?(name.lfnCount+2)+" 项（85h + C0h + "+name.lfnCount+"×C1h）":(name.lfnCount+1)+" 项（"+name.lfnCount+"×LFN + SFN）";
     var time=isOn("FF_FS_NORTC")?"固定时间 "+cfg.FF_NORTC_YEAR+"-"+cfg.FF_NORTC_MON+"-"+cfg.FF_NORTC_MDAY:"平台 get_fattime() 时间戳";
@@ -1402,12 +1708,13 @@ f_close(&amp;file);  // 内部先 f_sync</pre>
     if(isOn("FF_USE_FASTSEEK")&&mini<=2)read+=" 随机 seek 可用 FIL.cltbl 加速；本例顺序读不需要它。";
     else if(isOn("FF_USE_FASTSEEK"))read+=" cltbl 字段存在，但 f_lseek 被 FF_FS_MINIMIZE 裁掉。";
     if(isOn("FF_USE_FORWARD"))read+=" 也可用 f_forward 回调直接流式转发。";
-    var remove="f_unlink → mount_volume(FA_WRITE) / follow_path 校验目标 → dir_remove 标记 E5h → "+(clusters?"remove_chain 读取并清空 FAT 链":"空文件无簇链，不调用 remove_chain")+" → sync_fs；数据扇区不主动擦除。";
-    if(g.type==="exfat")remove="f_unlink → mount_volume(FA_WRITE) / follow_path 校验目标 → dir_remove 清 entry set 的 InUse → "+(clusters?(chainIsFragmented(clusters)?"get_fat 沿 FAT 读取碎片链":"NoFatChain 推算连续簇")+" → 清分配位图":"空文件无簇，不访问 FAT / 位图")+" → sync_fs；数据扇区不主动擦除。";
+    var remove="f_unlink → mount_volume(FA_WRITE) / follow_path 校验目标 → dir_remove 标记 E5h → "+(finalClusters?"remove_chain 读取并清空 FAT 链":"空文件无簇链，不调用 remove_chain")+" → sync_fs；数据扇区不主动擦除。";
+    if(g.type==="exfat")remove="f_unlink → mount_volume(FA_WRITE) / follow_path 校验目标 → dir_remove 清 entry set 的 InUse → "+(finalClusters?(finalFragmented?"get_fat 沿 FAT 读取碎片链":"NoFatChain 推算连续簇")+" → 清分配位图":"空文件无簇，不访问 FAT / 位图")+" → sync_fs；数据扇区不主动擦除。";
     if(isOn("FF_USE_TRIM"))remove+=" 连续释放范围可请求 disk_ioctl(CTRL_TRIM)。";
     if(isOn("FF_FS_LOCK"))sync+="；f_close 释放 lockid 槽位（上限 "+cfg.FF_FS_LOCK+")";
     if(isOn("FF_FS_REENTRANT"))lookup+=" 同卷访问前后调用 mutex take/give，等待上限 "+cfg.FF_FS_TIMEOUT+" tick。";
-    if(readonly){create="只读构建把创建标志屏蔽为 FA_READ；目标不存在时返回 FR_NO_FILE，不登记目录项。";write="只读构建不编译数据写入路径；不会分配簇或写入数据。";sync="只读构建不提供 f_sync 写路径；卷仅执行读操作。";remove="只读构建不提供删除 API；目录项和分配信息保持不变。";}
+    var appendDetail=readonly?"目标文件在本演示中由前面的只读创建限制而不存在，无法追加。":appendLen===0?"以 FA_OPEN_APPEND 打开文件，fptr 定位到当前 EOF "+len+"；本次 f_write 长度为 0，不新增数据或分配簇。": "先按路径重新打开目标，并从目录项恢复首簇/长度 "+len+"；FA_OPEN_APPEND 令 FIL.fptr="+len+"（EOF）。f_write 追加 "+appendLen+" B，文件长度变为 "+finalLen+" B；本例分配链从 "+(chain.length?chain.join(" → ")+" → ":"")+finalChain.slice(clusters).join(" → ")+(addedClusters?" → EOC":"（仍在已有簇容量内）")+"。f_sync 更新目录长度/修改时间并刷新数据缓存。";
+    if(readonly){create="只读构建把创建标志屏蔽为 FA_READ；目标不存在时返回 FR_NO_FILE，不登记目录项。";write="只读构建不编译数据写入路径；不会分配簇或写入数据。";sync="只读构建不提供 f_sync 写路径；卷仅执行读操作。";appendDetail="只读构建不能创建目标文件；本演示中的追加阶段没有可写 FIL，因此不追加。";remove="只读构建不提供删除 API；目录项和分配信息保持不变。";}
     var details=[
       "挂载建立卷上下文，而不是把整个文件树读入 RAM。"+mount+"；FATFS 保存关键区起点、簇大小与当前元数据窗口。",
       "路径解析选择逻辑卷，再逐项比较目录内容。"+lookup+" 目标名暂不存在，follow_path 保留父目录和可用位置。",
@@ -1417,10 +1724,11 @@ f_close(&amp;file);  // 内部先 f_sync</pre>
       "先 f_close 旧 FIL（可写配置下会再 f_sync），再 f_open 新 FIL。新对象从目录记录恢复首簇与长度；读取完成后还要关闭新 FIL，下一步才能安全删除。"+read,
       "删除释放名字映射和簇分配状态。"+remove+" TRIM 也不等于安全擦除。"
     ];
+    details.splice(6,0,"追加阶段再次按路径打开文件：FA_OPEN_APPEND 将 FIL.fptr 设为当前 EOF。"+appendDetail+(appendLen===0?"目录长度、分配信息和数据扇区保持不变。":"追加数据可能落在原文件末扇区，也可能跨入新扇区/新簇；具体读取、簇分配和元数据写回见介质轨迹。仅修改 FIL 的游标/长度还不够，f_sync 后目录项才记录新长度。"));
     var clusterNames=clusters===0?"无数据簇":clusters<=5?chain.join(" → ")+" → EOC":chain.slice(0,4).join(" → ")+" → … → "+chain[chain.length-1]+" → EOC（共 "+clusters+" 簇）";
-    var deleteReads=clusters===0?"mount_volume(FA_WRITE) 后由 follow_path 重新查找目标并读取目录记录。首簇为 0，源码跳过 remove_chain，因此不读 FAT 或分配位图。":"mount_volume(FA_WRITE) 后由 follow_path 重新查找目标。"+(g.type==="exfat"?"exFAT 从目录项组恢复首簇、DataLength 和 NoFatChain 状态。"+(fragmented?"NoFatChain=0，要从 FAT 读取碎片链后继。":"NoFatChain=1，get_fat 根据首簇和长度推算后继，不读 FAT。")+"change_bitmap 再把位图扇区读入 FATFS.win。":"remove_chain 通过 FAT 表项读取每簇后继，再清空对应项。")+" 若 FF_FS_RPATH 启用且目标是目录，源码还会拒绝删除当前工作目录并检查目录是否为空；本例是普通文件。";
-    var deleteMemory=clusters===0?"dir_remove 将目录记录标记为删除并把 FATFS.win 置脏；首簇为 0，因此跳过 remove_chain，空闲簇计数不变。":"dir_remove 将目录记录标记为删除并把 FATFS.win 置脏；"+(g.type==="exfat"?"entry set 每个 Type 字节清 InUse 位（如 85h→05h、C0h→40h、C1h→41h）。":"LFN/SFN 槽名称首字节写 E5h。")+"remove_chain 更新分配状态；只有 free_clst 原本有效时才逐簇递增空闲数并置 fsi_flag。";
-    var deleteWrites=clusters===0?"没有数据簇可释放；sync_fs 写回删除标记并请求 CTRL_SYNC。":"首次切换 FATFS.win 时先写回脏目录项；"+(g.type==="exfat"?"随后清 allocation bitmap 位；NoFatChain=1 不清 FAT 链项，碎片文件的 FAT 链也保留。若 free_clst 有效，sync_fs 还会更新 VBR PercentInUse。":"随后沿 FAT 链清零表项；sync_fs 写回 FAT（及副本），有效的 free_clst 还会更新 FAT32 FSINFO。")+"最后请求 CTRL_SYNC。"+(isOn("FF_USE_TRIM")?"FF_USE_TRIM 会对释放范围请求 CTRL_TRIM。":"当前 FF_USE_TRIM=0，没有 CTRL_TRIM 请求。")+"数据扇区不主动覆写；中途 I/O 失败可能留下部分更新，删除不是事务。";
+    var deleteReads=finalClusters===0?"mount_volume(FA_WRITE) 后由 follow_path 重新查找目标并读取目录记录。首簇为 0，源码跳过 remove_chain，因此不读 FAT 或分配位图。":"mount_volume(FA_WRITE) 后由 follow_path 重新查找目标。"+(g.type==="exfat"?"exFAT 从目录项组恢复首簇、DataLength 和 NoFatChain 状态。"+(finalFragmented?"NoFatChain=0，要从 FAT 读取碎片链后继。":"NoFatChain=1，get_fat 根据首簇和长度推算后继，不读 FAT。")+"change_bitmap 再把位图扇区读入 FATFS.win。":"remove_chain 通过 FAT 表项读取每簇后继，再清空对应项。")+" 若 FF_FS_RPATH 启用且目标是目录，源码还会拒绝删除当前工作目录并检查目录是否为空；本例是普通文件。";
+    var deleteMemory=finalClusters===0?"dir_remove 将目录记录标记为删除并把 FATFS.win 置脏；首簇为 0，因此跳过 remove_chain，空闲簇计数不变。":"dir_remove 将目录记录标记为删除并把 FATFS.win 置脏；"+(g.type==="exfat"?"entry set 每个 Type 字节清 InUse 位（如 85h→05h、C0h→40h、C1h→41h）。":"LFN/SFN 槽名称首字节写 E5h。")+"remove_chain 更新分配状态；只有 free_clst 原本有效时才逐簇递增空闲数并置 fsi_flag。";
+    var deleteWrites=finalClusters===0?"没有数据簇可释放；sync_fs 写回删除标记并请求 CTRL_SYNC。":"首次切换 FATFS.win 时先写回脏目录项；"+(g.type==="exfat"?"随后清 allocation bitmap 位；NoFatChain=1 不清 FAT 链项，碎片文件的 FAT 链也保留。若 free_clst 有效，sync_fs 还会更新 VBR PercentInUse。":"随后沿 FAT 链清零表项；sync_fs 写回 FAT（及副本），有效的 free_clst 还会更新 FAT32 FSINFO。")+"最后请求 CTRL_SYNC。"+(isOn("FF_USE_TRIM")?"FF_USE_TRIM 会对释放范围请求 CTRL_TRIM。":"当前 FF_USE_TRIM=0，没有 CTRL_TRIM 请求。")+"数据扇区不主动覆写；中途 I/O 失败可能留下部分更新，删除不是事务。";
     var lessons=[
       {why:"先确认设备可用，并把引导扇区里的布局数字读懂。FatFs 需要知道 FAT 在哪、数据区从哪开始，才能继续找文件。",reads:"f_mount(opt=1) 会立即尝试挂载：初始化物理盘，先检查设备 LBA 0；若那里是 MBR，就按分区起点读取 VBR，再解析 BPB。"+(isOn("FF_LBA64")?" FF_LBA64 分支还可识别 GPT 保护 MBR。":"")+(isOn("FF_MULTI_PARTITION")?" VolToPart 决定查哪个物理盘/分区。":"")+(g.type==="exfat"?" exFAT 还要从根目录定位分配位图。":"")+"不会把整棵目录树读进 RAM。",memory:"建立/填写 FATFS：fs_type、volbase、fatbase、fsize、n_fatent、database、dirbase/rootdir、csize 等；win 是一个扇区窗口，不是整张盘的副本。FAT32 在 BPB 声明 FSINFO 且签名有效时，可能导入 free_clst / last_clst（受 FF_FS_NOFSINFO 控制）；这只是提示，不扫描全 FAT。exFAT 记录 bitbase，也不在挂载时扫描全部位图。",writes:"不改文件或目录，也不写文件数据。disk_initialize 是初始化设备；挂载阶段主要是读取。"},
       {why:"把路径的一段一段解析成目录位置。目录项是名称索引：找到 DOCS 后，才知道要去哪个目录里查文件名。",reads:(rpath?"先由 f_chdir(\"DOCS\") 从根目录找到 DOCS 并设置 cdir，再由相对路径查文件名；":"绝对路径先从根目录找到 DOCS，再查文件名；")+"逐项读取/比较目录记录。扇区若已在 FATFS.win 中可能命中缓存，否则才调用 disk_read；扫描跨目录簇时还要读取目录 FAT 链。"+(name.isLong?" 同时按 LFN 项和短名别名识别名称。":" 比较 8.3 短名字段。"),memory:"DIR 临时对象保存当前目录簇、目录项位置和扫描游标。命中时拿到目录记录；没命中时保留父目录位置和可登记的空槽候选。",writes:"只查找，不写磁盘。没找到文件是正常结果 FR_NO_FILE，含义是“这个名字目前没有对应目录项”。"},
@@ -1430,6 +1738,7 @@ f_close(&amp;file);  // 内部先 f_sync</pre>
       {why:"先关闭旧 FIL，再重新打开同一个路径，验证磁盘上的名字记录足以找回数据。读取完成后关闭新 FIL，后续删除才不会留下占用中的对象。",reads:"旧 FIL 的 f_close 会调用 f_sync；但上一节点已同步且修改标记清除，本例不重复落盘。随后 f_open 重新扫描目录，读回首簇与长度；f_read 从首簇开始读取数据，跨簇时 FAT 卷读取后继表项，exFAT NoFatChain=1 则直接计算、NoFatChain=0 才沿 FAT。",memory:"旧 FIL 关闭并失效；新 FIL 从目录记录恢复首簇与长度，fptr 从 0 开始。每次 f_read 后游标增加实际读到的字节数；本步骤结束时再次 f_close。"+(isOn("FF_FS_LOCK")?"它释放 lockid，避免下一步 f_unlink 返回 FR_LOCKED。":""),writes:"读取数据本身不改内容。f_read 只改变 FIL 的 fptr / 当前簇等运行时状态；本例关闭时没有新的 FA_MODIFIED，因此不会再写文件元数据。"},
       {why:"f_unlink 不是单纯擦掉文件名：mount_volume 先要求可写卷，follow_path 再找目标；根目录 / . / .. 返回 FR_INVALID_NAME，只读属性或非空目录返回 FR_DENIED。"+(isOn("FF_FS_LOCK")?" FF_FS_LOCK 还会以 chk_share 检查占用对象（冲突返回 FR_LOCKED）；本流程上一步关闭 FIL，因此检查通过。":" FF_FS_LOCK 未启用，本构建不检查重复打开冲突。"),reads:deleteReads,memory:deleteMemory,writes:deleteWrites}
     ];
+    lessons.splice(6,0,{why:appendLen===0?"观察 FA_OPEN_APPEND 如何从目录记录恢复文件并把 fptr 定位到 EOF；零长度 f_write 不改变文件内容。":"读取阶段只验证了已同步的数据；追加阶段再验证 FatFs 如何从 EOF 继续写，并把新增字节和原文件数据连接起来。",reads:"先按同一路径重新打开文件：绝对路径从根目录找到 DOCS(C5)，再扫描 REPORT.TXT；FF_FS_RPATH 下从 cdir=C5 扫描。命中目录项后读取首簇和当前长度 "+len+"，FA_OPEN_APPEND 令 fptr 指向 EOF。文件长度超过一簇时，源码的 FA_SEEKEND 会从首簇沿 FAT 追到 EOF 所在簇；exFAT 连续 NoFatChain 可直接计算。若 EOF 落在扇区中间，常规 FIL.buf 会在打开时读入该扇区；FF_FS_TINY 在部分扇区写入时通过共享 FATFS.win 保留 EOF 前字节。"+(appendLen>0?"跨入新簇时还要搜索 FAT 空项或 allocation bitmap 空闲位。":"本次追加长度为 0，不搜索新簇。"),memory:"新 FIL 的 obj.sclust/objsize 从磁盘目录记录恢复；fptr 从 EOF="+len+" 开始。f_write 后 RAM 中长度变为 "+finalLen+" B，必要时扩展链并更新 FATFS.win / FIL.buf；f_sync 后关闭 FIL。",writes:appendDetail});
     var docsBase=clusterSector(g,5),firstSlot= g.type==="exfat"?96:32,sfnSlot=firstSlot+(g.type==="exfat"?32:name.lfnCount*32),slotLoc=byteLocation(docsBase,firstSlot,g),sfnLoc=byteLocation(docsBase,sfnSlot,g);
     function leBytes(value,width){var out=[];for(var i=0;i<width;i++)out.push((Math.floor(value/Math.pow(256,i))&255).toString(16).padStart(2,"0").toUpperCase());return out.join(" ");}
     var sfnHex=(name.sfn.slice(0,11).padEnd(11," ").split("").map(function(ch){return ch.charCodeAt(0).toString(16).padStart(2,"0").toUpperCase();}).join(" "));
@@ -1452,13 +1761,17 @@ f_close(&amp;file);  // 内部先 f_sync</pre>
       "节点进入前：磁盘目录项提供首簇 "+(chain.length?chain[0]:0)+"、长度 "+len+"；文件内容位于数据区 "+dataRuns+"。\n查找和读取："+(rpath?"FF_FS_RPATH 下沿用 cdir=5，从 DOCS 目录项开始扫描。":"绝对路径从根目录重新找到 DOCS(C5)，再扫描子目录项。")+"命中记录后恢复 FIL.obj.sclust/objsize；按 fptr 换算簇序号与簇内偏移。教学链后继为 "+chainLinks+"；跨簇时 get_fat 取后继，exFAT 连续 NoFatChain=1 可直接算。数据扇区位置由目录簇链而来，不从文件名直接算出。\n节点完成后：调用者收到 "+len+" B，FIL.fptr 到 EOF；磁盘目录、FAT/位图和数据字节不变。只有 FIL 游标/当前簇/数据缓存等 RAM 状态变化；关闭已同步的 FIL 不再写回。",
       "节点进入前：名字可见，目录记录指向首簇 "+(chain.length?chain[0]:0)+"、长度 "+len+"；数据扇区 "+dataRuns+" 含有效字节。\n节点完成后：FAT 卷把对应 "+(isOn("FF_USE_LFN")?"LFN/SFN 槽":"SFN 槽")+"首字节改为 E5h（其他字段可残留）；exFAT 对 85h/C0h/C1h 每项清 InUse 位（例如 85h→05h）。"+(chain.length?(g.type==="exfat"?"allocation bitmap 的簇位 1→0。":"FAT 链各项清为 0。"):("首簇为 0，跳过 remove_chain；没有 FAT/bitmap 分配项需要释放。"))+" FATFS.wflag 标记目录/FAT 元数据窗口待写回，sync_fs 刷新有效的 FSINFO 或 PercentInUse 并调用 CTRL_SYNC。\n数据区 "+(dataFirst===null?"没有文件簇":"LBA "+dataFirst+"–"+dataLast)+" 不收到清零写入；旧内容仍可能读到，簇之后可被新文件复用。启用 TRIM 时只是向设备提示释放范围，不保证立即擦除。"
     ];
+    var appendDiff=appendLen===0
+      ?"节点进入前：已同步文件长度 "+len+" B、首簇 "+(chain.length?chain[0]:0)+"。重新打开时沿路径扫描目录并从记录恢复首簇/长度，FA_OPEN_APPEND 把 FIL.fptr 设为 EOF "+len+"。\n本次 f_write 请求 0 B：不会写入扇区、分配簇、改变 FAT/位图或更新目录长度；f_sync 没有文件修改可落盘，最后关闭 FIL。"
+      :"节点进入前：已同步文件长度 "+len+" B，首簇 "+(chain.length?chain[0]:0)+"，原数据区为 "+(chain.length?chain.join(" → "):"空")+"。重新打开时先沿路径扫描根目录 / DOCS 目录项，读取首簇和 FileSize；FA_OPEN_APPEND 把 FIL.fptr 设为旧 EOF "+len+"。\n追加写入：偏移 "+len+"–"+(finalLen-1)+" B 写入原链尾部或新增数据簇；新总长度 "+finalLen+" B，最终链 "+(finalChain.length?finalChain.join(" → "):"无簇")+"。追加起点若落在已有扇区中间，缓存未命中时先读该扇区并保留 EOF 前字节；完整扇区再 disk_write，尾部不足整扇区暂存在 "+(tiny?"FATFS.win":"FIL.buf")+"。\n节点完成后：FAT 卷新分配簇的 FAT 项由 0 改为后继/EOC，原链尾 EOC 改为新簇；exFAT 位图新簇位 0→1，必要时将 C0h NoFatChain 从连续状态改为碎片链状态。f_sync 把新增数据、FAT/位图和目录元数据按窗口写回，并把 SFN FileSize @0x1C 或 C0h DataLength 更新为 "+finalLen+" B、更新修改时间/校验和，最后 CTRL_SYNC。没有新增簇时 FAT/位图不变；目录长度仍可能改变。不是原子事务。";
+    diffs.splice(6,0,appendDiff);
     lessons[0].reads+=" 本夹具的 MBR 入口位于 LBA 0 byte 446（16 B），包含 type="+"0x"+g.partitionType.toString(16).padStart(2,"0").toUpperCase()+"、起始 LBA "+g.base+"、长度 "+g.totalSectors+"；VBR 在 LBA "+g.base+"。FAT BPB 解析每扇区字节数、每簇扇区数、保留扇区数、FAT 数/长度、根目录项数和总扇区数；exFAT 则解析自己的 BPB 字段。";
     lessons[1].reads+=" 具体夹具顺序：根目录先见 README.TXT（首簇 7），再见 DOCS（目录属性、首簇 5）；进入 cluster 5 后先见 ARCHIVE.TXT（首簇 6），接着 00h 表示后续槽均空。找到名字时，FAT 目录项中的首簇高/低字与 FileSize 才把路径名连接到文件内容；本次在 00h 处停止，因此没有读 FAT 文件链或数据区。";
     lessons[2].writes+=" 位置是 DOCS cluster 5 的 LBA "+docsBase+"，首个候选 byte offset +"+firstSlot+"（SFN 在 +"+sfnSlot+"). FAT 短项的 NAME[11]、ATTR、首簇高低字、FileSize 都是 32 B 项内字段；exFAT 以 85h 主项、C0h stream 和 C1h 名称项组成 entry set。";
     lessons[3].writes+=" 地址换算示例：首数据簇 "+(chain.length?chain[0]:"—")+" → LBA "+(dataFirst===null?"—":dataFirst)+"；文件偏移 2300 若小于长度，则簇索引=floor(2300/"+g.clusterBytes+")、簇内字节偏移=2300 mod "+g.clusterBytes+"。写到扇区时再拆成 sectorInCluster 和 sectorOffset。";
     lessons[4].memory+=" FAT SFN 32 B 字段位置：DIR_Name 0x00–0x0A，DIR_Attr 0x0B，DIR_LstAccDate 0x12，DIR_FstClusHI 0x14，DIR_WrtTime/Date 0x16/0x18，DIR_FstClusLO 0x1A，DIR_FileSize 0x1C。GET_FATTIME 返回打包 FAT 日期/时间，写入创建与修改字段；f_sync 把访问日期字段清 0。文件名、属性、时间、首簇和长度分布在同一短项，LFN 是前置名字片段项。";
-    lessons[5].reads+=" 例如 fptr=2300 时，本教学链上先算 cluster index=floor(2300/"+g.clusterBytes+")，再得簇内扇区、LBA 和扇区内偏移；若请求跨越 "+g.clusterBytes+" B 簇边界，get_fat 查下一簇。部分扇区通过 FIL.buf（FF_FS_TINY=1 时共享 FATFS.win）取出请求字节。";
-    lessons[6].writes+=" FAT 短项仅把名称首字节 0x00–0x0B[0] 改成 E5h；后面的 ATTR、时间、簇号和长度字节不会因“删除名字”自动清零。簇链每项按格式编码为空闲值 0（FAT12/16/32），双 FAT 卷镜像写回；exFAT 则清位图位。数据 LBA 不被覆写。";
+    lessons[5].reads="打开阶段会重新查找名称：绝对路径先读根目录项，比较 README.TXT 后命中 DOCS（首簇 5），再读 DOCS 目录的 REPORT.TXT LFN/SFN 或 exFAT entry set；FF_FS_RPATH>0 时沿用 cdir=5，从 DOCS 内开始。命中后从 SFN/C0h 读首簇 "+(chain.length?chain[0]:0)+" 和长度 "+len+" B，初始化新的 FIL。只有拿到首簇后才能按 fptr 算数据 LBA；例如偏移 2300：簇索引=floor(2300/"+g.clusterBytes+")，再沿 FAT 或 exFAT NoFatChain 规则定位。随后 f_read 从数据区读扇区，部分扇区使用 FIL.buf（FF_FS_TINY=1 时共享 FATFS.win）。";
+    lessons[7].writes+=" FAT 短项仅把名称首字节 0x00–0x0B[0] 改成 E5h；后面的 ATTR、时间、簇号和长度字节不会因“删除名字”自动清零。簇链每项按格式编码为空闲值 0（FAT12/16/32），双 FAT 卷镜像写回；exFAT 则清位图位。数据 LBA 不被覆写。";
     lessons.forEach(function(item,i){item.diff=diffs[i];});
     if(isOn("FF_FS_LOCK")){lessons[2].memory+=" FF_FS_LOCK 还会检查同文件共享冲突并占用一个 lockid 槽；f_close 时释放。";}
     if(isOn("FF_FS_REENTRANT")){var mutexNote=" FF_FS_REENTRANT=1 时，同卷 API 前后还会获取/释放互斥锁；等待上限 "+cfg.FF_FS_TIMEOUT+" tick。";lessons.forEach(function(item){item.memory+=mutexNote;});}
@@ -1468,39 +1781,42 @@ f_close(&amp;file);  // 内部先 f_sync</pre>
       write,
       "f_sync → " + sync,
       "f_close(&file) → " + read + " → f_close(&file)",
+      "f_open(&file, \""+path+"\", FA_OPEN_APPEND | FA_WRITE) → 从目录项恢复 EOF="+len+" → f_write(data, "+appendLen+") → f_sync → f_close",
       remove];
+    if(readonly)calls[6]="只读构建没有可追加的目标文件；前序创建返回 FR_NO_FILE，不执行 FA_OPEN_APPEND / f_write";
     if(readonly)calls[1]=(rpath?"f_chdir(\"DOCS\") → cdir=5；":"")+"f_open(&file, \""+path+"\", FA_CREATE_NEW | FA_WRITE) → FF_FS_READONLY 将 flags 限为 FA_READ；目标不存在时 FR_NO_FILE";
-    var captions=["f_mount 注册 FATFS 并读取 "+fmt+" 引导信息。",lookup,"创建 "+dir+"，记录名称和零长度初始状态。","按 "+g.clusterBytes+" B/簇分配并写入文件内容。","回写文件数据、目录元数据和介质缓存。","重新解析名称、读取数据，最后关闭 FIL。","f_unlink：校验目标 → 删除目录记录 → "+(clusters?(g.type==="exfat"?"释放位图分配":"释放 FAT 簇链"):"空文件无簇释放")+" → sync_fs。"];
+    var captions=["f_mount 注册 FATFS 并读取 "+fmt+" 引导信息。",lookup,"创建 "+dir+"，记录名称和零长度初始状态。","按 "+g.clusterBytes+" B/簇分配并写入文件内容。","回写文件数据、目录元数据和介质缓存。","重新扫描路径，恢复首簇/长度并读取数据，最后关闭 FIL。","FA_OPEN_APPEND：重新查找名称、定位 EOF、追加字节并同步长度。","f_unlink：重新查找并校验目标 → 删除目录记录 → "+(finalClusters?(g.type==="exfat"?"释放位图分配":"释放 FAT 簇链"):"空文件无簇释放")+" → sync_fs。"];
     return {details:details,calls:calls,captions:captions,lessons:lessons};
   }
   function render(){
-    var n=idx,name=safeName(),len=sizeValue(),g=geometry(),flow=flowText(g,name),type=g.type,fmt=mediaLabel(type),readonly=isOn("FF_FS_READONLY"),mini=Number(cfg.FF_FS_MINIMIZE);
+    var n=idx,name=safeName(),initialLen=sizeValue(),appendLen=appendSizeValue(),len=n>=6?initialLen+appendLen:initialLen,g=geometry(),flow=flowText(g,name,appendLen),type=g.type,fmt=mediaLabel(type),readonly=isOn("FF_FS_READONLY"),mini=Number(cfg.FF_FS_MINIMIZE);
     renderPageModel(g,name);
-    renderStepFixture(g,name,len);
-    renderWorkedExample(g,name,len);
+    renderStepFixture(g,name,initialLen,appendLen);
+    renderWorkedExample(g,name,initialLen);
     renderRecordAnatomy(g,name);
     renderFatEntryProbe(g);
     renderDeepModel(g,name);
     var mountFailure=configErrors.length>0||(type==="exfat"&&(!isOn("FF_FS_EXFAT")||Number(cfg.FF_USE_LFN)===0));
     var mountError=configErrors.length?"构建配置无效："+configErrors[0]:"exFAT 介质需要 FF_FS_EXFAT=1 且 FF_USE_LFN≥1";
     var mounted=n>=0&&!mountFailure,nameRejected=n>=1&&mounted&&!name.valid,readonlyBlocked=n>=2&&mounted&&readonly;
-    var allocN=(n>=3&&n<=6&&mounted&&!nameRejected&&!readonlyBlocked)?Math.min(20,Math.ceil(len/g.clusterBytes)):0,cl=illustrativeChain(g,allocN),fragmented=chainIsFragmented(allocN);
-    var deleteUnavailable=n===6&&mounted&&!nameRejected&&!readonlyBlocked&&mini>0;
-    var entryExists=(n>=2&&n<6&&mounted&&!nameRejected&&!readonlyBlocked)||deleteUnavailable;
-    var gone=n===6&&mounted&&!mountFailure&&!nameRejected&&!readonlyBlocked&&!deleteUnavailable;
+    var allocN=(n>=3&&n<=7&&mounted&&!nameRejected&&!readonlyBlocked)?Math.ceil(len/g.clusterBytes):0,cl=illustrativeChain(g,allocN),fragmented=chainIsFragmented(allocN);
+    var deleteUnavailable=n===7&&mounted&&!nameRejected&&readonly;
+    var entryExists=n>=2&&n<7&&mounted&&!nameRejected&&!readonlyBlocked;
+    var gone=n===7&&mounted&&!mountFailure&&!nameRejected&&!readonlyBlocked;
     var rejected=mountFailure||nameRejected||readonlyBlocked;
-    renderDataSectors(g,cl,len,n,rejected,deleteUnavailable,gone);
-    renderStepStructures(g,name,len,n,{chain:cl,mountFailure:mountFailure,configFailure:configErrors.length>0,nameRejected:nameRejected,readonlyBlocked:readonlyBlocked,deleteUnavailable:deleteUnavailable,gone:gone,entryExists:entryExists});
-    var lesson=n>=0?flow.lessons[n]:null,lessonTitle=n<0?"尚未开始":"步骤 "+(n+1)+" / 7";
+    renderDataSectors(g,cl,len,n,rejected,deleteUnavailable,gone,initialLen);
+    renderStepStructures(g,name,len,n,{chain:cl,initialLen:initialLen,appendLen:appendLen,mountFailure:mountFailure,configFailure:configErrors.length>0,nameRejected:nameRejected,readonlyBlocked:readonlyBlocked,deleteUnavailable:deleteUnavailable,gone:gone,entryExists:entryExists});
+    renderSupplementalStructures(g,name,len,n,{entryExists:entryExists,gone:gone});
+    var lesson=n>=0?flow.lessons[n]:null,lessonTitle=n<0?"尚未开始":"步骤 "+(n+1)+" / 8";
     var stepDiff=n<0?"选择一个时间轴节点，查看目录项、分配信息、数据区和 RAM 对象发生的变化。":flow.lessons[n].diff;
-    if(n<0){lesson={why:"完整流程会依次处理卷、路径、目录项、分配簇、文件字节和删除。先选一个步骤，再把屏幕上的变化和这四个问题对应起来。",reads:"当前没有执行步骤，因此还没有磁盘扇区访问。",memory:"还没有本次流程创建的 FIL / DIR 状态。",writes:"没有写入。下面的卷布局和地址探针是静态教学模型。"};}
+    if(n<0){lesson={why:"完整流程会依次处理卷、路径、目录项、簇分配、写入、同步、重新打开读取、EOF 追加和删除。先选一个步骤，再把屏幕上的变化和这四个问题对应起来。",reads:"当前没有执行步骤，因此还没有磁盘扇区访问。",memory:"还没有本次流程创建的 FIL / DIR 状态。",writes:"没有写入。下面的卷布局和地址探针是静态教学模型。"};}
     else if(mountFailure){lessonTitle="挂载失败";lesson={why:"卷没有成功识别时，FatFs 不应继续假装找到了目录或文件。",reads:configErrors.length?"当前编译配置依赖冲突；模拟在运行前就失败。":"尝试读取并解析引导扇区，但当前配置不能解释所选 exFAT 介质。",memory:"FATFS.fs_type 保持无效；没有可用卷上下文。",writes:"没有目录项、分配信息或文件数据写入。"};stepDiff="节点没有成功执行：MBR/VBR 读取可能已发生，但没有创建有效 FATFS 上下文；目录、分配信息与文件数据都没有变化。";}
     else if(nameRejected){lessonTitle="名称被拒绝";lesson={why:"先验证路径字符、长度和当前 LFN/SFN 能力。无效名称不会变成目录记录。",reads:"卷已挂载；路径名称检查失败，未继续扫描目标目录项。",memory:"不创建目标 FIL，不更新候选目录槽、首簇或长度。",writes:"没有任何文件系统写入。"};stepDiff="名称在 create_name 阶段被拒绝；没有读取候选目录槽，没有写目录项/FAT/位图，也没有数据扇区变化。";}
     else if(readonlyBlocked){lessonTitle="只读配置无法创建";lesson={why:"创建请求在只读固件中被限制成只读打开；目标不存在，因此无法得到可写 FIL。",reads:"仍会按路径查找目标；目录扫描未找到该名称，返回 FR_NO_FILE。",memory:"没有创建 FIL 写状态，也没有分配首簇或推进文件游标。",writes:"不登记目录项、不分配簇、不写数据。"};stepDiff="只读配置下路径扫描到 00h 空槽并确认目标不存在，f_open 返回 FR_NO_FILE；目录记录、FAT/位图、数据区均保持原样。";}
-    else if(deleteUnavailable){lessonTitle="删除 API 被裁剪";lesson={why:"FF_FS_MINIMIZE 裁掉了 f_unlink，所以这一步没有删除操作可调用。",reads:"前面的文件记录仍在；这一时刻没有删除路径扫描。",memory:"目录记录、文件长度和簇分配状态保持原样。",writes:"没有写入；文件仍存在，簇不能重用。"};stepDiff="f_unlink 未编译：目录项仍可见，首簇/长度、FAT 链或 exFAT 位图及文件数据都保持已同步状态。";}
+    else if(deleteUnavailable){lessonTitle="只读构建无法删除";lesson={why:"FF_FS_READONLY=1 不编入 f_unlink；而前面的创建步骤已因只读且目标不存在而返回 FR_NO_FILE。",reads:"没有目标记录可供删除路径查找。",memory:"没有目标目录项、FIL 或数据簇。",writes:"没有目录项标记或分配释放。"};stepDiff="当前构建不包含 f_unlink，且教学目标此前未创建；目录、分配表和数据区保持原样。";}
     set("detailStepLabel",lessonTitle);set("stepWhy",lesson.why);set("stepReads",lesson.reads);set("stepMemory",lesson.memory);set("stepWrites",lesson.writes);set("stepDiff",stepDiff||"本节点没有可显示的状态差分。");
-    var diskSize=(n>=4&&n<6&&mounted&&!nameRejected&&!readonlyBlocked||deleteUnavailable)?len:0;
-    var memSize=n>=3&&n<5&&mounted&&!nameRejected&&!readonlyBlocked?len:0,ptr=n>=3&&n<=5&&mounted&&!nameRejected&&!readonlyBlocked?len:0;
+    var diskSize=n>=4&&n<7&&mounted&&!nameRejected&&!readonlyBlocked?len:0;
+    var memSize=n>=3&&n<5&&mounted&&!nameRejected&&!readonlyBlocked?len:0,ptr=n>=3&&n<5&&mounted&&!nameRejected&&!readonlyBlocked?len:n===6&&mounted&&!nameRejected&&!readonlyBlocked?len:0;
     var docsBase=clusterSector(g,5),slotStart=type==="exfat"?96:32,sfnOffset=slotStart+(type==="exfat"?32:name.lfnCount*32);
     var loc=byteLocation(docsBase,slotStart,g),lastLoc=byteLocation(docsBase,sfnOffset,g);
     document.getElementById("dirClusterLabel").textContent=type==="fat16"?"父目录簇":"父目录簇";
@@ -1521,11 +1837,11 @@ f_close(&amp;file);  // 内部先 f_sync</pre>
     document.getElementById("entryClusterLabel").textContent=type==="exfat"?"FirstCluster (C0h)":type==="fat32"?"FstClus HI/LO":"FstClus LO";
     document.getElementById("entrySizeLabel").textContent=type==="exfat"?"DataLength (C0h)":"FileSize";
     document.getElementById("pathFile").textContent=name.display;
-    var caption=n<0?"尚未开始 · 选择“挂载”开始演示":mountFailure?"挂载失败 · "+mountError: nameRejected?"请求失败 · "+name.issue+"；目录和簇分配没有变化":readonlyBlocked?"只读构建 · 目标不存在，创建步骤返回 FR_NO_FILE":deleteUnavailable?"删除 API 被裁剪 · 文件目录项与分配信息仍保留":flow.captions[n];
+    var caption=n<0?"尚未开始 · 选择“挂载”开始演示":mountFailure?"挂载失败 · "+mountError: nameRejected?"请求失败 · "+name.issue+"；目录和簇分配没有变化":readonlyBlocked?"只读构建 · 目标不存在，创建步骤返回 FR_NO_FILE":deleteUnavailable?"只读构建 · f_unlink 不编入且目标未创建":flow.captions[n];
     set("stepCaption",caption);
     document.querySelectorAll(".tstep").forEach(function(el){var i=Number(el.getAttribute("data-step"));el.classList.toggle("active",i===n);el.classList.toggle("done",i<n);});
-    document.getElementById("prevBtn").disabled=n<0;document.getElementById("nextBtn").textContent=n>=6?"从头重放 →":"下一步 →";
-    var status=!mounted?(mountFailure?"挂载失败":"待挂载"):n===0?"卷已挂载":nameRejected?"名称无效 / FR_INVALID_NAME":readonlyBlocked?"只读配置 / 文件未创建":deleteUnavailable?"f_unlink 未编译 / 文件仍存在":n===1?"正在扫描":gone?"目标已删除":entryExists?"目标已登记":"路径已解析";
+    document.getElementById("prevBtn").disabled=n<0;document.getElementById("nextBtn").textContent=n>=7?"从头重放 →":"下一步 →";
+    var status=!mounted?(mountFailure?"挂载失败":"待挂载"):n===0?"卷已挂载":nameRejected?"名称无效 / FR_INVALID_NAME":readonlyBlocked?"只读配置 / 文件未创建":deleteUnavailable?"只读配置 / 无文件可删除":n===1?"正在扫描":gone?"目标已删除":n===6?"追加已同步 / 文件已关闭":entryExists?"目标已登记":"路径已解析";
     set("lookupStatus",status);
     set("volLookup",!mounted?(mountFailure?mountError:"等待挂载"):'逻辑卷 "'+volumeId()+'" → '+(isOn("FF_MULTI_PARTITION")?"VolToPart[0] → pdrv 0 / part 1":"pdrv 0"));
     set("volResult",!mounted?(mountFailure?(configErrors.length?"编译失败":"FR_NO_FILESYSTEM"):"—"):"FR_OK");
@@ -1533,7 +1849,7 @@ f_close(&amp;file);  // 内部先 f_sync</pre>
     set("rootLookup",mounted?(Number(cfg.FF_FS_RPATH)>0&&n>=1?'f_chdir("DOCS") → cdir=5':rootLocation+" · scan directory entries"):mountFailure?mountError:rootLocation+" · scan directory entries");
     set("rootResult",!mounted?(mountFailure?"mount failed":"—"):n===0?"BPB parsed":Number(cfg.FF_FS_RPATH)>0&&n>=1?"DOCS found · cdir=5":"DOCS → cluster 5");
     var needed=name.totalEntries;
-    renderMediaLedger(g,name,len,n,mountFailure,nameRejected,readonlyBlocked,deleteUnavailable,gone,cl,slotStart,needed);
+    renderMediaLedger(g,name,initialLen,n,mountFailure,nameRejected,readonlyBlocked,deleteUnavailable,gone,cl,slotStart,needed,initialLen,appendLen);
     var docsText=n<1?"DOCS cluster 5 → LBA "+docsBase+" · "+(type==="exfat"?"32 B entry set":"32 B slots"):mountFailure?mountError:nameRejected?"名称校验失败："+name.issue:readonlyBlocked?"只读构建：目标不存在，不能创建":n===1?"ARCHIVE entry → free slot @ "+loc+"；需要 "+needed+" 项":gone?"目录记录已标记删除":entryExists?(type==="exfat"?"85h/C0h/C1h set · "+needed+" entries":"LFN "+name.lfnCount+" + SFN · SFN @ "+lastLoc):"未命中 '"+name.display+"'";
     set("docsLookup",docsText);
     var docsResult=!mounted?(mountFailure?(configErrors.length?"不可运行":"FR_NO_FILESYSTEM"):"—"):n<1?"—":nameRejected?"FR_INVALID_NAME":readonlyBlocked?"FR_NO_FILE":n===1?"FR_NO_FILE":gone?"已删除":entryExists?"命中目录记录":"FR_NO_FILE";
@@ -1543,11 +1859,11 @@ f_close(&amp;file);  // 内部先 f_sync</pre>
     set("entryAttr",gone?"残留元数据":entryExists?(type==="exfat"?"0x20 (Archive)":"0x20 (ARC)"):"—");
     set("entryCluster",(entryExists||gone)&&cl.length?(type==="exfat"?String(cl[0]):"0 / "+cl[0]):(type==="exfat"?"0":"0 / 0"));
     set("entrySize",gone?String(len):entryExists?String(diskSize):"0");
-    var pending=n<2?"—":rejected?"操作失败 / 元数据未改":deleteUnavailable?"f_unlink 未编译 / 未修改":n===2?"目录记录缓存待写回":n===3?(type==="exfat"?"位图 / 数据更新中；长度待同步":"簇链更新中 / FileSize 仍为 0"):n===4?"已同步 / CTRL_SYNC":n===5?"目录记录已读回":gone?(type==="exfat"?"entry set 删除 / 位图清除":"E5h 已标记 / 簇已释放"):"—";
+    var pending=n<2?"—":rejected?"操作失败 / 元数据未改":deleteUnavailable?"只读构建 / 无删除对象":n===2?"目录记录缓存待写回":n===3?(type==="exfat"?"位图 / 数据更新中；长度待同步":"簇链更新中 / FileSize 仍为 0"):n===4?"已同步 / CTRL_SYNC":n===5?"目录记录已读回":n===6?"追加数据与新长度已同步 / CTRL_SYNC":gone?(type==="exfat"?"entry set 删除 / 位图清除":"E5h 已标记 / 簇已释放"):"—";
     set("persistStatus",pending);
-    set("fpointer",rejected?"FIL 未打开":n===5?"读取完 "+ptr+" B · FIL 已关闭":n>=3&&n<5?ptr+" B":n===6?"FIL 已关闭":"—");
-    set("startCluster",rejected?"—":n>=3&&n<5?(cl.length?String(cl[0]):"0"):"—");
-    set("sizePair",rejected?"文件未创建 / 磁盘 0 B":deleteUnavailable?"FIL 已关闭 / 磁盘文件仍为 "+len+" B":n===5?"FIL 已关闭 / 磁盘 "+diskSize+" bytes":n>=3&&n<5?memSize+" / "+diskSize+" bytes":gone?"已删除 / 旧目录记录 "+len+" B":"0 / 0 bytes");
+    set("fpointer",rejected?"FIL 未打开":n===5?"读取完 "+ptr+" B · FIL 已关闭":n>=3&&n<5?ptr+" B":n===6?"追加到 "+ptr+" B · FIL 已关闭":n===7?"FIL 已关闭":"—");
+    set("startCluster",rejected?"—":n>=3&&n<5||n===6?(cl.length?String(cl[0]):"0"):"—");
+    set("sizePair",rejected?"文件未创建 / 磁盘 0 B":deleteUnavailable?"只读构建 / 目标不存在":n===5?"FIL 已关闭 / 磁盘 "+diskSize+" bytes":n===6?"FIL 已关闭 / 磁盘 "+diskSize+" bytes":n>=3&&n<5?memSize+" / "+diskSize+" bytes":gone?"已删除 / 旧目录记录 "+len+" B":"0 / 0 bytes");
     var allocLive=n>=3&&n<=6&&mounted&&!nameRejected&&!readonlyBlocked&&!gone;
     var fixtureUsed=type==="exfat"?5:hasFixedRoot(type)?3:4;
     set("freeCount",type==="fat32"&&(Number(cfg.FF_FS_NOFSINFO)&1)?"未知（忽略 FSINFO；本流程未调用 f_getfree）":Math.max(0,g.dataClusters-fixtureUsed-(allocLive?allocN:0)).toLocaleString("en-US")+" clusters（按教学夹具估算，真实 free_clst 初始可能无效）");
@@ -1566,11 +1882,11 @@ f_close(&amp;file);  // 内部先 f_sync</pre>
     if(mountFailure){set("fatLine","挂载未成功；没有有效 FATFS 卷上下文，也没有目录或数据区修改");set("chainStatus","未挂载");}
     else if(nameRejected){set("fatLine","f_open 返回 FR_INVALID_NAME；没有登记目录记录或分配簇");set("chainStatus","无效名称 / 未分配");}
     else if(readonlyBlocked){set("fatLine","只读配置下目标不存在；创建请求不能登记文件、分配簇或写数据");set("chainStatus","只读 / 未分配");}
-    else if(deleteUnavailable){if(cl.length&&type!=="exfat")setHtml("fatLine",cl.map(function(c,i){return "FAT["+c+"] = <span class=\"value\">"+(i+1<cl.length?cl[i+1]:"EOC ("+eoc+")")+"</span>";}).join(" · ")+"<br>f_unlink 未编译；文件记录和簇分配保留");else if(cl.length)setHtml("fatLine","Bitmap["+cl.join(", ")+"] = allocated · NoFatChain="+(fragmented?"0":"1")+(fragmented?" · FAT links retained":" · contiguous")+"<br>f_unlink 未编译；entry set 与数据簇保留");else set("fatLine","空文件记录仍有效；删除 API 不存在");set("chainStatus","分配信息保留");}
-    else if(n>=3&&n<6&&cl.length){
+    else if(deleteUnavailable){set("fatLine","只读构建不编入 f_unlink；目标文件未创建，没有可显示的目标簇链。");set("chainStatus","无目标分配");}
+    else if(n>=3&&n<7&&cl.length){
       if(type==="exfat")setHtml("fatLine","Bitmap["+cl.join(", ")+"] = allocated · NoFatChain="+(fragmented?"0 (FAT links required)":"1 (contiguous)")+(fragmented?"<br>FAT: "+cl.map(function(c,i){return "["+c+"]→"+(i+1<cl.length?cl[i+1]:"EOC");}).join(" · "):"")+"<br>数据首扇区：cluster "+cl[0]+" → LBA "+clusterSector(g,cl[0])+"；每簇 "+g.clusterBytes+" B");
       else setHtml("fatLine",cl.map(function(c,i){return "FAT["+c+"] = <span class=\"value\">"+(i+1<cl.length?cl[i+1]:"EOC ("+eoc+")")+"</span>";}).join(" · ")+"<br>数据首扇区：cluster "+cl[0]+" → LBA "+clusterSector(g,cl[0])+"；每簇 "+g.clusterBytes+" B");
-      set("chainStatus",type==="exfat"?(n===3?"位图分配 / 数据进行中":n===4?"已同步":fragmented?"按 FAT 碎片链读取":"按连续簇读取"):n===3?"FAT 链 / 数据进行中":n===4?"已同步":"读取同一簇链");
+      set("chainStatus",type==="exfat"?(n===3?"位图分配 / 数据进行中":n===4?"已同步":n===6?"追加后的分配已同步":fragmented?"按 FAT 碎片链读取":"按连续簇读取"):n===3?"FAT 链 / 数据进行中":n===4?"已同步":n===6?"追加后的链已同步":"读取同一簇链");
     }else if(gone){
       if(cl.length){if(type==="exfat")setHtml("fatLine","Bitmap["+cl.join(", ")+"] = free · NoFatChain="+(fragmented?"0":"1")+"<br>entry set 已删；分配位图已清除；数据区字节未擦除"+(fragmented?"；FAT 碎片链接不再表示占用":"")+(isOn("FF_USE_TRIM")?"；请求 CTRL_TRIM":""));else setHtml("fatLine",cl.map(function(c){return "FAT["+c+"] = <span class=\"gone\">0 (free)</span>";}).join(" · ")+"<br>目录项已标删除；数据区字节未擦除"+(isOn("FF_USE_TRIM")?"；请求 CTRL_TRIM":""));set("chainStatus",type==="exfat"?"位图已清除":"簇已释放");}
       else{set("fatLine","文件没有数据簇；目录记录标记删除");set("chainStatus","删除空文件 / 无需释放簇");}
@@ -1578,23 +1894,23 @@ f_close(&amp;file);  // 内部先 f_sync</pre>
       var baseLine=type==="exfat"?"Bitmap cluster 3 = allocated（分配位图） · 文件尚未分配":hasFixedRoot(type)?"FAT[5] = EOC（DOCS；根目录不占数据簇） · 文件尚未分配簇":"FAT[2] = EOC（根目录） · FAT[5] = EOC（DOCS） · 文件尚未分配簇";
       set("fatLine",baseLine);set("chainStatus",n>=2?"空文件，无数据簇":"未分配");
     }
-    var explanation=n<0?"点击“下一步”从卷注册开始。切换配置或介质格式后，卷布局、名称解析、对象缓存和操作结果都会按新参数重绘。":mountFailure?"挂载没有建立有效 FATFS 上下文："+mountError+"。后续步骤不会伪造目录、FAT、位图或数据写入。":nameRejected?"f_open 在路径处理阶段返回 FR_INVALID_NAME："+name.issue+"。目录记录、FIL 数据状态和分配信息都没有变化。":readonlyBlocked?"只读构建无法创建不存在的目标文件。f_open 屏蔽创建标志后按只读打开，返回 FR_NO_FILE；后续写入、同步和删除没有文件对象可操作。":deleteUnavailable?"FF_FS_MINIMIZE="+mini+" 时 f_unlink 被条件编译裁掉。已有文件的目录记录、长度与分配信息继续保留。":flow.details[n];
+    var explanation=n<0?"点击“下一步”从卷注册开始。切换配置或介质格式后，卷布局、名称解析、对象缓存和操作结果都会按新参数重绘。":mountFailure?"挂载没有建立有效 FATFS 上下文："+mountError+"。后续步骤不会伪造目录、FAT、位图或数据写入。":nameRejected?"f_open 在路径处理阶段返回 FR_INVALID_NAME："+name.issue+"。目录记录、FIL 数据状态和分配信息都没有变化。":readonlyBlocked?"只读构建无法创建不存在的目标文件。f_open 屏蔽创建标志后按只读打开，返回 FR_NO_FILE；后续写入、同步和删除没有文件对象可操作。":deleteUnavailable?"只读构建不编入 f_unlink；本流程的目标文件此前未创建，没有目录记录或分配信息可删除。":flow.details[n];
     set("explanation",explanation);
-    var apiLine=n<0?"/* API 调用与扇区动作将在这里显示 */":mountFailure?(configErrors.length?"当前配置无法编译；没有运行时 API 调用":"mount_volume → FR_NO_FILESYSTEM；没有后续文件操作"):nameRejected?'f_open("'+apiPath(name)+'", FA_CREATE_NEW | FA_WRITE) → FR_INVALID_NAME；无目录写入、无数据簇':readonlyBlocked?"只读构建：f_open(FA_CREATE_NEW | FA_WRITE) → FR_NO_FILE；后续没有可操作 FIL":deleteUnavailable?"FF_FS_MINIMIZE="+mini+"：f_unlink 不存在；文件和簇分配保持不变":flow.calls[n];
+    var apiLine=n<0?"/* API 调用与扇区动作将在这里显示 */":mountFailure?(configErrors.length?"当前配置无法编译；没有运行时 API 调用":"mount_volume → FR_NO_FILESYSTEM；没有后续文件操作"):nameRejected?'f_open("'+apiPath(name)+'", FA_CREATE_NEW | FA_WRITE) → FR_INVALID_NAME；无目录写入、无数据簇':readonlyBlocked?"只读构建：f_open(FA_CREATE_NEW | FA_WRITE) → FR_NO_FILE；后续没有可操作 FIL":deleteUnavailable?"FF_FS_READONLY=1：f_unlink 未编入；目标此前未创建":flow.calls[n];
     set("apiCall",apiLine);
-    var target=document.getElementById("targetSlot");target.textContent=name.display;var targetMeta=document.createElement("small");targetMeta.textContent=mountFailure?"挂载失败，未扫描目录":!name.valid?"当前配置拒绝此名称":readonlyBlocked?"只读配置无法创建此文件":deleteUnavailable?"删除 API 不可用；文件保留":type==="exfat"?name.totalEntries+" 个 exFAT 目录项（每项 32 B）":name.totalEntries+" 个 FAT 目录槽（每项 32 B）";target.appendChild(targetMeta);
+    var target=document.getElementById("targetSlot");target.textContent=name.display;var targetMeta=document.createElement("small");targetMeta.textContent=mountFailure?"挂载失败，未扫描目录":!name.valid?"当前配置拒绝此名称":readonlyBlocked?"只读配置无法创建此文件":deleteUnavailable?"只读构建不编入删除；目标未创建":type==="exfat"?name.totalEntries+" 个 exFAT 目录项（每项 32 B）":name.totalEntries+" 个 FAT 目录槽（每项 32 B）";target.appendChild(targetMeta);
     target.classList.toggle("found",entryExists&&!gone);
   }
-  function go(n){if(timer){clearInterval(timer);timer=null;document.getElementById("playBtn").textContent="▶ 自动播放";}idx=Math.max(-1,Math.min(6,n));render();}
-  document.getElementById("nextBtn").addEventListener("click",function(){go(idx>=6?-1:idx+1);});
+  function go(n){if(timer){clearInterval(timer);timer=null;document.getElementById("playBtn").textContent="▶ 自动播放";}idx=Math.max(-1,Math.min(7,n));render();}
+  document.getElementById("nextBtn").addEventListener("click",function(){go(idx>=7?-1:idx+1);});
   document.getElementById("prevBtn").addEventListener("click",function(){go(idx-1);});
   document.querySelectorAll(".tstep").forEach(function(el){el.addEventListener("click",function(){go(Number(el.getAttribute("data-step")));});});
   document.getElementById("playBtn").addEventListener("click",function(){
     var btn=this;if(timer){clearInterval(timer);timer=null;btn.textContent="▶ 自动播放";return;}
-    if(idx>=6)idx=-1;btn.textContent="Ⅱ 暂停";
-    timer=setInterval(function(){if(idx>=6){clearInterval(timer);timer=null;btn.textContent="▶ 自动播放";return;}idx++;render();},1550);
+    if(idx>=7)idx=-1;btn.textContent="Ⅱ 暂停";
+    timer=setInterval(function(){if(idx>=7){clearInterval(timer);timer=null;btn.textContent="▶ 自动播放";return;}idx++;render();},1550);
   });
-  filename.addEventListener("input",configChanged);writeBytes.addEventListener("input",render);document.getElementById("fileOffset").addEventListener("input",render);document.getElementById("chainMode").addEventListener("change",render);document.getElementById("fatEntryType").addEventListener("change",render);document.getElementById("fatEntryCluster").addEventListener("input",render);document.getElementById("mediaFormat").addEventListener("change",configChanged);
+  filename.addEventListener("input",configChanged);writeBytes.addEventListener("input",render);appendBytes.addEventListener("input",render);document.getElementById("fileOffset").addEventListener("input",render);document.getElementById("chainMode").addEventListener("change",render);document.getElementById("fatEntryType").addEventListener("change",render);document.getElementById("fatEntryCluster").addEventListener("input",render);document.getElementById("mediaFormat").addEventListener("change",configChanged);
   buildConfigControls();renderConfig();render();
 })();
 </script>
